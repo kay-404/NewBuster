@@ -1,0 +1,38 @@
+﻿title: Customer1
+tags:
+---
+Oliver: I want the new Karate Child movie! I'm gonna be a  ninja when I grow up.
+Alyce: Oliver, what did we talk about in the car? No running around.
+Alyce: Sorry, you know how kids are. Do you have Karate Child three?
+->Yeah, it's gonna be in the action section over there.
+//close the dialogue//
+->Ma'am, your kid is making a mess.
+Alyce: Shi- Oliver knock it off.
+//time passes//
+Alyce: Just this.
+Oliver: I want candy.
+Alyce: Oliver, I said just the movie in the car.
+//Oliver puts the candy up//
+->Did you want me to ring up the cotton candy too?
+    <<jump PayForCandy>>
+->I can just give him the candy for free.
+    <<jump GiveCandy>>
+===
+title: GiveCandy
+---
+Alyce: Are you sure? That's so nice.
+->Yeah, no worries. 
+===
+title: PayForCandy
+---
+Oliver: Please please please.
+Alyce: Fine, but you're not eating it until tommorrow.
+->Your total is $4.50.
+Alyce: Yikes, your prices are a little high huh?
+->Yeah I guess so.
+    Alyce: Here.
+    ->Have a good one.
+->I don't make the prices.
+    Alyce: Right. Well here.
+    ->Have a good one.
+===

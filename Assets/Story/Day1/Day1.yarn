@@ -1,0 +1,40 @@
+﻿title: Day1
+tags:
+position: -293,-272
+---
+Louise: What's up with this stupid booklet? Like I need a booklet.
+->I don't know- I mean you know how Doug can get. 
+    <<jump DiagreeWithLouise>>
+->It's a bunch of bullshit, we've never had to have a booklet before.
+    <<jump AgreeWithLouise>>
+===
+
+title: DiagreeWithLouise
+position: -10,-78
+---
+Louise: I don't know, I've never had a problem with Doug. He's kinda a silver fox don't you think?
+->What? Louise he's our boss you can't say that.
+Louise: Why? If he asked me for my number I'd give it to him.
+->He's still married, you know to our other boss.
+Louise: That's why I said if he asked me. I wouldn't ask for his number, now that'd be ridiculous Val.
+->You know what I'm gonna look over the booklet now.
+Louise: I already threw mine away.
+===
+
+title: AgreeWithLouise
+position: -31,-270
+---
+Louise: Exactly. Also it's not my fault if the register is off.
+->Is your register off a lot?
+Louise: I mean I think I'm giving out the right change but Benjamin has told me it's been off a few times.
+->By how much?
+Louise: Not much like twenty or like fifty.
+->That's quite a bit, how does that happen?
+Louise: I don't really know the difference between quarters, nickels, and dimes.
+->Are you joking?
+Louise: No.
+->I'm not even gonna get into that with you. I'm gonna look over the booklet before anyone comes in.
+Louise: I already threw mine away.
+
+
+===

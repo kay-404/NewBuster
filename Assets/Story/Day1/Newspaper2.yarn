@@ -1,0 +1,53 @@
+﻿title: Newspaper2
+tags:
+---
+->Oh my god.
+Louise: She comes in here doesn't she?
+->Yeah, I just saw her the other day.
+Louise: Looks like her boyfriend did it. Not surprising.
+->Well technically it says he was the last known person to see her alive. 
+    <<jump DisagreeBoyfriend>>
+->She told me her boyfriend was upset that she was so busy with acting.
+    <<jump AgreeBoyfriend>>
+===
+
+title: DisagreeBoyfriend
+---
+Louise: They say that he's nowhere to be found, he's probably in Mexico changing his name and shaving that mop on his head.
+->They just found her this morning, he might just not be home.
+Louise: Why are you backing the boyfriend so hard? Do you know him?
+->No, I just think the news jumps too quickly when they don't know everything yet.
+    Louise: Are you saying the news is lying? What would that even be called? Like fake news? That's not a thing Val.
+    ->Don't be ridiculous. I'm just saying it's too early for anyone to know what happened. 
+    <<jump BenjaminNewspaper>>
+->No, I don't know him. But there's also other people that could've done it. She was complaining about her agent.
+    Louise: What would her agent gain by killing his up and coming star?
+    ->I'm just throwing the idea out there.
+    <<jump BenjaminNewspaper>>
+===
+
+title: AgreeBoyfriend
+---
+Louise: Perfect motif.
+->Motif?
+Louise: Yeah, motif. The reason why he killed her.
+->I think you mean motive.
+Louise: I've heard it both ways.
+->I don't think so.
+Louise: Ok Merriam-Webster. But that would be why he did it. He's just a normal guy and his girlfriend is an up and coming star who gets to kiss all these hot guys.
+->I could see that happening. She told me she just got booked for another movie, maybe that sent him over the edge.
+    <<jump BenjaminNewspaper>>
+===
+
+title: BenjaminNewspaper
+---
+Benjamin: What's with the gabfest over here?
+Louise: Have you read this yet?
+Benjamin: I don't read the news. And I don't pay you to read the news so do it on your own time.
+Louise: You don't pay us at all, your dad does.
+Benjamin: You're lucky my dad likes you otherwise you'd be done here. Get back to work. 
+Louise: Did you hear that?
+->Yeah he was pissed about the newspaper.
+Louise: He said his dad likes me. Maybe I can score his number.
+->You have to stop crushing on our boss, it's getting weird.
+===

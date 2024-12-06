@@ -1,0 +1,33 @@
+﻿title: Start1
+tags:
+position: -604,-362
+---
+Benjamin: Alright team, Doug has been on my ass lately because someone hasn't been counting change correctly.
+Louise: You mean your dad?
+Benjamin: When I'm here he's my boss okay?
+Benjamin: Anyways, he asked me to give you guys these booklets to make sure you're doing everything the right way.
+Louise: I've been working here for years I don't think I need the handbook.
+Benjamin: Would you just take it so my dad can get off my back?
+Louise: I thought you said he's your boss here.
+Benjamin: If it were up to me I'd fire you, I hope you know that.
+Benjamin: Val, are you gonna be a good sport or a pain in my ass too?
+
+-> Umm yeah give me the booklet.
+    <<jump PositiveAttitude1>>
+-> I mean I don't think I need the handbook but I guess pass it over.
+    <<jump NegativeAttitude1>>
+===
+
+title: PositiveAttitude1
+position: -321,-445
+---
+Benjamin: Thanks Val, that's the attitude.
+
+===
+
+title: NegativeAttitude1
+position: -319,-295
+---
+Benjamin: Alright well-whatever here just take it.
+
+===
