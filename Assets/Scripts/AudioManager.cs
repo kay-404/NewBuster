@@ -19,7 +19,7 @@ public class AudioManager : MonoBehaviour
     private void Awake()
     {
         // Singleton - If there is an instance, and it's not me, delete myself
-        if (Instance != null && Instance != this)
+        /*if (Instance != null && Instance != this)
         {
             Destroy(this);
         }
@@ -27,7 +27,7 @@ public class AudioManager : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
-        }
+        }*/
     }
 
     // UNCOMMENT FOR AMBIENCE SFX ON SCRIPT LOAD
