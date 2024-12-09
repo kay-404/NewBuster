@@ -132,7 +132,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Busters_drama_sticker_0: -2870425847642785702
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

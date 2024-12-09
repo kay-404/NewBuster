@@ -132,7 +132,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Busters_romance_sticker (1)_0: -7228052786848130651
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

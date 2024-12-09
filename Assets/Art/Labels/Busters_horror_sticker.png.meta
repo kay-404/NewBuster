@@ -132,7 +132,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Busters_horror_sticker_0: 2105616671410303548
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -132,7 +132,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      benjaminsketch_0: -6053704056345715507
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
