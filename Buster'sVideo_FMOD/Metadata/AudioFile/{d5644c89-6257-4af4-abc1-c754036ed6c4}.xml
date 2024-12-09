@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{d5644c89-6257-4af4-abc1-c754036ed6c4}">
+		<property name="assetPath">
+			<value>Buster'sVideo_SFX_Ambience_Store.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>40</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7f7b26ba-1019-484c-a723-05bb5cec7fd2}</destination>
+		</relationship>
+	</object>
+</objects>
