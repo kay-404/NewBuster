@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/IntroScene.unity
     guid: c7a8b430a201e1847950bd81d068c198
   - enabled: 1
-    path: Assets/Scenes/Day1Scenes/Day1.unity
+    path: Assets/Scenes/Day1.unity
     guid: 43ed7e373bea2d3428612f57bdda982a
   - enabled: 1
     path: Assets/Scenes/CoinTest.unity

@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Busters.sln"
+    "dotnet.defaultSolution": "NewBuster.sln"
 }
