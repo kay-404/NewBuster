@@ -132,7 +132,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Busters_Alley_0: 5690440441558533345
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

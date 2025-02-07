@@ -132,7 +132,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Busters_Handbook_Front+Pin_0: 965450251695707505
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -132,7 +132,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      KarateBaby_0: 2429409794531342333
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
