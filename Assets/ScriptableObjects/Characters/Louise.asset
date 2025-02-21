@@ -13,4 +13,7 @@ MonoBehaviour:
   m_Name: Louise
   m_EditorClassIdentifier: 
   characterName: Louise
-  approvalRating: 50
+  NeutralImage: {fileID: 5186579233251688196, guid: fc7368f8f5d13e44ab91a403b0c1a21e, type: 3}
+  UpsetImage: {fileID: 0}
+  HappyImage: {fileID: 0}
+  ApprovalRating: 50
