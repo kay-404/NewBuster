@@ -2,19 +2,25 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.EventSystems;
+using Yarn.Unity;
+using UnityEditor.Rendering;
+using Unity.VisualScripting;
 
 public class ApprovalBar : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     [SerializeField] Slider approvalSlider;
-
-    [SerializeField] CharacterSO thisCharacter;
 
     [SerializeField] TextMeshProUGUI approvalText;
 
     [SerializeField] TextMeshProUGUI nameText;
 
     [SerializeField] GameObject approvalBar;
+    private CharacterSO thisCharacter;
 
+    void Start()
+    {
+        thisCharacter = gameObject.GetComponent<Character>().CharacterData;
+    }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
@@ -36,9 +42,11 @@ public class ApprovalBar : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
     /// </summary>
     /// <param name="character"></param>
     /// <param name="approvalChange">Pass in negative if </param>
-    public void UpdateCharacterApproval(CharacterSO character, int approvalChange) 
-    {
-        character.GetApprovalCount(approvalChange);
 
+    [YarnCommand("UpdateApproval")]
+    public void UpdateCharacterApproval(int approvalChange) 
+    {
+        approvalSlider.value = thisCharacter.GetApprovalCount(approvalChange);
     }
+
 }

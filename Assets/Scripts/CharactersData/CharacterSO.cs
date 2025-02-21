@@ -1,11 +1,11 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 
 
 [CreateAssetMenu(fileName = "CharacterSO", menuName = "Scriptable Objects/CharacterSO")]
 public class CharacterSO : ScriptableObject
 {
-
     public enum ApprovalStatus
     {
         Despised,
@@ -18,11 +18,14 @@ public class CharacterSO : ScriptableObject
     }
 
     [SerializeField] public string characterName;
+    [SerializeField] public Sprite NeutralImage;
+    [SerializeField] public Sprite UpsetImage;
+    [SerializeField] public Sprite HappyImage;
 
     /// <summary>
     /// Character's current approval w player on 1-100 scale.
     /// </summary>
-    [SerializeField] int approvalRating = 50; //50 is neutral
+    [SerializeField] public int ApprovalRating = 50; //50 is neutral
 
     /// <summary>
     /// display text for approval
@@ -31,31 +34,31 @@ public class CharacterSO : ScriptableObject
 
     public string UpdateApprovalText()
     {
-        if(approvalRating <= 10) //15 below
+        if(ApprovalRating <= 10) //15 below
         {
             currentApproval = ApprovalStatus.Despised;
         }
-        else if (approvalRating >= 11 && approvalRating < 25) //11-24
+        else if (ApprovalRating >= 11 && ApprovalRating < 25) //11-24
         {
             currentApproval = ApprovalStatus.Disliked;
         }
-        else if (approvalRating >= 25 && approvalRating < 45)
+        else if (ApprovalRating >= 25 && ApprovalRating < 45)
         {
             currentApproval = ApprovalStatus.Frenemies;
         }
-        else if(approvalRating >= 45 && approvalRating <= 55)
+        else if(ApprovalRating >= 45 && ApprovalRating <= 55)
         {
             currentApproval = ApprovalStatus.Neutral;
         }
-        else if (approvalRating > 55 && approvalRating < 74)
+        else if (ApprovalRating > 55 && ApprovalRating < 74)
         {
             currentApproval = ApprovalStatus.Acquaintances;
         }
-        else if (approvalRating >= 75 && approvalRating < 90)
+        else if (ApprovalRating >= 75 && ApprovalRating < 90)
         {
             currentApproval = ApprovalStatus.Liked;
         }
-        else if (approvalRating >= 91)
+        else if (ApprovalRating >= 91)
         {
             currentApproval = ApprovalStatus.Loved;
         }
@@ -71,8 +74,8 @@ public class CharacterSO : ScriptableObject
     /// <returns></returns>
     public int GetApprovalCount(int approvalDifference)
     {
-        approvalRating += approvalDifference;
-        return approvalRating;
+        ApprovalRating += approvalDifference;
+        return ApprovalRating;
     }
 
 }
