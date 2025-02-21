@@ -1,0 +1,66 @@
+﻿
+title: Start1
+---
+Benjamin: Alright team, quick meeting. Doug has been up my ass recently and he wants me to give you these handbooks. 
+Louise: You mean your dad?
+Benjamin: Louise, we’ve discussed this. He’s my boss when I’m here, and I’m going to refer to him as such. Are we clear?
+Louise: Yes sir.
+Benjamin: Can you guys just take a look at the handbooks before open?
+Louise: Are we gonna talk about what was in the paper this morning?
+Benjamin: I don’t read the paper. 
+Louise: Tonya is missing.
+Benjamin: Am I supposed to know who that is?
+Louise: She’s in here all the time.
+-> Compliment
+     <<jump BenjaminResponse1>>
+-> Complain
+     <<jump Negative1>>
+===
+title: BenjaminResponse1
+---
+She’s blonde, blue eyes, really beautiful. She’s an actress.
+Benjamin: Not ringing a bell.
+<<jump Intro2>>
+===
+
+title: Negative1
+---
+She’s the biggest snob. Complains about everything. She’s an Actress.
+Benjamin: Not ringing a bell.
+<<jump Intro2>>
+===
+
+title: Intro2
+---
+Louise: We literally rent some of her movies here. Anyways, I only brought it up because the paper called out Walleye’s up the street and here as the last places she was seen. 
+Benjamin: That’s awful.
+-> Optimistic
+    <<jump BenjaminResponse2>>
+-> Shock
+    <<jump Shock1>>
+===
+
+title: BenjaminResponse2
+---
+I’m sure nothing bad happened to her.
+Benjamin: I’m gonna call them right now, I can’t believe they’d throw us under the bus like that.
+-> I don,’t think-
+    <<jump BenjaminResponse3>>
+-> Is that really what you’re concerned about?
+    <<jump BenjaminResponse3>>
+===
+
+title: Shock1
+---
+I couldn’t believe it when I read the paper.
+Benjamin: I’m gonna call them right now, I can’t believe they’d throw us under the bus like that.
+-> I don,’t think-
+    <<jump BenjaminResponse3>>
+-> Is that really what you’re concerned about?
+    <<jump BenjaminResponse3>>
+===
+
+title: BenjaminResponse3
+---
+Benjamin: Can you guys go and do your job or something? And make sure you look at the handbook.
+===

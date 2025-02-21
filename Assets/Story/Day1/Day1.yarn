@@ -1,40 +1,69 @@
-﻿title: Day1
-tags:
-position: -293,-272
+﻿title: Intro3
 ---
-Louise: What's up with this stupid booklet? Like I need a booklet.
-->I don't know- I mean you know how Doug can get. 
-    <<jump DiagreeWithLouise>>
-->It's a bunch of bullshit, we've never had to have a booklet before.
-    <<jump AgreeWithLouise>>
+Louise: Geez who pissed in Benji’s Cheerios this morning. 
+-> He’s always been that way.
+	<<jump LouiseResponse1>>
+-> After his parent’s stopped being so involved he really went off the rails.
+	<<jump LouiseResponse1>>
 ===
 
-title: DiagreeWithLouise
-position: -10,-78
+title: LouiseResponse1
 ---
-Louise: I don't know, I've never had a problem with Doug. He's kinda a silver fox don't you think?
-->What? Louise he's our boss you can't say that.
-Louise: Why? If he asked me for my number I'd give it to him.
-->He's still married, you know to our other boss.
-Louise: That's why I said if he asked me. I wouldn't ask for his number, now that'd be ridiculous Val.
-->You know what I'm gonna look over the booklet now.
-Louise: I already threw mine away.
+Louise: I miss when Doug was here more.
+-> Agree
+	<<jump LouiseResponse2>>
+-> Disagree
+	<<jump LouiseResponse3>>
 ===
 
-title: AgreeWithLouise
-position: -31,-270
+title: LouiseResponse2
 ---
-Louise: Exactly. Also it's not my fault if the register is off.
-->Is your register off a lot?
-Louise: I mean I think I'm giving out the right change but Benjamin has told me it's been off a few times.
-->By how much?
-Louise: Not much like twenty or like fifty.
-->That's quite a bit, how does that happen?
-Louise: I don't really know the difference between quarters, nickels, and dimes.
-->Are you joking?
-Louise: No.
-->I'm not even gonna get into that with you. I'm gonna look over the booklet before anyone comes in.
+Yeah, he was always nice to me.
+Louise: He’s so sexy don’t you think? He’s gotten better with age.
+-> Ew, he’s like 60. Oh yeah, and our boss.
+	<<jump LouiseResponse4>>
+-> Actually now that you bring it up, yeah he looks good for his age.
+	<<jump LouiseResponse5>>
+===
+
+title: LouiseResponse3
+---
+Really? He was always a little strict.
+Louise: I would mess up on purpose just so he could pull me into the office. His eyes are just so captivating don’t you think?
+-> You’re perverted Louise.
+	<<jump LouiseResponse4>>
+-> I guess he has nice eyes…
+	<<jump LouiseResponse5>>
+===
+
+title: LouiseResponse4
+---
+Louise: Why can I not admire a silver fox?
+-> You can go think about it while you stock inventory. I need to look over the handbook.
+	<<jump LouiseResponse6>>
+-> I think you need to get a hobby instead. I should look over the handbook before Benjamin rips me a new one.
+	<<jump LouiseResponse6>>
+===
+
+title: LouiseResponse5
+---
+Louise: I wish he would just fire Benji, he hates it here anyways.
+-> Can’t disagree with that. He seems miserable here. I should look over the handbook before he rips me a new one.
+	<<jump LouiseResponse6>>
+-> I think he’s just having a rough week.
+	<<jump LouiseResponse7>>
+===
+
+title: LouiseResponse7
+---
+Louise: I don’t need to hear from a Benji sympathizer right now.
+-> I'm not- You know what, I’m gonna look over my handbook.
+	<<jump LouiseResponse6>>
+-> As if. Now if you don’t mind, I’m gonna look over the handbook.
+	<<jump LouiseResponse6>>
+===
+
+title: LouiseResponse6
+---
 Louise: I already threw mine away.
-
-
 ===
