@@ -13,4 +13,7 @@ MonoBehaviour:
   m_Name: Richie
   m_EditorClassIdentifier: 
   characterName: Richie
-  approvalRating: 50
+  NeutralImage: {fileID: -1936622944243275955, guid: dbae10eb197c1d943b26bbb6ac0cce5b, type: 3}
+  UpsetImage: {fileID: 0}
+  HappyImage: {fileID: 0}
+  ApprovalRating: 50

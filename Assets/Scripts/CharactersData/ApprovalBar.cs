@@ -8,13 +8,6 @@ using Unity.VisualScripting;
 
 public class ApprovalBar : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
-    [SerializeField] Slider approvalSlider;
-
-    [SerializeField] TextMeshProUGUI approvalText;
-
-    [SerializeField] TextMeshProUGUI nameText;
-
-    [SerializeField] GameObject approvalBar;
     private CharacterSO thisCharacter;
 
     void Start()
@@ -24,17 +17,17 @@ public class ApprovalBar : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        approvalSlider.value = thisCharacter.GetApprovalCount(0);
-        approvalText.text = thisCharacter.UpdateApprovalText();
+        ApprovalBarUI.Instance.ApprovalSlider.value = thisCharacter.GetApprovalCount(0);
+        ApprovalBarUI.Instance.ApprovalText.text = thisCharacter.UpdateApprovalText();
 
-        nameText.text = thisCharacter.characterName;
+        ApprovalBarUI.Instance.NameText.text = thisCharacter.characterName;
 
-        approvalBar.SetActive(true);
+        ApprovalBarUI.Instance.ApprovalBar.SetActive(true);
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        approvalBar.SetActive(false);
+        ApprovalBarUI.Instance.ApprovalBar.SetActive(false);
     }
 
     /// <summary>
@@ -46,7 +39,7 @@ public class ApprovalBar : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
     [YarnCommand("UpdateApproval")]
     public void UpdateCharacterApproval(int approvalChange) 
     {
-        approvalSlider.value = thisCharacter.GetApprovalCount(approvalChange);
+        ApprovalBarUI.Instance.ApprovalSlider.value = thisCharacter.GetApprovalCount(approvalChange);
     }
 
 }
