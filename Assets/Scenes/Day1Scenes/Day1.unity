@@ -1850,9 +1850,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4231754202525857942, guid: cd7dab661216e431289810e52291bb6d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -51
+      objectReference: {fileID: 0}
+    - target: {fileID: 4231754202525857942, guid: cd7dab661216e431289810e52291bb6d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -59.357
+      objectReference: {fileID: 0}
     - target: {fileID: 4351737899659487946, guid: cd7dab661216e431289810e52291bb6d, type: 3}
       propertyPath: m_Name
       value: Louise
+      objectReference: {fileID: 0}
+    - target: {fileID: 4552631248798101810, guid: cd7dab661216e431289810e52291bb6d, type: 3}
+      propertyPath: m_SortingOrder
+      value: 994
       objectReference: {fileID: 0}
     - target: {fileID: 8681663704072622253, guid: cd7dab661216e431289810e52291bb6d, type: 3}
       propertyPath: m_Sprite
