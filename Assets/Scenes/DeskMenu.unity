@@ -10575,6 +10575,11 @@ Transform:
   - {fileID: 543412612}
   m_Father: {fileID: 1981309777}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!224 &2146874189 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8067904733610170691, guid: 890a924e9850b424b84ee728870529db, type: 3}
+  m_PrefabInstance: {fileID: 1025768676}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6661902013955362936
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10585,15 +10590,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 638461171665339658, guid: 20ecaed7ef3f3476a9f91d2a3b9d3b65, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 373
+      value: 340
       objectReference: {fileID: 0}
     - target: {fileID: 638461171665339658, guid: 20ecaed7ef3f3476a9f91d2a3b9d3b65, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 205
+      value: -64
       objectReference: {fileID: 0}
     - target: {fileID: 672541705421248434, guid: 20ecaed7ef3f3476a9f91d2a3b9d3b65, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1901085648014598871, guid: 20ecaed7ef3f3476a9f91d2a3b9d3b65, type: 3}
       propertyPath: m_text
@@ -10603,11 +10608,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2980031915211903735, guid: 20ecaed7ef3f3476a9f91d2a3b9d3b65, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 373
+      value: 340.00006
       objectReference: {fileID: 0}
     - target: {fileID: 2980031915211903735, guid: 20ecaed7ef3f3476a9f91d2a3b9d3b65, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 206
+      value: -62.99997
       objectReference: {fileID: 0}
     - target: {fileID: 4164313726953656741, guid: 20ecaed7ef3f3476a9f91d2a3b9d3b65, type: 3}
       propertyPath: m_SortingOrder
@@ -10703,18 +10708,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8650493631199059388, guid: 20ecaed7ef3f3476a9f91d2a3b9d3b65, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20ecaed7ef3f3476a9f91d2a3b9d3b65, type: 3}
---- !u!224 &2146874189 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 8067904733610170691, guid: 890a924e9850b424b84ee728870529db, type: 3}
-  m_PrefabInstance: {fileID: 1025768676}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
