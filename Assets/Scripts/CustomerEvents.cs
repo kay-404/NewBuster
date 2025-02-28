@@ -11,6 +11,7 @@ public class CustomerEvents : MonoBehaviour
     public GameTime timeScript;
     public CashSystem gameMoney;
     public GameObject customer;
+    public GameObject errorMessage;
     public Image customerPortrait;
     //public GameObject vhs;
     public DialogueRunner customerEntranceDialog;
@@ -49,6 +50,11 @@ public class CustomerEvents : MonoBehaviour
         if(gameMoney.money == cashBackValue)
         {
             customerExitDialog.StartDialogue(exitDialogText);
+            gameMoney.money = 0;
+        }
+        else
+        {
+            errorMessage.SetActive(true);
             gameMoney.money = 0;
         }
     }
