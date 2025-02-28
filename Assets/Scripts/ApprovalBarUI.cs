@@ -33,4 +33,23 @@ public class ApprovalBarUI : MonoBehaviour
             Destroy(gameObject);
         }
    }
+
+    public void DelayedApproval()
+    {
+        Invoke("deactivateApprovalDisplay", 5);
+    }
+    public void DelayedDisapproval()
+    {
+        Invoke("deactivateDisapprovalDisplay", 5);
+    }
+    
+    private void deactivateDisapprovalDisplay()
+    {
+        NegativeDisplay.SetActive(false);
+    }
+
+    private void deactivateApprovalDisplay()
+    {
+        PositiveDisplay.SetActive(false);
+    }
 }

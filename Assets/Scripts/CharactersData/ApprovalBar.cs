@@ -48,22 +48,13 @@ public class ApprovalBar : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         if(approvalChange >= 0)
         {
             ApprovalBarUI.Instance.PositiveDisplay.SetActive(true);
-            Invoke("deactivateApprovalDisplay", 7);
+            ApprovalBarUI.Instance.DelayedApproval();
         }
         else if(approvalChange < 0)
         {
             ApprovalBarUI.Instance.NegativeDisplay.SetActive(true);
-            Invoke("deactivateDisapprovalDisplay", 7);
+            ApprovalBarUI.Instance.DelayedDisapproval();
         }
     }
 
-    private void deactivateDisapprovalDisplay()
-    {
-        ApprovalBarUI.Instance.NegativeDisplay.SetActive(false);
-    }
-
-    private void deactivateApprovalDisplay()
-    {
-        ApprovalBarUI.Instance.NegativeDisplay.SetActive(false);
-    }
 }
