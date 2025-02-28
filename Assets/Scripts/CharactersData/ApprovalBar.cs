@@ -3,7 +3,6 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.EventSystems;
 using Yarn.Unity;
-using UnityEditor.Rendering;
 using Unity.VisualScripting;
 
 public class ApprovalBar : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
