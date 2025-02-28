@@ -3,7 +3,6 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.EventSystems;
 using Yarn.Unity;
-using UnityEditor.Rendering;
 using Unity.VisualScripting;
 
 public class ApprovalBar : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
@@ -27,6 +26,11 @@ public class ApprovalBar : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
     public void OnPointerExit(PointerEventData eventData)
     {
+        Invoke("deactivateApprovalBar", 2);
+    }
+
+    private void deactivateApprovalBar()
+    {
         ApprovalBarUI.Instance.ApprovalBar.SetActive(false);
     }
 
@@ -40,6 +44,26 @@ public class ApprovalBar : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
     public void UpdateCharacterApproval(int approvalChange) 
     {
         ApprovalBarUI.Instance.ApprovalSlider.value = thisCharacter.GetApprovalCount(approvalChange);
+
+        if(approvalChange >= 0)
+        {
+            ApprovalBarUI.Instance.PositiveDisplay.SetActive(true);
+            Invoke("deactivateApprovalDisplay", 7);
+        }
+        else if(approvalChange < 0)
+        {
+            ApprovalBarUI.Instance.NegativeDisplay.SetActive(true);
+            Invoke("deactivateDisapprovalDisplay", 7);
+        }
     }
 
+    private void deactivateDisapprovalDisplay()
+    {
+        ApprovalBarUI.Instance.NegativeDisplay.SetActive(false);
+    }
+
+    private void deactivateApprovalDisplay()
+    {
+        ApprovalBarUI.Instance.NegativeDisplay.SetActive(false);
+    }
 }

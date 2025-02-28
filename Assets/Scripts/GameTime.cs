@@ -33,7 +33,7 @@ public class GameTime : MonoBehaviour
     {
         if (timeMinutes > 9)
         {
-            timeText.text = timeHours + ":" + timeMinutes + " PM";
+            timeText.text = " " + timeHours + ":" + timeMinutes + " PM";
         }
         else
         {

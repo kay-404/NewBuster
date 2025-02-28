@@ -21,8 +21,10 @@ title: LouiseResponse2
 Yeah, he was always nice to me.
 Louise: He’s so sexy don’t you think? He’s gotten better with age.
 -> Ew, he’s like 60. Oh yeah, and our boss.
+	<<UpdateApproval  Louise  -5>>
 	<<jump LouiseResponse4>>
 -> Actually now that you bring it up, yeah he looks good for his age.
+	<<UpdateApproval  Louise  +5>>
 	<<jump LouiseResponse5>>
 ===
 
@@ -31,6 +33,7 @@ title: LouiseResponse3
 Really? He was always a little strict.
 Louise: I would mess up on purpose just so he could pull me into the office. His eyes are just so captivating don’t you think?
 -> You’re perverted Louise.
+	<<UpdateApproval  Louise  -5>>
 	<<jump LouiseResponse4>>
 -> I guess he has nice eyes…
 	<<jump LouiseResponse5>>
@@ -49,6 +52,7 @@ title: LouiseResponse5
 ---
 Louise: I wish he would just fire Benji, he hates it here anyways.
 -> Can’t disagree with that. He seems miserable here. I should look over the handbook before he rips me a new one.
+	<<UpdateApproval  Louise  +5>>
 	<<jump LouiseResponse6>>
 -> I think he’s just having a rough week.
 	<<jump LouiseResponse7>>

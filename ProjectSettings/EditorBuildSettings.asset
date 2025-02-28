@@ -15,11 +15,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Day1Scenes/Day1.unity
     guid: 43ed7e373bea2d3428612f57bdda982a
   - enabled: 1
-    path: Assets/Scenes/CoinTest.unity
-    guid: fbdf670acdb99984f9114f0f42765f37
-  - enabled: 1
-    path: Assets/Scenes/CoinTestNewScene.unity
-    guid: 4c596423a8685b04f87bd2e70946cbf5
+    path: Assets/Scenes/DeskMenu.unity
+    guid: 70f5a4d6757992d48a2b8f1c069fb99e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

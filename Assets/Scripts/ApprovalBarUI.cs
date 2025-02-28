@@ -9,6 +9,16 @@ public class ApprovalBarUI : MonoBehaviour
     [SerializeField] public TextMeshProUGUI NameText;
     [SerializeField] public GameObject ApprovalBar;
 
+    /// <summary>
+    /// Display for when player gains approval
+    /// </summary>
+    [SerializeField] public GameObject PositiveDisplay;
+
+     /// <summary>
+    /// Display for when player loses approval
+    /// </summary>
+    [SerializeField] public GameObject NegativeDisplay;
+
     public static ApprovalBarUI Instance{get{return instance;}}
     private static ApprovalBarUI instance;
    
