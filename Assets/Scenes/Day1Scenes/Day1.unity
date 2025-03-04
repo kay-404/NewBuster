@@ -321,8 +321,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00177, y: -0.00067139}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_AnchoredPosition: {x: -35.198906, y: 149.3509}
+  m_SizeDelta: {x: 1305.8303, y: 781.2983}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &166962201
 MonoBehaviour:
@@ -344,7 +344,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 8473524329790415985, guid: 41cf661316a6bfd41afc6b904cd6e113, type: 3}
+  m_Sprite: {fileID: 7282461348544508605, guid: 0daed8762f4f63449841a2a152c036e9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1187,8 +1187,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00001526, y: 196.02}
-  m_SizeDelta: {x: 1920, y: 687.9563}
+  m_AnchoredPosition: {x: -0.00001526, y: -0.00093079}
+  m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1536590352
 MonoBehaviour:
@@ -1210,7 +1210,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6194843978079926859, guid: 530f82b415d599c4ba61526a587bbe2f, type: 3}
+  m_Sprite: {fileID: -1291202924252101130, guid: 163fe4dbb0586b64d92029bdb500cd8c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1320,7 +1320,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 994
+  m_SortingOrder: 993
   m_TargetDisplay: 0
 --- !u!224 &1557008661
 RectTransform:
@@ -1422,7 +1422,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 993
+  m_SortingOrder: 994
   m_TargetDisplay: 0
 --- !u!224 &1662132799
 RectTransform:
@@ -1919,6 +1919,10 @@ PrefabInstance:
     - target: {fileID: 4351737899659487946, guid: cd7dab661216e431289810e52291bb6d, type: 3}
       propertyPath: m_Name
       value: Louise
+      objectReference: {fileID: 0}
+    - target: {fileID: 4351737899659487946, guid: cd7dab661216e431289810e52291bb6d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4552631248798101810, guid: cd7dab661216e431289810e52291bb6d, type: 3}
       propertyPath: m_SortingOrder
