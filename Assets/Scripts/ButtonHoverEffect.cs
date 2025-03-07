@@ -28,4 +28,4 @@ public class ButtonHoverEffect : MonoBehaviour, IPointerEnterHandler, IPointerEx
         transform.localScale = cachedScale;
     }
 }
-}
+
