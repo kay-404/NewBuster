@@ -150,10 +150,10 @@ MonoBehaviour:
   Path: Buster'sVideo_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638769373807013047
+  lastModified: 638769272832967004
   FileSizes:
   - Name: Desktop
-    Value: 1230
+    Value: 1190
   Exists: 1
 --- !u!114 &-4090211407373344435
 MonoBehaviour:
@@ -209,33 +209,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-3412142700514709986
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX_DeskBell
-  m_EditorClassIdentifier: 
-  Path: event:/SFX_DeskBell
-  Guid:
-    Data1: 780002488
-    Data2: 1217183746
-    Data3: -685903945
-    Data4: -1146637879
-  Banks:
-  - {fileID: 4800309168559682536}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -262,13 +235,12 @@ MonoBehaviour:
   - {fileID: -6198072452794456370}
   - {fileID: 8738648988541600481}
   - {fileID: -3792984827289129805}
-  - {fileID: -3412142700514709986}
   EditorParameters: []
   MasterBanks:
   - {fileID: 4800309168559682536}
   StringsBanks:
   - {fileID: -4972410958704356020}
-  cacheTime: 638769373807013047
+  cacheTime: 638769272832967004
   cacheVersion: 131616
 --- !u!114 &4800309168559682536
 MonoBehaviour:
@@ -285,10 +257,10 @@ MonoBehaviour:
   Path: Buster'sVideo_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638769373806978355
+  lastModified: 638769272832967004
   FileSizes:
   - Name: Desktop
-    Value: 4230144
+    Value: 4220992
   Exists: 1
 --- !u!114 &5688411843969525840
 MonoBehaviour:
