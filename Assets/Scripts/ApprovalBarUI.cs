@@ -36,11 +36,11 @@ public class ApprovalBarUI : MonoBehaviour
 
     public void DelayedApproval()
     {
-        Invoke("deactivateApprovalDisplay", 3);
+        Invoke("deactivateApprovalDisplay", 5);
     }
     public void DelayedDisapproval()
     {
-        Invoke("deactivateDisapprovalDisplay", 3);
+        Invoke("deactivateDisapprovalDisplay", 5);
     }
     
     private void deactivateDisapprovalDisplay()
