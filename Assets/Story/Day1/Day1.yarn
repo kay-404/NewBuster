@@ -1,73 +1,47 @@
-﻿title: Intro3
+﻿title: Louise
 ---
-Louise: Geez who pissed in Benji’s Cheerios this morning. 
--> He’s always been that way.
-	<<jump LouiseResponse1>>
--> After his parent’s stopped being so involved he really went off the rails.
-	<<jump LouiseResponse1>>
+Louise: Hey girl!
+	-> You’re late.
+		<<jump LousieLate>>
+	-> Just a heads up Benjamin is in a bad mood.
+		<<jump LouiseHeadsUp>>
 ===
 
-title: LouiseResponse1
+title: LousieLate
 ---
-Louise: I miss when Doug was here more.
--> Agree
-	<<jump LouiseResponse2>>
--> Disagree
-	<<jump LouiseResponse3>>
+<<UpdateApproval Louise -10>>
+Louise: Did Benjamin die and make you manager? There’s no reason for you to be up my ass about my tardiness. 
+	-> Don’t shoot the messenger, I’m just trying to give you a heads up.
+		<<jump LouiseMessenger>>
+	-> Listen I get the meetings are dumb but you’re putting me in a bad spot when you don’t show.
+		<<jump LouiseExplain>>
 ===
 
-title: LouiseResponse2
+title: LouiseMessenger
 ---
-Yeah, he was always nice to me.
-Louise: He’s so sexy don’t you think? He’s gotten better with age.
--> Ew, he’s like 60. Oh yeah, and our boss.
-	<<UpdateApproval  Louise  -5>>
-	<<jump LouiseResponse4>>
--> Actually now that you bring it up, yeah he looks good for his age.
-	<<UpdateApproval  Louise  +5>>
-	<<jump LouiseResponse5>>
+Louise: Whatever.
 ===
 
-title: LouiseResponse3
+
+title: LouiseExplain
 ---
-Really? He was always a little strict.
-Louise: I would mess up on purpose just so he could pull me into the office. His eyes are just so captivating don’t you think?
--> You’re perverted Louise.
-	<<UpdateApproval  Louise  -5>>
-	<<jump LouiseResponse4>>
--> I guess he has nice eyes…
-	<<jump LouiseResponse5>>
+Louise: Huh, I guess I didn’t think about it like that.
+Louise: I wouldn’t wanna be alone with Benji for a meeting either. I’ll be here next time. 
+<<UpdateApproval Louise +10>>
 ===
 
-title: LouiseResponse4
+title: LouiseHeadsUp
 ---
-Louise: Why can I not admire a silver fox?
--> You can go think about it while you stock inventory. I need to look over the handbook.
-	<<jump LouiseResponse6>>
--> I think you need to get a hobby instead. I should look over the handbook before Benjamin rips me a new one.
-	<<jump LouiseResponse6>>
+Louise: What’s wrong with him this time?
+	-> He’s mad that you’re late. He also wanted me to give you these new handbooks.
+		<<jump LouiseLeave>>
+	->Just his usual self. Also his dad has been on him about the register being off so now we have these handbooks.
+		<<jump LouiseLeave>>
 ===
 
-title: LouiseResponse5
+title: LouiseLeave
 ---
-Louise: I wish he would just fire Benji, he hates it here anyways.
--> Can’t disagree with that. He seems miserable here. I should look over the handbook before he rips me a new one.
-	<<UpdateApproval  Louise  +5>>
-	<<jump LouiseResponse6>>
--> I think he’s just having a rough week.
-	<<jump LouiseResponse7>>
+Louise: Great. Well, hopefully he doesn’t chew my head off. 
 ===
 
-title: LouiseResponse7
----
-Louise: I don’t need to hear from a Benji sympathizer right now.
--> I'm not- You know what, I’m gonna look over my handbook.
-	<<jump LouiseResponse6>>
--> As if. Now if you don’t mind, I’m gonna look over the handbook.
-	<<jump LouiseResponse6>>
-===
 
-title: LouiseResponse6
----
-Louise: I already threw mine away.
-===
