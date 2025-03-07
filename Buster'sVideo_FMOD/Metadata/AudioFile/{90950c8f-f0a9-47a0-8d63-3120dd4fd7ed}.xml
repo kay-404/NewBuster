@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{90950c8f-f0a9-47a0-8d63-3120dd4fd7ed}">
+		<property name="assetPath">
+			<value>Paper, Handle, Money, Notes, Count For Hand SND42455.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.34947916666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7f7b26ba-1019-484c-a723-05bb5cec7fd2}</destination>
+		</relationship>
+	</object>
+</objects>

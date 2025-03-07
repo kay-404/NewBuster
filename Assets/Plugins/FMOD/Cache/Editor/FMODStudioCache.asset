@@ -108,6 +108,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 20000
+--- !u!114 &-6198072452794456370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX_CoinHandle
+  m_EditorClassIdentifier: 
+  Path: event:/SFX_CoinHandle
+  Guid:
+    Data1: 1038174663
+    Data2: 1161112111
+    Data3: 2026988193
+    Data4: -1006376575
+  Banks:
+  - {fileID: 4800309168559682536}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-4972410958704356020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123,11 +150,65 @@ MonoBehaviour:
   Path: Buster'sVideo_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638695412969437485
+  lastModified: 638769272832967004
   FileSizes:
   - Name: Desktop
-    Value: 908
+    Value: 1190
   Exists: 1
+--- !u!114 &-4090211407373344435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX_RegisterDrawer
+  m_EditorClassIdentifier: 
+  Path: event:/SFX_RegisterDrawer
+  Guid:
+    Data1: 40696214
+    Data2: 1251510228
+    Data3: -104611689
+    Data4: -1264639138
+  Banks:
+  - {fileID: 4800309168559682536}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3792984827289129805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX_CashHandle
+  m_EditorClassIdentifier: 
+  Path: event:/SFX_CashHandle
+  Guid:
+    Data1: -221593544
+    Data2: 1188423981
+    Data3: -1657136496
+    Data4: -372742956
+  Banks:
+  - {fileID: 4800309168559682536}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,12 +229,18 @@ MonoBehaviour:
   - {fileID: -7030263215832429937}
   - {fileID: -6681691393027555257}
   - {fileID: -6226381983057077541}
+  - {fileID: 5688411843969525840}
+  - {fileID: 7671216575796360059}
+  - {fileID: -4090211407373344435}
+  - {fileID: -6198072452794456370}
+  - {fileID: 8738648988541600481}
+  - {fileID: -3792984827289129805}
   EditorParameters: []
   MasterBanks:
   - {fileID: 4800309168559682536}
   StringsBanks:
   - {fileID: -4972410958704356020}
-  cacheTime: 638695412969437485
+  cacheTime: 638769272832967004
   cacheVersion: 131616
 --- !u!114 &4800309168559682536
 MonoBehaviour:
@@ -170,8 +257,89 @@ MonoBehaviour:
   Path: Buster'sVideo_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638695412969427513
+  lastModified: 638769272832967004
   FileSizes:
   - Name: Desktop
-    Value: 3976352
+    Value: 4220992
   Exists: 1
+--- !u!114 &5688411843969525840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX_VHSGrab
+  m_EditorClassIdentifier: 
+  Path: event:/SFX_VHSGrab
+  Guid:
+    Data1: 686996807
+    Data2: 1249422087
+    Data3: -1213044080
+    Data4: 1680688739
+  Banks:
+  - {fileID: 4800309168559682536}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7671216575796360059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX_CoinDrop
+  m_EditorClassIdentifier: 
+  Path: event:/SFX_CoinDrop
+  Guid:
+    Data1: -214902643
+    Data2: 1171077132
+    Data3: -714992746
+    Data4: 1962015044
+  Banks:
+  - {fileID: 4800309168559682536}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8738648988541600481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX_VHSDrop
+  m_EditorClassIdentifier: 
+  Path: event:/SFX_VHSDrop
+  Guid:
+    Data1: -2067871019
+    Data2: 1331619301
+    Data3: 322533516
+    Data4: 1662087305
+  Banks:
+  - {fileID: 4800309168559682536}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
