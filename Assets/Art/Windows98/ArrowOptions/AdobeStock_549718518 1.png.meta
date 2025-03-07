@@ -132,7 +132,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AdobeStock_549718518 1_0: -7930286927827001376
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
