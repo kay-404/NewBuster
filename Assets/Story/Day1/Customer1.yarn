@@ -1,38 +1,63 @@
-﻿title: Customer1
-tags:
+﻿title: AlyceOliver
 ---
-Oliver: I want the new Karate Child movie! I'm gonna be a  ninja when I grow up.
-Alyce: Oliver, what did we talk about in the car? No running around.
-Alyce: Sorry, you know how kids are. Do you have Karate Child three?
-->Yeah, it's gonna be in the action section over there.
-//close the dialogue//
-->Ma'am, your kid is making a mess.
-Alyce: Shi- Oliver knock it off.
-//time passes//
-Alyce: Just this.
-Oliver: I want candy.
-Alyce: Oliver, I said just the movie in the car.
-//Oliver puts the candy up//
-->Did you want me to ring up the cotton candy too?
-    <<jump PayForCandy>>
-->I can just give him the candy for free.
-    <<jump GiveCandy>>
+<<declare $FreeMovie = true>>
+Alyce: I’m glad you guys actually have this, it’s all he’s been talking about .
+Oliver: I’m gonna look for another movie.
+Alyce: Oliver no- and he’s running around. 
+Alyce: Sorry, you know how kids are.
+	-> Yeah, they’re definitely a handful.
+		<<jump EmpathyAlyce>>
+	-> Actually I don’t. He’s being rough with the shelves over there. We can’t be held liable if he knocks it over.
+		<<jump RudeAlyce>>
 ===
-title: GiveCandy
+
+title: EmpathyAlyce
 ---
-Alyce: Are you sure? That's so nice.
-->Yeah, no worries. 
+Alyce: You could say that again.
+Oliver: I want this one too.
+Alyce: I told you in the car you can only get one, I don’t get paid for a few more days. We can come in later and get that one.
+	-> …
+		<<jump Oliver3>>
+	-> I’ll just check you out for the one movie. The second is on the house.
+		<<jump Oliver4>>
+
 ===
-title: PayForCandy
+
+title: RudeAlyce
 ---
-Oliver: Please please please.
-Alyce: Fine, but you're not eating it until tomorrow.
-->Your total is $4.50.
-Alyce: Yikes, your prices are a little high huh?
-->Yeah I guess so.
-    Alyce: Here.
-    ->Have a good one.
-->I don't make the prices.
-    Alyce: Right. Well here.
-    ->Have a good one.
+<<set $FreeMovie = false>>
+<<UpdateApproval Alyce -10>>
+
+Alyce: What?
+	-> Nothing.
+		<<jump Oliver2>>
+	-> When you signed up for the membership it said it in the fine print.
+		<<jump Oliver2>>
 ===
+
+title: Oliver2
+---
+Alyce: Are you kid- Oliver get over here.
+Oliver: I want this one too.
+Alyce: I told you in the car you can only get one, I don’t get paid for a few more days. We can come in later and get that one.
+	-> …
+		<<jump Oliver3>>
+	-> I’ll just check you out for the one movie. The second is on the house. <<if $FreeMovie == true>>
+		<<jump Oliver4>>
+===
+
+title: Oliver3
+---
+Alyce: Go put that one back.
+Oliver: Hmph.
+Alyce: Just this one thanks.
+===
+
+title: Oliver4
+---
+<<UpdateApproval Alyce +10>>
+Alyce: That’s so nice, you don’t have to do that. Oliver say thank you.
+Oliver: Thank you!
+===
+
+

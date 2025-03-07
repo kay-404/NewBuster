@@ -3,7 +3,7 @@
 Benjamin: Where’s Louise? She’s been late to her start of shift meetings for her last nine shifts.
 	-> She might just be running late. I’ll fill her in later.
 		 <<jump BenjaminAppreciative>>
-	-> She thinks they’re stupid so she doesn’t come.
+	-> She thinks the meetings are stupid so she doesn’t come.
 		 <<jump NegativeLouise>>
 ===
 
@@ -39,6 +39,6 @@ title: BenjaminMad
 ---
 <<UpdateApproval Benjamin -10>>
 Benjamin: Well first off, he’s my boss when I’m here. And second just do what you’re told, I’m your boss so act like it. Now get out.
-Benjamin: And send Louise in here when she shows.
+Benjamin: And send Louise in here when she comes in.
 ===
 
