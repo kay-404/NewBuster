@@ -38,11 +38,14 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: UI
-    uniqueID: 1930504647
-    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Customers
+    uniqueID: 3124163229
+    locked: 0
+  - name: UI
+    uniqueID: 1930504647
     locked: 0
   m_RenderingLayers:
   - Default
