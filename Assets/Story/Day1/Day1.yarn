@@ -1,30 +1,33 @@
 ﻿title: Louise
 ---
 Louise: Hey girl!
-	-> You’re late.
+	-> Scold
 		<<jump LousieLate>>
-	-> Just a heads up Benjamin is in a bad mood.
+	-> Warn about Benjamin
 		<<jump LouiseHeadsUp>>
 ===
 
 title: LousieLate
 ---
+You’re late.
 <<UpdateApproval Louise -10>>
 Louise: Did Benjamin die and make you manager? There’s no reason for you to be up my ass about my tardiness. 
-	-> Don’t shoot the messenger, I’m just trying to give you a heads up.
+	-> Defend Yourself
 		<<jump LouiseMessenger>>
-	-> Listen I get the meetings are dumb but you’re putting me in a bad spot when you don’t show.
+	-> Explain Yourself
 		<<jump LouiseExplain>>
 ===
 
 title: LouiseMessenger
 ---
+Don’t shoot the messenger, I’m just trying to give you a heads up.
 Louise: Whatever.
 ===
 
 
 title: LouiseExplain
 ---
+Listen I get the meetings are dumb but you’re putting me in a bad spot when you don’t show.
 Louise: Huh, I guess I didn’t think about it like that.
 Louise: I wouldn’t wanna be alone with Benji for a meeting either. I’ll be here next time. 
 <<UpdateApproval Louise +10>>
@@ -32,16 +35,22 @@ Louise: I wouldn’t wanna be alone with Benji for a meeting either. I’ll be h
 
 title: LouiseHeadsUp
 ---
+Just a heads up Benjamin is in a bad mood.
 Louise: What’s wrong with him this time?
-	-> He’s mad that you’re late. He also wanted me to give you these new handbooks.
+	-> Remind about Tardiness
 		<<jump LouiseLeave>>
-	->Just his usual self. Also his dad has been on him about the register being off so now we have these handbooks.
-		<<jump LouiseLeave>>
+	-> Bash Benjamin
+		<<jump LouiseLeave2>>
 ===
 
 title: LouiseLeave
 ---
-Louise: Great. Well, hopefully he doesn’t chew my head off. 
+He’s mad that you’re late. He also wanted me to give you these new handbooks.
+Louise: He needs to take a chill pill.
 ===
 
-
+title: LouiseLeave2
+---
+Just his usual self. Also his dad has been on him about the register being off so now we have these handbooks.
+Louise: Great. Well, hopefully he doesn’t chew my head off. 
+===

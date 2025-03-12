@@ -1,35 +1,38 @@
 ﻿title: Start1
 ---
 Benjamin: Where’s Louise? She’s been late to these meetings for her last nine shifts.
-	-> She might just be running late. I’ll fill her in later.
+	-> Cover for Louise
 		 <<jump BenjaminAppreciative>>
-	-> She thinks the meetings are stupid so she doesn’t come.
+	-> Appease Benjamin
 		 <<jump NegativeLouise>>
 ===
 
 title: BenjaminAppreciative
 ---
-Benjamin: Thanks Val. I appreciate you being here at least. I need you to look through these handbooks that Doug made for you guys. The register has been off lately so he thinks you need a refresher. 
-Benjamin: And could you give one to Louise?
-	-> Yup, no problem.
+She might just be running late. I’ll fill her in later.
+Benjamin: Thanks Val. I appreciate you being here at least.  
+Benjamin: I need you to look through this handbook that Doug made for you guys. The register has been off lately so he thinks you need a refresher. 
+	-> Don't Complain
 		<<jump BenjaminHappy>>
-	-> Why does your dad think a handbook is gonna help?
+	-> Snarky
 		<<jump BenjaminMad>>
 ===
 
 title: NegativeLouise
 ---
+She thinks the meetings are stupid so she doesn’t come.
 <<declare $NegativeLouise = true>>
 Benjamin: Hmm. Well that’s good to know, I’ll have to have a talk with her whenever she decides to show up. 
-Benjamin: Well, I appreciate you being here Val. This is kind of important, the registers have been off so Doug wants you to look through these handbooks. 
-	-> Sounds good boss.
+Benjamin: Well, I appreciate you being here Val. This is kind of important, the registers have been off so Doug wants you to look through this handbook he made. 
+	-> Don't Complain
 		<<jump BenjaminHappy>>
-	-> Why does your dad think a handbook is gonna help?
+	-> Snarky 
 		<<jump BenjaminMad>>
 ===
 
 title: BenjaminHappy
 ---
+Sounds good boss.
 <<UpdateApproval Benjamin +10>>
 Benjamin: Thanks for being a good sport, at least one of my employees can take this job seriously. 
 Benjamin: I don’t wanna hold you back here so you’re free to go out, just send Louise back when she comes in.
@@ -37,6 +40,7 @@ Benjamin: I don’t wanna hold you back here so you’re free to go out, just se
 
 title: BenjaminMad
 ---
+Why does your dad think a handbook is gonna help?
 <<UpdateApproval Benjamin -10>>
 Benjamin: Well, first off he’s my boss when I’m here. And second just do what you’re told, I’m your manager so act like it. Now get out.
 Benjamin: And send Louise in here when she comes in.
