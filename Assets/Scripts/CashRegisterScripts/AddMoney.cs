@@ -23,7 +23,7 @@ public class AddMoney : MonoBehaviour
 
     public void FiveCents()
     {
-        cashRegister.GetComponent<CashSystem>().addMoney(0.5f);
+        cashRegister.GetComponent<CashSystem>().addMoney(0.05f);
     }
 
     public void TenCents()
