@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 80005654b38bcc94d862a5b0ead1048a
+guid: 71eb64f9dc6ca405d8e085a27f4f882d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1086793654476569414
-    second: HandbookOpen_0
+      213: -1427660057377880611
+    second: Continue@8x_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HandbookOpen_0
+      name: Continue@8x_0
       rect:
         serializedVersion: 2
-        x: 740
-        y: 154
-        width: 4325
-        height: 2807
+        x: 0
+        y: 0
+        width: 637
+        height: 542
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ab486c8edeeeae0f0800000000000000
-      internalID: -1086793654476569414
+      spriteID: dd54afbedbeef2ce0800000000000000
+      internalID: -1427660057377880611
       vertices: []
       indices: 
       edges: []
@@ -138,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -146,7 +133,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      HandbookOpen_0: -1086793654476569414
+      Continue@8x_0: -1427660057377880611
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

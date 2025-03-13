@@ -145,7 +145,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Busters_VHS_open_0: -589303742778317066
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

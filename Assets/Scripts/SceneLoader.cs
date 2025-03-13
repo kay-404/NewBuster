@@ -32,4 +32,9 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(sceneNumber);
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }

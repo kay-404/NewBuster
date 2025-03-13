@@ -145,7 +145,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Busters_VHS_rewound_0: -3368596202193954176
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
