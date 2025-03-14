@@ -1,5 +1,7 @@
+using System.Collections;
 using TMPro;
 using UnityEngine;
+using Yarn.Unity;
 
 public class CustomerScoring : MonoBehaviour
 {
@@ -7,6 +9,8 @@ public class CustomerScoring : MonoBehaviour
     public static CustomerScoring Instance{get{return instance;}}
     private static CustomerScoring instance;
     private int interactionScore;
+    private int hoursWaited; 
+    private int scoreBase = 50;
 
     void Awake()
    {
@@ -20,12 +24,13 @@ public class CustomerScoring : MonoBehaviour
         }
    }
 
-
+    [YarnCommand("UpdateScore")]
    public void UpdateScore(int scoreChange)
    {
         interactionScore += scoreChange;
    }
 
+    [YarnCommand("TriggerInteractionScore")]
     public void EndInteraction()
     {
         ScorePopUpUI.Instance.TriggerPostCustomerScore(interactionScore);
@@ -35,6 +40,7 @@ public class CustomerScoring : MonoBehaviour
 
         //resets interaction score for next interaction
         interactionScore = 0;
+        hoursWaited = 0;
     }
 
 
@@ -51,6 +57,36 @@ public class CustomerScoring : MonoBehaviour
         {
             //save over high score with current score
             SaveData.Instance.SetHighscoreSave(SaveData.Instance.GetCurrentScoreSave());
+        }
+    }
+
+    /// <summary>
+    /// Call when a customer is present and each time an hour passes
+    /// </summary>
+    public void UpdateWaitTime()
+    {
+        hoursWaited++;
+    }
+
+    private void CalculateScoreFromTime()
+    {
+        switch(hoursWaited)
+        {
+            case 1:
+                interactionScore += scoreBase * 3; 
+            break;
+
+            case 2:
+                interactionScore += scoreBase * 2;
+            break;
+
+            case 3:
+                interactionScore += scoreBase * 1;
+            break;
+
+            default:
+                interactionScore -= scoreBase/2 * hoursWaited;
+            break;
         }
     }
 

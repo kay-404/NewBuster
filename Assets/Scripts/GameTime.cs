@@ -67,7 +67,9 @@ public class GameTime : MonoBehaviour
             timeHours = 1;
         else
             timeHours++;
-
+        
+        CustomerScoring.Instance.UpdateWaitTime();
+        
         StartCoroutine(routine: advanceHourOverTime());
     }
 

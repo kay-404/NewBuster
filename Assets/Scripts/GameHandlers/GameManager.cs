@@ -3,11 +3,11 @@ using Yarn.Unity;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager Instance{get{return instance;}}
-    private static GameManager instance;
-
+    public int CurrentDayCount;
     public DialogueRunner endShiftDialogue;
     public string endShiftDialogueText = "DayEndText";
+    public static GameManager Instance{get{return instance;}}
+    private static GameManager instance;
     
     [SerializeField] bool isDay1;
    
@@ -32,6 +32,7 @@ public class GameManager : MonoBehaviour
 
     public void EndDay()
     {
+
         endShiftDialogue.StartDialogue(endShiftDialogueText);
     }
 }
