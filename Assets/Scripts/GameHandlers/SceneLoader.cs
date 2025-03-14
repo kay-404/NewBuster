@@ -3,10 +3,12 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
+    
     public int sceneNumber;
     private int savedSceneNumber;
     public int skipScene;
     public bool skippingScene;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
