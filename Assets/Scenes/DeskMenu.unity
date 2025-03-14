@@ -389,6 +389,7 @@ GameObject:
   - component: {fileID: 92382608}
   - component: {fileID: 92382607}
   - component: {fileID: 92382606}
+  - component: {fileID: 92382609}
   m_Layer: 0
   m_Name: 1 Dollar Bill Button
   m_TagString: Untagged
@@ -510,6 +511,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 92382604}
   m_CullTransparentMesh: 1
+--- !u!114 &92382609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92382604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -221593544
+      Data2: 1188423981
+      Data3: -1657136496
+      Data4: -372742956
+    Path: event:/SFX_CashHandle
+  Event: 
+  PlayEvent: 19
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!114 &117863432 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7628221729117359150, guid: 890a924e9850b424b84ee728870529db, type: 3}
@@ -702,6 +734,7 @@ GameObject:
   - component: {fileID: 125437732}
   - component: {fileID: 125437731}
   - component: {fileID: 125437730}
+  - component: {fileID: 125437733}
   m_Layer: 0
   m_Name: 10 Dollar Bill Button
   m_TagString: Untagged
@@ -823,6 +856,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 125437728}
   m_CullTransparentMesh: 1
+--- !u!114 &125437733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125437728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -221593544
+      Data2: 1188423981
+      Data3: -1657136496
+      Data4: -372742956
+    Path: event:/SFX_CashHandle
+  Event: 
+  PlayEvent: 19
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &162253357
 GameObject:
   m_ObjectHideFlags: 0
@@ -971,6 +1035,7 @@ GameObject:
   - component: {fileID: 185834429}
   - component: {fileID: 185834428}
   - component: {fileID: 185834427}
+  - component: {fileID: 185834430}
   m_Layer: 0
   m_Name: 10 Cent Button
   m_TagString: Untagged
@@ -1092,6 +1157,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 185834425}
   m_CullTransparentMesh: 1
+--- !u!114 &185834430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185834425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -214902643
+      Data2: 1171077132
+      Data3: -714992746
+      Data4: 1962015044
+    Path: event:/SFX_CoinDrop
+  Event: 
+  PlayEvent: 19
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &192115526
 GameObject:
   m_ObjectHideFlags: 0
@@ -1104,6 +1200,7 @@ GameObject:
   - component: {fileID: 192115530}
   - component: {fileID: 192115529}
   - component: {fileID: 192115528}
+  - component: {fileID: 192115531}
   m_Layer: 5
   m_Name: VHS Cover Button
   m_TagString: Untagged
@@ -1261,6 +1358,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 192115526}
   m_CullTransparentMesh: 1
+--- !u!114 &192115531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192115526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2067871019
+      Data2: 1331619301
+      Data3: 322533516
+      Data4: 1662087305
+    Path: event:/SFX_VHSDrop
+  Event: 
+  PlayEvent: 19
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &208289888
 GameObject:
   m_ObjectHideFlags: 0
@@ -3714,6 +3842,7 @@ GameObject:
   - component: {fileID: 634058910}
   - component: {fileID: 634058909}
   - component: {fileID: 634058908}
+  - component: {fileID: 634058911}
   m_Layer: 0
   m_Name: Give Cashback Button
   m_TagString: Untagged
@@ -3847,6 +3976,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 634058906}
   m_CullTransparentMesh: 1
+--- !u!114 &634058911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634058906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 40696214
+      Data2: 1251510228
+      Data3: -104611689
+      Data4: -1264639138
+    Path: event:/SFX_RegisterDrawer
+  Event: 
+  PlayEvent: 19
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &635515843
 GameObject:
   m_ObjectHideFlags: 0
@@ -4872,6 +5032,7 @@ GameObject:
   - component: {fileID: 824554851}
   - component: {fileID: 824554850}
   - component: {fileID: 824554849}
+  - component: {fileID: 824554852}
   m_Layer: 0
   m_Name: Reset Cashback Button
   m_TagString: Untagged
@@ -4993,6 +5154,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 824554847}
   m_CullTransparentMesh: 1
+--- !u!114 &824554852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824554847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1038174663
+      Data2: 1161112111
+      Data3: 2026988193
+      Data4: -1006376575
+    Path: event:/SFX_CoinHandle
+  Event: 
+  PlayEvent: 19
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &834550111 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5834669745052615368, guid: ec2c68c21e9444bacb426bf52fcc0f20, type: 3}
@@ -5586,6 +5778,7 @@ GameObject:
   - component: {fileID: 905436564}
   - component: {fileID: 905436563}
   - component: {fileID: 905436562}
+  - component: {fileID: 905436565}
   m_Layer: 0
   m_Name: '5 Cent Button '
   m_TagString: Untagged
@@ -5707,6 +5900,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 905436560}
   m_CullTransparentMesh: 1
+--- !u!114 &905436565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905436560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -214902643
+      Data2: 1171077132
+      Data3: -714992746
+      Data4: 1962015044
+    Path: event:/SFX_CoinDrop
+  Event: 
+  PlayEvent: 19
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &909488887 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8650493631199059388, guid: 20ecaed7ef3f3476a9f91d2a3b9d3b65, type: 3}
@@ -5825,6 +6049,7 @@ GameObject:
   - component: {fileID: 937532175}
   - component: {fileID: 937532174}
   - component: {fileID: 937532173}
+  - component: {fileID: 937532176}
   m_Layer: 0
   m_Name: 1 Cent Button
   m_TagString: Untagged
@@ -5946,6 +6171,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 937532171}
   m_CullTransparentMesh: 1
+--- !u!114 &937532176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 937532171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -214902643
+      Data2: 1171077132
+      Data3: -714992746
+      Data4: 1962015044
+    Path: event:/SFX_CoinDrop
+  Event: 
+  PlayEvent: 19
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &956308667
 GameObject:
   m_ObjectHideFlags: 0
@@ -10492,6 +10748,7 @@ GameObject:
   - component: {fileID: 1547140281}
   - component: {fileID: 1547140280}
   - component: {fileID: 1547140279}
+  - component: {fileID: 1547140282}
   m_Layer: 0
   m_Name: 5 Dollar Bill Button
   m_TagString: Untagged
@@ -10613,6 +10870,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1547140277}
   m_CullTransparentMesh: 1
+--- !u!114 &1547140282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547140277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -221593544
+      Data2: 1188423981
+      Data3: -1657136496
+      Data4: -372742956
+    Path: event:/SFX_CashHandle
+  Event: 
+  PlayEvent: 19
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1587734892 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4730070740703986523, guid: ec2c68c21e9444bacb426bf52fcc0f20, type: 3}
@@ -10641,6 +10929,7 @@ GameObject:
   - component: {fileID: 1592055540}
   - component: {fileID: 1592055539}
   - component: {fileID: 1592055538}
+  - component: {fileID: 1592055541}
   m_Layer: 5
   m_Name: Cash Register Button
   m_TagString: Untagged
@@ -10763,6 +11052,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1592055536}
   m_CullTransparentMesh: 1
+--- !u!114 &1592055541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592055536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 40696214
+      Data2: 1251510228
+      Data3: -104611689
+      Data4: -1264639138
+    Path: event:/SFX_RegisterDrawer
+  Event: 
+  PlayEvent: 19
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1602571898
 GameObject:
   m_ObjectHideFlags: 0
@@ -13034,6 +13354,7 @@ GameObject:
   - component: {fileID: 1808364937}
   - component: {fileID: 1808364936}
   - component: {fileID: 1808364935}
+  - component: {fileID: 1808364938}
   m_Layer: 5
   m_Name: VHS Button
   m_TagString: Untagged
@@ -13155,6 +13476,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1808364933}
   m_CullTransparentMesh: 1
+--- !u!114 &1808364938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808364933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 686996807
+      Data2: 1249422087
+      Data3: -1213044080
+      Data4: 1680688739
+    Path: event:/SFX_VHSGrab
+  Event: 
+  PlayEvent: 19
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1833828045
 GameObject:
   m_ObjectHideFlags: 0
@@ -13242,6 +13594,7 @@ GameObject:
   - component: {fileID: 1849930502}
   - component: {fileID: 1849930501}
   - component: {fileID: 1849930500}
+  - component: {fileID: 1849930503}
   m_Layer: 0
   m_Name: 25 Cent Button
   m_TagString: Untagged
@@ -13363,6 +13716,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1849930498}
   m_CullTransparentMesh: 1
+--- !u!114 &1849930503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849930498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -214902643
+      Data2: 1171077132
+      Data3: -714992746
+      Data4: 1962015044
+    Path: event:/SFX_CoinDrop
+  Event: 
+  PlayEvent: 19
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1869231719
 GameObject:
   m_ObjectHideFlags: 0
@@ -13618,6 +14002,7 @@ GameObject:
   - component: {fileID: 1971949625}
   - component: {fileID: 1971949624}
   - component: {fileID: 1971949623}
+  - component: {fileID: 1971949626}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -13751,6 +14136,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1971949621}
   m_CullTransparentMesh: 1
+--- !u!114 &1971949626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971949621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1038174663
+      Data2: 1161112111
+      Data3: 2026988193
+      Data4: -1006376575
+    Path: event:/SFX_CoinHandle
+  Event: 
+  PlayEvent: 19
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1981309773
 GameObject:
   m_ObjectHideFlags: 0
