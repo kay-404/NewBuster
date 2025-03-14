@@ -35,6 +35,11 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadSceneAsync(sceneNumber);
     }
 
+    public void LoadSceneFromClick(int clickSceneNumber)
+    {
+        SceneManager.LoadSceneAsync(clickSceneNumber);
+    }
+    
     public void QuitGame()
     {
         Application.Quit();

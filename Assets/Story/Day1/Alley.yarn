@@ -1,0 +1,12 @@
+﻿title: Alley1
+---
+Louise: Have you fed the cat today?
+-> You mean Peanut?
+	<<jump Peanut>>
+-> No, I should probably do that.
+===
+
+title: Peanut
+---
+Louise: I think we should’ve named him Dawg.
+===

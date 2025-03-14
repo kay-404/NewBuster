@@ -17,6 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DeskMenu.unity
     guid: 70f5a4d6757992d48a2b8f1c069fb99e
+  - enabled: 1
+    path: Assets/Scenes/Day1Scenes/Alley.unity
+    guid: 18f30126852b3b64dbf450a5423d49fa
+  - enabled: 1
+    path: Assets/Scenes/Day1Scenes/Alley2.unity
+    guid: 539edd8375e0c184fb8889b9d4156e0b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
