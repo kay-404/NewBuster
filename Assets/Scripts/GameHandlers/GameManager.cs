@@ -32,6 +32,7 @@ public class GameManager : MonoBehaviour
 
     public void EndDay()
     {
+        CustomerScoring.Instance.UpdateScoreSave();
 
         endShiftDialogue.StartDialogue(endShiftDialogueText);
     }

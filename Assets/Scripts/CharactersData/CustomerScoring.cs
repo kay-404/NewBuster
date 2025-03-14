@@ -33,6 +33,8 @@ public class CustomerScoring : MonoBehaviour
     [YarnCommand("TriggerInteractionScore")]
     public void EndInteraction()
     {
+        CalculateScoreFromTime();
+
         ScorePopUpUI.Instance.TriggerPostCustomerScore(interactionScore);
 
         //adds to score for the day
