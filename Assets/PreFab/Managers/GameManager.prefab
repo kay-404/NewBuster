@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 2233803326071640246}
   - component: {fileID: 2658712315084748860}
   - component: {fileID: 2183979430440034236}
+  - component: {fileID: 6933959612799304717}
+  - component: {fileID: 3824540117583442714}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -77,6 +79,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34c780234881b4759826ac978d21cc7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  endShiftDialogue: {fileID: 0}
+  endShiftDialogueText: DayEndText
+  isDay1: 0
 --- !u!114 &2183979430440034236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93,3 +98,33 @@ MonoBehaviour:
   ApprovalText: {fileID: 0}
   NameText: {fileID: 0}
   ApprovalBar: {fileID: 0}
+  PositiveDisplay: {fileID: 0}
+  NegativeDisplay: {fileID: 0}
+--- !u!114 &6933959612799304717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8057175090842349218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a983059dfcf7423399df0a80919ce23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tempDailyScore: 0
+--- !u!114 &3824540117583442714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8057175090842349218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ea4ee58a972144839aabab4d60369bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customerScorePanel: {fileID: 0}
+  scoreTotalText: {fileID: 0}
+  scoreUpdateText: {fileID: 0}
