@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{49cf2a91-2344-4b8c-bbb3-64b0f83e425d}">
+		<property name="assetPath">
+			<value>ManyCoins_01.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.9726875000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7f7b26ba-1019-484c-a723-05bb5cec7fd2}</destination>
+		</relationship>
+	</object>
+</objects>
