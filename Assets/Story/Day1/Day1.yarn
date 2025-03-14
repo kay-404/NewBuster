@@ -1,6 +1,6 @@
 ﻿title: Louise
 ---
-Louise: What's up?
+Louise: Hey girl!
 	-> Scold
 		<<jump LousieLate>>
 	-> Warn about Benjamin

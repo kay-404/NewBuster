@@ -553,8 +553,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneNumber: 3
-  skipScene: 0
-  skippingScene: 0
 --- !u!1 &300398251
 GameObject:
   m_ObjectHideFlags: 0
@@ -823,7 +821,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 3674001658020412632, guid: 53eb0f5efabfbd548960032cf87c6666, type: 3}
+  m_Sprite: {fileID: 965450251695707505, guid: f094c41396f379e478079962aa400239, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

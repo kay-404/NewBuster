@@ -5,21 +5,20 @@ Alyce: I’m glad you guys actually have this, it’s all he’s been talking ab
 Oliver: I’m gonna look for another movie.
 Alyce: Oliver no- and he’s running around. 
 Alyce: Sorry, you know how kids are.
-	-> Sympathize
+	-> Yeah, they’re definitely a handful.
 		<<jump EmpathyAlyce>>
-	-> Be Rude
+	-> Actually I don’t. He’s being rough with the shelves over there. We can’t be held liable if he knocks it over.
 		<<jump RudeAlyce>>
 ===
 
 title: EmpathyAlyce
 ---
-Yeah, they’re definitely a handful.
-Alyce: You could say that again
+Alyce: You could say that again.
 Oliver: I want this one too.
 Alyce: I told you in the car you can only get one, I don’t get paid for a few more days. We can come in later and get that one.
-	-> Say Nothing
+	-> …
 		<<jump Oliver3>>
-	-> Give the Second Movie for Free
+	-> I’ll just check you out for the one movie. The second is on the house.
 		<<jump Oliver4>>
 
 ===
@@ -28,37 +27,27 @@ title: RudeAlyce
 ---
 <<set $FreeMovie = false>>
 <<UpdateApproval Alyce -10>>
-Actually I don’t. He’s being rough with the shelves over there. We can’t be held liable if he knocks it over.
+
 Alyce: What?
-	-> Brush Off
+	-> Nothing.
 		<<jump Oliver2>>
-	-> Explain
-		<<jump Oliver2A>>
+	-> When you signed up for the membership it said it in the fine print.
+		<<jump Oliver2>>
 ===
 
 title: Oliver2
 ---
-Nothing.
 Alyce: Are you kid- Oliver get over here.
 Oliver: I want this one too.
 Alyce: I told you in the car you can only get one, I don’t get paid for a few more days. We can come in later and get that one.
-	-> Say Nothing
+	-> …
 		<<jump Oliver3>>
-=== 
-
-title: Oliver2A
----
-When you signed up for the membership it said it in the fine print.
-Alyce: Are you kid- Oliver get over here.
-Oliver: I want this one too.
-Alyce: I told you in the car you can only get one, I don’t get paid for a few more days. We can come in later and get that one.
-	-> Say Nothing
-		<<jump Oliver3>>
+	-> I’ll just check you out for the one movie. The second is on the house. <<if $FreeMovie == true>>
+		<<jump Oliver4>>
 ===
 
 title: Oliver3
 ---
-…
 Alyce: Go put that one back.
 Oliver: Hmph.
 Alyce: Just this one thanks.
@@ -66,8 +55,9 @@ Alyce: Just this one thanks.
 
 title: Oliver4
 ---
-I’ll just check you out for the one movie. The second is on the house.
 <<UpdateApproval Alyce +10>>
 Alyce: That’s so nice, you don’t have to do that. Oliver say thank you.
 Oliver: Thank you!
 ===
+
+
