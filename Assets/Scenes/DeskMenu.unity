@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingTimeHour: 2
-  timeUntilHourChange: 2
+  timeUntilHourChange: 15
   timeUntilMinuteChange: 1e+9
   timeText: {fileID: 543412613}
 --- !u!4 &9021214
@@ -5213,7 +5213,7 @@ MonoBehaviour:
   customerPortrait: {fileID: 1587734894}
   customerEntranceDialog: {fileID: 117863432}
   customerExitDialog: {fileID: 1908726691}
-  arrivalTime: 4
+  arrivalTime: 2
   cashBackValue: 8
   entranceDialogText: TestCustomerDialog
   exitDialogText: TestCustomerExitDialogue
