@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4032398919424783635, guid: c3808332dc6ce6747ba59c37913b6b00, type: 3}
+  m_Sprite: {fileID: -5991891599483713508, guid: 5c64ecb49b495924a8dab9ab81d5e266, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -198,10 +198,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9adbd6e6f6a0a41ac9446b0e31e09972, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  approvalSlider: {fileID: 0}
-  approvalText: {fileID: 0}
-  nameText: {fileID: 0}
-  approvalBar: {fileID: 0}
 --- !u!114 &5823488391967388223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -239,10 +235,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9adbd6e6f6a0a41ac9446b0e31e09972, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  approvalSlider: {fileID: 0}
-  approvalText: {fileID: 0}
-  nameText: {fileID: 0}
-  approvalBar: {fileID: 0}
 --- !u!114 &2742038263327845848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -280,10 +272,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9adbd6e6f6a0a41ac9446b0e31e09972, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  approvalSlider: {fileID: 0}
-  approvalText: {fileID: 0}
-  nameText: {fileID: 0}
-  approvalBar: {fileID: 0}
 --- !u!114 &337037478264922400
 MonoBehaviour:
   m_ObjectHideFlags: 0

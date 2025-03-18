@@ -1,0 +1,13 @@
+﻿title: SmokeBreak
+tags:
+---
+Louise: Hey! Wanna go take a quick smoke break with me out in the alley?
+	-> Yeah Sure!
+		<<jump JoinLouise>>
+
+===
+title: JoinLouise
+position: -1,219
+---
+Louise: Benjamin is out right now so he wont notice!
+===
