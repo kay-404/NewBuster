@@ -25,8 +25,6 @@ MonoBehaviour:
   - m_enabled: 1
     m_path: Assets/Scenes/Day1Scenes/Day1.unity
   - m_enabled: 1
-    m_path: Assets/Scenes/DeskMenu.unity
-  - m_enabled: 1
     m_path: Assets/Scenes/Day1Scenes/Day1SmokeBreak.unity
   - m_enabled: 1
     m_path: Assets/Scenes/Day1Scenes/Alley.unity
