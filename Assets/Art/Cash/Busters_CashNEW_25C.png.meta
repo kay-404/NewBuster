@@ -145,7 +145,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Busters_CashNEW_25C_0: 1624754623229587234
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
