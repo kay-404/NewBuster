@@ -1,0 +1,29 @@
+﻿title: OneStar
+position: -400,200
+---
+You: It's terrible
+===
+
+title: TwoStars
+position: -200,200
+---
+You: It's mediocre
+===
+
+title: ThreeStars
+position: 0,200
+---
+You: It's average
+===
+
+title: FourStars
+position: 200,200
+---
+You: It's great
+===
+
+title: FiveStars
+position: 400,200
+---
+You: It's amazing!
+===
