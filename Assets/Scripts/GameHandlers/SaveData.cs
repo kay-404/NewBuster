@@ -1,8 +1,18 @@
 using UnityEngine;
 using System.Threading;
+using UnityEngine.SceneManagement;
 
 public class SaveData : MonoBehaviour
 {
+    public Scene LoadSceneSave()
+    {
+        return playerData.SavedScene;
+    }
+    public void SaveCurrentScene(Scene currentScene)
+    {
+        playerData.SavedScene = currentScene;
+    }
+
     public int GetCurrentDaySave()
     {
         return playerData.CurrentDay;
@@ -102,6 +112,7 @@ public class SaveData : MonoBehaviour
 public class PlayerData
 {
     //0 = intro
+    public Scene SavedScene;
     public int CurrentDay;
     public int CurrentScore;
     public int Highscore;

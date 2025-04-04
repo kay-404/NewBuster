@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2183979430440034236}
   - component: {fileID: 6933959612799304717}
   - component: {fileID: 3824540117583442714}
+  - component: {fileID: 8984754542943763543}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -79,9 +80,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34c780234881b4759826ac978d21cc7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentDayCount: 0
   endShiftDialogue: {fileID: 0}
   endShiftDialogueText: DayEndText
-  isDay1: 0
+  settingsMenu: {fileID: 0}
+  isDay1: 1
 --- !u!114 &2183979430440034236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128,3 +131,21 @@ MonoBehaviour:
   customerScorePanel: {fileID: 0}
   scoreTotalText: {fileID: 0}
   scoreUpdateText: {fileID: 0}
+--- !u!114 &8984754542943763543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8057175090842349218}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6006a4dc7e51f4e488acf3ea63f6fdf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerData:
+    SavedScene:
+      m_Handle: 0
+    CurrentDay: 0
+    CurrentScore: 0
+    Highscore: 0
