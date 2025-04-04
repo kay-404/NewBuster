@@ -8,6 +8,7 @@ public class SaveData : MonoBehaviour
     {
         return playerData.SavedScene;
     }
+    
     public void SaveCurrentScene(Scene currentScene)
     {
         playerData.SavedScene = currentScene;
@@ -78,7 +79,7 @@ public class SaveData : MonoBehaviour
         {
             instance = this;
         }
-        LoadJson();
+        //LoadJson();
     }
 
     public void SaveJson()
@@ -94,10 +95,23 @@ public class SaveData : MonoBehaviour
 
     public PlayerData LoadJson()
     {
-        string filePath = Application.persistentDataPath + "/PlayerData.json";
-        string playersData = System.IO.File.ReadAllText(filePath);
+        try{
+            string filePath = Application.persistentDataPath + "/PlayerData.json";
+            string playersData = System.IO.File.ReadAllText(filePath);
 
-        playerData = JsonUtility.FromJson<PlayerData>(playersData);
+            playerData = JsonUtility.FromJson<PlayerData>(playersData);
+        }
+
+        catch{
+            mutex.WaitOne();
+
+            string playersData = JsonUtility.ToJson(playerData);
+            string filePath = Application.persistentDataPath + "/PlayerData.json";
+            System.IO.File.WriteAllText(filePath, playersData);
+
+            mutex.ReleaseMutex();
+        }
+
         return playerData;
     }
 
@@ -111,9 +125,32 @@ public class SaveData : MonoBehaviour
 [System.Serializable]
 public class PlayerData
 {
-    //0 = intro
+    
     public Scene SavedScene;
+    //0 = intro
     public int CurrentDay;
     public int CurrentScore;
     public int Highscore;
+
+
+    //character approval
+    public int AdamApproval;
+    public int AlyceApproval;
+    public int AshleyApproval;
+    public int BenjaminApproval;
+    public int CliffApproval;
+    public int DarleneApproval;
+    public int DebraApproval;
+    public int DonnaApproval;
+    public int DougApproval;
+    public int HelenApproval;
+    public int JamesApproval;
+    public int JayApproval;
+    public int LouiseApproval;
+    public int MelvinApproval;
+    public int OliverApproval;
+    public int RichieApproval;
+    public int RobertApproval;
+    public int StevenApproval;
+    public int StuartApproval;
 }

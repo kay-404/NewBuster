@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b852de39e9cb48299fddc0172b81b45, type: 3}
   m_Name: Steven
   m_EditorClassIdentifier: 
-  characterName: Steven
-  approvalRating: 50
+  characterName: Pudgy
+  NeutralImage: {fileID: 0}
+  UpsetImage: {fileID: 0}
+  HappyImage: {fileID: 0}
+  ApprovalRating: 50
