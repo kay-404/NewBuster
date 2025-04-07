@@ -3147,6 +3147,7 @@ GameObject:
   - component: {fileID: 6247130707033110435}
   - component: {fileID: 1289288364124847942}
   - component: {fileID: 7557118153346416123}
+  - component: {fileID: 8483196621072378840}
   m_Layer: 5
   m_Name: Bell
   m_TagString: Untagged
@@ -3255,19 +3256,38 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1289288364124847942}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+--- !u!114 &8483196621072378840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3193110320329454473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 780002488
+      Data2: 1217183746
+      Data3: -685903945
+      Data4: -1146637879
+    Path: event:/SFX_DeskBell
+  Event: 
+  PlayEvent: 19
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &3236828805743830237
 GameObject:
   m_ObjectHideFlags: 0
@@ -3729,6 +3749,8 @@ GameObject:
   - component: {fileID: 7900593567354344688}
   - component: {fileID: 1230521829516031944}
   - component: {fileID: 5843486777053131076}
+  - component: {fileID: 3997850125072702306}
+  - component: {fileID: 1216036539617082946}
   m_Layer: 5
   m_Name: Store View Button
   m_TagString: Untagged
@@ -3885,6 +3907,68 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e75c09ab6b4c48cdb4a066b81a1830f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3997850125072702306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3841495931371428995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1272462335
+      Data2: 1280921874
+      Data3: 1324318355
+      Data4: -1903589869
+    Path: event:/UI_MouseOver
+  Event: 
+  PlayEvent: 17
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1216036539617082946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3841495931371428995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -139375091
+      Data2: 1217550600
+      Data3: -1038164558
+      Data4: -1585907875
+    Path: event:/UI_Back
+  Event: 
+  PlayEvent: 19
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &4012344395014785750
 GameObject:
   m_ObjectHideFlags: 0
@@ -5012,6 +5096,8 @@ GameObject:
   - component: {fileID: 4170784377484322950}
   - component: {fileID: 3011950364134742955}
   - component: {fileID: 6510788655606825884}
+  - component: {fileID: 8730724568485412173}
+  - component: {fileID: 969270613155409809}
   m_Layer: 5
   m_Name: ComputerButton
   m_TagString: Untagged
@@ -5156,6 +5242,68 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &8730724568485412173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4506910417251545225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1272462335
+      Data2: 1280921874
+      Data3: 1324318355
+      Data4: -1903589869
+    Path: event:/UI_MouseOver
+  Event: 
+  PlayEvent: 17
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &969270613155409809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4506910417251545225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1387641194
+      Data2: 1193669985
+      Data3: 1988769431
+      Data4: 1521361528
+    Path: event:/UI_ComputerStart
+  Event: 
+  PlayEvent: 19
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &4742784696532015945
 GameObject:
   m_ObjectHideFlags: 0
@@ -7465,6 +7613,8 @@ GameObject:
   - component: {fileID: 2102955472353776190}
   - component: {fileID: 1099627478447539875}
   - component: {fileID: 8269382345587003050}
+  - component: {fileID: 6048955397274392686}
+  - component: {fileID: 5169453390850162360}
   m_Layer: 5
   m_Name: Desk Menu Button
   m_TagString: Untagged
@@ -7621,6 +7771,68 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e75c09ab6b4c48cdb4a066b81a1830f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6048955397274392686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7546518272583880398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1272462335
+      Data2: 1280921874
+      Data3: 1324318355
+      Data4: -1903589869
+    Path: event:/UI_MouseOver
+  Event: 
+  PlayEvent: 17
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &5169453390850162360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7546518272583880398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -302215906
+      Data2: 1124124882
+      Data3: 557626797
+      Data4: -1792296795
+    Path: event:/UI_Continue
+  Event: 
+  PlayEvent: 19
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &7951053814267983088
 GameObject:
   m_ObjectHideFlags: 0

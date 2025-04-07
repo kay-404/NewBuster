@@ -10,6 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 9202318012722526093}
   - component: {fileID: 2727216887211546293}
+  - component: {fileID: 8105183285646167800}
+  - component: {fileID: 5990683600137319371}
+  - component: {fileID: 4349870998198580778}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Untagged
@@ -40,13 +43,87 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1032790372682872945}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 185ef78ac9184314a9b0b544d1393402, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   musicSource: {fileID: 2008459430926873735}
   MainMenu: {fileID: 8300000, guid: 4fbf79f2838c06f49b515b5ed6f77f58, type: 3}
+--- !u!114 &8105183285646167800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032790372682872945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 363381767
+      Data2: 1317413725
+      Data3: 1845562500
+      Data4: -331130763
+    Path: event:/MUS_MainMenu
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &5990683600137319371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032790372682872945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 119173509
+      Data2: 1208113264
+      Data3: 729172896
+      Data4: 893099305
+    Path: event:/AMB_Store
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &4349870998198580778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032790372682872945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16c9070185be34827b79e19db8766665, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7910603920076862257
 GameObject:
   m_ObjectHideFlags: 0
@@ -63,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &819921062444174203
 Transform:
   m_ObjectHideFlags: 0
