@@ -1,0 +1,96 @@
+﻿title: Debra1
+---
+Hi sweetheart, how are you holding up?
+	-> Question
+		<<jump Question>>
+	-> Answer
+		<<jump Answer>>
+===
+
+title: Question
+---
+I’m assuming you’re asking because of the newspaper.
+Stuart came in the other day. It seems like they're pretty lost with the case.
+Debra: That’s too bad. That poor girl deserves better.
+	-> Question about Police
+		<<jump Police>>
+	-> Ask for Details
+		<<jump Details>>
+===
+
+title: Answer
+---
+Darlene: It’s a scary time darling. You have to be careful, as much as I hate to say it, some people in this town can’t be trusted.
+	-> Ask to Explain
+		<<jump Explain>>
+	-> Agree
+		<<jump Agree>>
+===
+
+title: Explain
+---
+Like who?
+Debra: Oh, you know I’m not one to gossip but all I’ll say is that some people are a little too invested in this. 
+Darlene: Look at the time, we have got to get going if we want to get that early bird special at Marie’s.
+Debra: Not to rush you Valerie, but could you check us out?
+===
+
+title: Agree
+---
+I totally agree.
+Debra: You have to go with your instincts Valerie. I can’t bear the thought of something happening to you.
+Darlene: Not to interrupt you but look at the time. We have got to get going if we want to get that early bird special at Marie’s.
+Debra: Well, we’ll get out of your hair then sweetheart, could you check us out?
+===
+
+title: Police
+---
+Do you think this town is qualified to handle this case?
+Debra: Just between us, I heard that Sherryton county cops might take over since they have more experience.
+	-> Ask how she Knows
+		<<jump Knows>>
+	-> Concur
+		<<jump Concur>>
+===
+
+title: Details
+---
+Do you know anything about the case?
+Debra: I know that her aunt lives about forty-five minutes south of where she was found, I wonder if she was heading that way. 
+	-> Ask about Motive
+		<<jump Motive>>
+	-> Ask about Suspect
+		<<jump Suspect>>
+===
+
+title: Knows
+---
+How do you know that?
+Debra:I have eyes and ears everywhere around here and word travels fast.
+Darlene: Not to interrupt you but look at the time. We have got to get going if we want to get that early bird special at Marie’s.
+Debra: Well, we’ll get out of your hair then sweetheart, could you check us out?
+===
+
+title: Concur
+---
+Maybe that’s for the best.
+Debra: They have another week or so then the case is going to be handed over. I think whatever gets it solved is what matters, not who solves it.
+Darlene: Not to interrupt you but look at the time. We have got to get going if we want to get that early bird special at Marie’s.
+Debra: Well, we’ll get out of your hair then sweetheart, could you check us out?
+===
+
+title: Motive
+---
+Do you think it was an accident?
+Debra: Who's to say? That type of speculation should be left to the cops. 
+Darlene: Look at the time, we have got to get going if we want to get that early bird special at Marie’s.
+Debra: Not to rush you Valerie, but could you check us out?
+===
+
+title: Suspect
+---
+Who do you think did it?
+Debra: Who's to say? That type of speculation should be left to the cops. 
+Darlene: Look at the time, we have got to get going if we want to get that early bird special at Marie’s.
+Debra: Not to rush you Valerie, but could you check us out?
+===

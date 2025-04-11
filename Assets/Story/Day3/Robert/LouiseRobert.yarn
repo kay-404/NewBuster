@@ -1,0 +1,92 @@
+﻿title: LouiseRobert
+---
+Louise: Yuck.
+	-> Question
+		<<jump Question>>
+	-> Ignore
+		<<jump Ignore>>
+===
+
+title: Ignore
+---
+Do I even want to know?
+Louise: You’re no fun.
+Louise: You have a customer.
+===
+
+title: Question
+---
+What?
+Louise: Just Robert, I can’t believe he still comes here. He’s totally obsessed. 
+	-> Confused
+		<<jump Confused>>
+	-> Nod
+		<<jump Nod>>
+===
+
+title: Confused
+---
+Huh?
+Louise: We used to go out. Way back in the day.
+	-> Surprised
+		<<jump Surprised>>
+	-> Inquisitive
+		<<jump Inquisitive>>
+===
+
+title: Nod
+---
+Mhm.
+Louise: Are you even listening?
+<<UpdateApproval Louise -10>>
+Louise: You have a customer.
+===
+
+title: Surprised
+---
+Really? He doesn’t seem like your type.
+Louise: I don’t think I have a type.
+	-> Joke
+		<<jump Joke>>
+	-> Agree
+		<<jump Agree>>
+===
+
+title: Joke
+---
+You don’t say.
+Louise: I can’t help that there are some hotties around here. And Robert is no longer one of them.
+Louise: You have a customer.
+===
+
+title: Agree
+---
+Yeah you’ll date anyone.
+Louise: Harsh.
+<<UpdateApproval Louise -5>>
+Louise: You have a customer.
+===
+
+title: Inquisitive
+---
+When?
+Louise: Back in middle school, he can’t get over me.
+	-> Question
+		<<jump Question1>>
+	-> Agree
+		<<jump Agree1>>
+===
+
+title: Question1
+---
+Isn’t he married?
+To his high school sweetheart. Obviously not going well.
+Louise: You have a customer.
+===
+
+title: Agree1
+---
+Seems like a scrub.
+Louise: Absolutely.
+Louise: You have a customer.
+===

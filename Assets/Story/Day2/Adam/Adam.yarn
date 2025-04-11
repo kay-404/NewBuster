@@ -1,0 +1,66 @@
+﻿title: AdamHelen
+---
+<<declare $UglyInRed = false>>
+<<declare $AdamHelen = false>>
+Adam: Do you have When Larry met Callie?
+Helen: Pfft.
+Adam: Why are you laughing?
+Helen: Sorry, I didn't mean to listen in but Larry met Callie? Really?
+Adam: It-It's for my sister.
+Helen: Well, you should tell your sister to find a better rom-com. It gets love so wrong, it feels like they're forced together, Callie would never end up with Larry.
+Adam: Don't spoil it
+Adam: for uh my sister.
+Adam: What would you recommend?
+Helen: For you or for your sister?
+Adam: My sister.
+Helen: Give me one sec.
+	-> She's right, When Larry met Callie is pretty awful.
+		<<jump AgreeHelen>>
+	->Personally, I think When Larry met Callie is a great rom-com.
+		<<jump DisagreeHelen>>
+===
+
+title: AgreeHelen
+---
+<<set $UglyInRed = true>>
+<<set $AdamHelen = true>>
+Helen: I think this is a much better choice...for your sister. It might be cliche but Meli Roundwald puts on a great performance especially since it was her breakout role into rom-coms. But I'm sure your sister already knows all about her.
+Adam: Um, thanks.
+	-> She’s cute don’t you think?
+		<<jump HelenCute>>
+	-> Just Ugly in Red today?
+		<<jump CheckOutAdam>>
+===
+
+title: DisagreeHelen
+---
+Helen: I think this is a much better choice...for your sister. It might be cliche but Meli Roundwald puts on a great performance especially since it was her breakout role into rom-coms. But I'm sure your sister already knows all about her.
+Adam: Um, thanks. 
+	-> She’s cute don’t you think?
+		<<jump HelenCute>>
+	-> Just When Larry met Callie today?
+		<<jump CheckOutAdam>>
+===
+
+
+title: HelenCute
+---
+<<if $AdamHelen == true>>
+Adam: Um, I don't know. She was nice.
+<<elseif $AdamHelen == false>>
+	Adam: She’s a dweeb.
+<<endif>>
+===
+
+title: CheckOutAdam
+---
+Adam: Yeah just that.
+===
+
+
+
+title: RatedR
+---
+Sorry I can’t let you rent this, it’s rated R.
+Adam: Uh-um-ok-thank you.
+===

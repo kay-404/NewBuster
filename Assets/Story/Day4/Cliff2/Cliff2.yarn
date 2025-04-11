@@ -1,0 +1,88 @@
+﻿title: Cliff2
+---
+Cliff: Hey, you again. I don’t want to bother you but you must’ve read the paper right?
+	-> Confirm
+		<<jump Confirm>>
+	-> Curt
+		<<jump Curt>>
+===
+
+title: Confirm
+---
+I did.
+Cliff: Do you know anything else? Even the small details matter. You have to hear gossip around here.
+	-> Confront
+		<<jump Confront>>
+	-> Talk about Ashley
+		<<jump Ashley>>
+===
+
+title: Curt
+---
+What’s your question?
+Cliff: Straight to the point, I like it.
+Cliff: I need any details, I know people gossip around here.
+	-> Confront
+		<<jump Confront>>
+	-> Talk about Ashley
+		<<jump Ashley>>
+===
+
+title: Confront
+---
+You left a receipt here last time, it was for Walleye’s the same day that Tonya was last seen.
+Cliff: Uh… 
+	-> Prod for Information
+		<<jump Information>>
+	-> Kick Out
+		<<jump KickOut>>
+===
+
+title: Information
+---
+Why are you here asking for information when you were possibly the last person to see her alive?
+Cliff: It’s not what you think. I saw her that night, we got into an argument and I left. 
+Cliff: She was going to drop me as her agent if the movie she was working on did well, I know it makes me look bad but I didn’t kill her.
+Cliff: I would never harm her, she was like a daughter to me.
+	-> Question
+		<<jump Question1>>
+	-> Kick Out
+		<<jump KickOut>>
+===
+
+title: Question1
+---
+Then why would you act like you didn’t know she was at Walleye’s when you spoke to her there?
+Cliff: It’s not a good look for me if people think I was the last person to see her. I didn’t do anything to her. I might’ve withheld information but that doesn’t make me a criminal.
+Cliff: I should get going but you have to believe me, I didn’t kill her.
+===
+
+title: Ashley
+---
+Ashley sure likes to talk about her, she comes in and asks about her too.
+Cliff: What? What does she want?
+	-> Answer: Information
+		<<jump Information2>>
+	-> Answer: Badmouth
+		<<jump Badmouth>>
+===
+
+title: KickOut
+---
+I think you should go.
+Cliff: You have to believe me, I didn’t do anything.
+===
+
+title: Information2
+---
+The same thing as you, she wants some information.
+Cliff: She’s ridiculous. She’s always been jealous of Tonya. Tonya had a gift, don't get me wrong Ashley is a fine actress but Tonya was special.
+Cliff: Thanks, you’ve been a lot of help.
+===
+
+title: Badmouth
+---
+She’s been airing her complaints of Tonya and of you. She seems like a jealous person.
+Cliff: Of course. Ashley can never just be happy with what she has. 
+Cliff: Thanks, you’ve been a lot of help.
+===

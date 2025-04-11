@@ -1,0 +1,51 @@
+﻿title: Cliff
+---
+Cliff: Have you seen her?
+	-> Answer
+		<<jump Answer>>
+	-> Question
+		<<jump Question>>
+===
+
+title: Answer
+---
+I saw her last week. 
+Melvin: What was she wearing? Was she here with anyone?
+	-> Question
+		<<jump Question>>
+	-> Cooperate 
+		<<jump Cooperate >>
+===
+
+title: Question
+---
+Who are you? Are you a cop?
+Cliff: No, I’m not a cop. I’m Cliff, I’m Tonya’s agent.
+	-> Ask Him for Information
+		<<jump Information>>
+	-> Suspicious
+		<<jump Suspicious>>
+===
+
+title: Cooperate
+---
+She was wearing jeans and a pink sweater. She wasn’t here with anyone but she seemed like she had plans later that day with her boyfriend. 
+Cliff: So she was here before Walleye’s? That makes sense, I’ll head over there now.
+Cliff: Also, if anything comes to mind, call me.
+===
+
+title: Information
+---
+What do you know?
+Cliff: I only know what was posted in the paper. I’m just trying to confirm details.
+Cliff: Honestly her and I didn’t leave off on the best note and it would eat at me for the rest of my life if something bad happened to her. 
+Cliff: If anything comes to mind, call me.
+===
+
+title: Suspicious
+---
+Why should I tell you anything?
+Cliff: A woman is missing, any information is helpful. I need her to come back. If something happened..
+Cliff: I couldn’t live with myself if something happened to her.
+Cliff: If anything comes to mind, call me.
+===

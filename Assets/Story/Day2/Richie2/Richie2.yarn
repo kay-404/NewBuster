@@ -1,0 +1,14 @@
+﻿
+title: RichieDay2
+---
+Richie: Here.
+	-> Say Nothing
+	-> Ask Why This Movie
+		<<jump Richie2A>>
+===
+
+title: Richie2A
+---
+Do you always get this movie?
+Richie: Yeah.
+===

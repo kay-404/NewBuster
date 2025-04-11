@@ -1,0 +1,19 @@
+﻿title: Donna1
+---
+Donna: I’m so glad you have this. My boyfriend has a slight obsession with Bar Wars, one time he had a dream that our friends were the characters from Bar Wars: A Brew Hope.
+	-> Well, I’m glad we have it in stock for you.
+		<<jump DonnaCheckout>>
+	-> Isn’t your boyfriend a little old for these movies? I mean aren’t they for kids?
+		<<jump DonnaCheckout2>>
+===
+
+title: DonnaCheckout
+---
+Donna: I think this is gonna be the best movie in the series yet!
+===
+
+title: DonnaCheckout2
+---
+<<UpdateApproval Donna -10>>
+Donna: You’d be surprised how many people love these movies. I bet they’ll still be making movies when it’s 2030 and we have self-driving cars.
+===

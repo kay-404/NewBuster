@@ -1,0 +1,19 @@
+﻿title: Robert1
+---
+Robert: Hey, just returning this. 
+	-> You don’t wanna rent anything?
+		<<jump Robert2>>
+	-> Sounds good.
+		<<jump Robert3>>
+===
+
+title: Robert2
+---
+Robert: Nope, just returning.
+===
+
+title: Robert3
+---
+Robert: Thanks.
+===
+

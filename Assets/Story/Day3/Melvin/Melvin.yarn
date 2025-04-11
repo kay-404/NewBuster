@@ -1,0 +1,127 @@
+﻿title: MelvinIntro
+---
+Melvin: Hey Val.
+	-> Friendly
+		<<jump Friendly>>
+	-> Uninterested
+		<<jump Uninterested>>
+===
+
+title: Friendly
+---
+Hey Melvin, how are you?
+Melvin: Crazy news yesterday.
+	-> Agree
+		<<jump Agree>>
+	-> Shut Down
+		<<jump MoveOn>>
+===
+
+title: Agree
+---
+I can’t believe they found her. 
+Melvin: It’s a shame. She was a beautiful girl.
+	-> Hesitant
+		<<jump Hesitant>>
+	-> Move On
+		<<jump MoveOn>>
+===
+
+title: Hesitant
+---
+Uhh, yeah I guess so.
+Melvin: I’d see her shopping here and she was always such a light.
+	-> Call Out
+		<<jump CallOut>>
+	-> Check Out
+		<<jump MoveOn>>
+===
+
+title: MoveOn
+---
+Right…I can check you out now.
+===
+
+title: CallOut
+---
+What do you mean by that?
+Melvin: Uh-I-I just mean she’s very pretty and nice. She didn’t deserve what happened to her. 
+	-> Question
+		<<jump Question>>
+	-> Check Out
+		<<jump MoveOn>>
+===
+
+title: Question
+---
+The news said they're still investigating if there was foul play right?
+Melvin: I believe so but people don’t just drive into a lake on purpose.
+Melvin: Can you check me out now?
+===
+
+title: Uninterested
+---
+Hey, are you ready to check out?
+Melvin: Did you read the news? Awful thing to happen to such a pretty girl.
+	-> Question
+		<<jump Question1>>
+	-> Agree
+		<<jump Agree1>>
+===
+
+title: Question1
+---
+Do you think she did it on purpose?
+Melvin: Absolutely not, she had a bright future ahead of her. Someone had to do this to her.
+	-> Speculate Who
+		<<jump SpeculateWho>>
+	-> Speculate How
+		<<jump SpeculateHow>>
+===
+
+title: SpeculateWho
+---
+Who do you think did it?
+Melvin: Someone with evil in their heart. 
+	-> Agree
+		<<jump Agree2>>
+	-> Check Out
+		<<jump MoveOn>>
+===
+
+title: SpeculateHow
+---
+How would someone do it?
+Melvin: She’s a small girl, it wouldn't be hard for someone to surprise attack her.
+	-> Agree
+		<<jump Agree3>>
+	-> Check Out
+		<<jump MoveOn>>
+===
+title: Agree3
+---
+That’s a good point.
+Well, anyways I can check you out now.
+===
+
+title: Agree2
+---
+Weird way of saying but yeah I guess that’s true.
+Well, anyways I can check you out now.
+===
+
+title: Agree1
+---
+I can’t believe that she’s dead.
+Melvin: Her memory will live on.
+	-> Hesitant
+		<<jump Hesitant1>>
+	-> Checkout
+		<<jump MoveOn>>
+===
+
+title: Hesitant1
+---
+That’s a…sweet way of thinking about it.
+Well, anyways I can check you out now.
+===

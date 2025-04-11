@@ -1,0 +1,30 @@
+﻿title: RichieDay3
+---
+Richie: Just this.
+	-> Say Nothing
+	-> Sarcastic
+		<<jump Richie3A>>
+===
+
+title: Richie3A
+---
+Same as usual?
+Richie: Uhh, what?
+	-> Dismiss
+		<<jump Richie3B>>
+	-> Explain
+		<<jump Richie3C>>
+===
+
+title: Richie3B
+---
+Nevermind.
+===
+
+title: Richie3C
+---
+I was just kidding man.
+Richie: Oh…ok.
+<<wait 1>>
+Richie: I don’t get it.
+===

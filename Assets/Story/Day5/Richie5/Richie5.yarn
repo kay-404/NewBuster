@@ -1,0 +1,38 @@
+﻿title: RichieDay5
+---
+Richie: Here.
+	-> Surprised
+		<<jump Richie4A>>
+	-> Question
+		<<jump Richie4B>>
+===
+
+title: Richie4A
+---
+Woah, getting a different movie.
+Richie: I thought I should branch out.
+===
+
+title: Richie4B
+---
+Why the other movie?
+Richie: Uh..
+Richie: Am I only allowed to get one?
+	-> Answer
+		<<jump Richie4C>>
+	-> Be Generous
+		<<jump Richie4D>>
+===
+
+title: Richie4C
+---
+No, you can get both.
+===
+
+title: Richie4D
+---
+You know what? You can just keep Normal Math, you’re the only person who rents it anyways. 
+I won’t charge you for it today.
+Richie: Oh, um…
+Richie: Thank you.
+===

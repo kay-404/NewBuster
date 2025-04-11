@@ -1,0 +1,56 @@
+﻿title: Melvin2
+---
+Melvin: Hey Val. I heard Stuart was here the other day. Do you have any updates?
+	-> Question
+		<<jump Question>>
+	-> Confirm
+		<<jump Confirm>>
+===
+
+title: Question
+---
+Why do you care? 
+Melvin: I want to know if there are any updates. Tonya was a member of our little community here. I’d be concerned no matter who it was.
+	-> Back Off
+		<<jump BackOff>>
+	-> Suspicious 
+		<<jump Suspicious >>
+===
+
+title: Confirm
+---
+Yeah, he was. He was just retracing some steps.
+Melvin: Did he have any news for you?
+	-> Question
+		<<jump Question1>>
+	-> Dodge Answering
+		<<jump Answer>>
+===
+
+title: BackOff
+---
+Maybe we should all be more concerned, there’s a killer on the loose. But I still can’t tell you what we talked about.
+Melvin: I understand. Can you check me out now?
+===
+
+title: Suspicious
+---
+You seem a little too interested.
+<<UpdateApproval Melvin -10>>
+Melvin: What are you trying to insinuate? 
+Melvin: Can you check me out now?
+===
+
+title: Answer
+---
+I can’t really talk about it.
+Melvin: That’s a shame, hopefully they solve this case soon. She deserves to lay at peace.
+Melvin: Can you check me out now?
+===
+
+title: Question1
+---
+Why would I tell you?
+Melvin: I’m just a concerned member of Pineview. 
+Melvin: Can you check me out now?
+===

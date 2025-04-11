@@ -1,0 +1,14 @@
+﻿title: RichieDay4
+---
+Richie: This please.
+	-> Say Nothing
+	-> Question
+		<<jump Richie4A>>
+===
+
+title: Richie4A
+---
+Why don’t you just buy a copy?
+Richie: I just-
+Richie: I just like coming here. I also don’t have a car.
+===

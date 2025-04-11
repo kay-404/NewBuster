@@ -1,0 +1,93 @@
+﻿title: Helen
+---
+Helen: Adam is so funny. Such a softie.
+	-> I’m assuming you guys are friends?
+		<<jump HelenAdmirer>>
+	-> I thought he was getting it for his sister?
+		<<jump HelenOblivious>>
+===
+
+title: HelenAdmirer
+---
+Helen: Oh my gosh no, he would never be caught dead hanging out with me. 
+	-> Isn’t this like the plot of that other Meli Roundwald movie?
+		<<jump MeliRoundwald>>
+	-> I’m sure that’s not true. 
+		<<jump Helen2>>
+===
+
+title: HelenOblivious
+---
+Helen: Huh? No there’s no way, you obviously just don’t understand him. He’s the quarterback there’s no way he would openly be seen getting a rom-com.
+	-> I don’t get the big deal, it’s just a movie.
+		<<jump HelenSocial>>
+	-> Ahh high school, I don’t miss those days.
+		<<jump HelenHighSchool>>
+===
+
+title: HelenSocial
+---
+Helen: I don’t think you understand the social hierarchy there is. His teammates would never let him live it down.
+	-> High school is just a blip of your life, nothing is that serious at your age.
+		<<jump HelenAnnoyed>>
+	-> That seems dramatic.
+		<<jump HelenAnnoyed>>
+===
+
+title: HelenHighSchool
+---
+Helen: When was that? 20 years ago?
+	-> Ok, that’s a little dramatic.
+		<<jump HelenCheckout2>>
+	-> Do I really look that old?
+		<<jump HelenCheckout2>>
+===
+
+title: MeliRoundwald
+---
+Helen: Seventeen Candles? 
+Helen: Yeah I guess this could be a similar situation…but those kinds of things only happen in the movies.
+	-> I think you should go for it!
+		<<jump EncourageHelen>>
+	-> Yeah maybe you’re right.
+		<<jump DiscourageHelen>>
+===
+
+title: Helen2
+---
+Helen: High school is like the animal kingdom, there’s a hierarchy and I’m at the bottom and he’s at the top. 
+	-> I don’t think it’s that serious.
+		<<jump HelenAnnoyed>>
+	-> I think you should just ask him out if you like him.
+		<<jump HelenAnnoyed>>
+===
+
+title: HelenAnnoyed
+---
+Helen: You don’t get it.
+Helen: Anyways I need to get going, I’ll just take this.
+===
+
+title: EncourageHelen
+---
+<<UpdateApproval Helen +10>>
+Helen: Maybe..I don’t know. I wish I lived in a Meli Roundwald movie, it seems so much simpler.
+Helen: Anyways I gotta get going, I’ll just take this.
+===
+
+title: DiscourageHelen
+---
+Helen: I’ll never get to live out my Meli Roundwald fantasy, so I guess I’ll just have to watch her movies instead. I’ll just take this.
+===
+
+title: HelenCheckout
+---
+Helen: Anyways I gotta get going, I’ll just take this.
+===
+
+title: HelenCheckout2
+---
+Helen: Yikes…
+Anyways I gotta get going, I’ll just take this.
+===
+
