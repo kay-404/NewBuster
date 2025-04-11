@@ -1,0 +1,171 @@
+﻿title: DebraDarlene
+---
+Debra: Hi honey, how are you doing?
+	-> Ask About Newspaper
+		<<jump QuestionDebra1>>
+	-> Answer and Ask About Her
+		<<jump AskAboutDayDebra>>
+===
+
+title: QuestionDebra1
+---
+Awful, did you read the paper?
+<<UpdateApproval Debra -10>>
+Debra: Oh honey, isn’t it awful? I can’t believe it. Tonya’s a sweet young woman.
+	-> Ask About Tonya
+		<<UpdateApproval Debra -10>>
+		<<jump QuestionDebra2>>
+	-> Talk About Tonya
+		<<jump DebraResponse1>>
+===
+
+title: AskAboutDayDebra
+---
+The same old same old ya know? How are you doing?
+<<UpdateApproval Debra +10>>
+Debra: I’m doing alright, not much to complain about. 
+Debra: Not to dampen the mood but did you see the paper this morning?
+	-> Talk About Last Tuesday
+		<<jump DebraResponse2>>
+	-> Be in Denial
+		<<jump QuestionDebra2>>
+===
+
+title: DebraResponse1
+---
+I only know her because she shopped here but she seemed like she was doing well with the movies she did.
+Debra: She was, she was hoping the movie she’s currently filming will send her right to Hollywood.
+	-> Ask About Tonya
+		<<jump QuestionDebra2>>
+	-> Ask Her Opinion
+		<<jump DebraResponse2>>
+===
+
+title: DebraResponse2
+---
+I did, I’m trying to think back to Tuesday and trying to remember if anything was off about her.
+Debra: Everyone is hoping she just took off, wanted to go on a spontaneous trip. Tonya was a spunky teen, it wouldn’t surprise me if she wanted to go blow off steam somewhere.
+	-> Hopeful
+		<<jump DebraHopeful>>
+	-> Pessimistic
+		<<jump DebraOptimistic>>
+===
+
+title: DebraResponse2A
+---
+What do you think happened to her?
+Debra: Everyone is hoping she just took off, wanted to go on a spontaneous trip. Tonya was a spunky teen, it wouldn’t surprise me if she wanted to go blow off steam somewhere.
+	-> Hopeful
+		<<jump DebraHopeful>>
+	-> Pessimistic
+		<<jump DebraOptimistic>>
+===
+
+
+title: DebraOptimistic
+---
+Seems too optimistic for me.
+<<UpdateApproval Debra -10>>
+Debra: Sometimes that’s all we have. Anyways honey, I don’t want to talk about it anymore. Here, let me get Darlene over here.
+Debra: Darlene! Honey! Get over here!
+Debra: Val, this is Darlene. I don't think I’ve ever brought her here before. Can you believe it, she’s been living with me for how long now?
+Darlene: It’s been eleven years.
+Debra: Oh my goodness, how time flies.
+	-> Question 
+		<<jump DebraHusband1>>
+	-> Kind
+		<<jump DebraBestFriend>>
+===
+
+title: DebraHopeful
+---
+I hope that’s what happened.
+Debra: Me too. Anyways honey, I don’t want to talk about it anymore. Here, let me get Darlene over here.
+Debra: Darlene! Honey! Get over here!
+Debra: Val, this is Darlene. I don't think I’ve ever brought her here before. Can you believe it, she’s been living with me for how long now?
+Darlene: It’s been eleven years.
+Debra: Oh my goodness, how time flies.
+	-> Question 
+		<<jump DebraHusband1>>
+	-> Kind
+		<<jump DebraBestFriend>>
+===
+
+title: QuestionDebra2
+---
+Do you know her personally?
+Debra: I know her mother, she runs bingo over at town hall on Sundays. She’s just in hysterics, I couldn’t even imagine. 
+Debra: Anyways honey, I don’t want to talk about it anymore. Here, let me get Darlene over here.
+Debra: Darlene! Honey! Get over here!
+Debra: Val, this is Darlene. I don't think I’ve ever brought her here before. Can you believe it, she’s been living with me for how long now?
+Darlene: It’s been eleven years.
+Debra: Oh my goodness, how time flies.
+	-> Question 
+		<<jump DebraHusband1>>
+	-> Kind
+		<<jump DebraBestFriend>>
+===
+
+title: QuestionDebra2A
+---
+Yeah, I did. Stuff like that doesn’t happen here. 
+Debra: I know her mother, she runs bingo over at town hall on Sundays. She’s just in hysterics, I couldn’t even imagine. 
+Debra: Anyways honey, I don’t want to talk about it anymore. Here, let me get Darlene over here.
+Debra: Darlene! Honey! Get over here!
+Debra: Val, this is Darlene. I don't think I’ve ever brought her here before. Can you believe it, she’s been living with me for how long now?
+Darlene: It’s been eleven years.
+Debra: Oh my goodness, how time flies.
+	-> Question 
+		<<jump DebraHusband1>>
+	-> Kind
+		<<jump DebraBestFriend>>
+===
+
+title: DebraBestFriend
+---
+That’s sweet. I hope I can live with my…best friend when I’m your age.
+<<UpdateApproval Debra +10>>
+Debra: I’m sure all those pesky homeowner laws will be more flexible when you’re my age. Now I don’t wanna be a pest so I think we’re gonna check out. We’re gonna get this new movie, But I’m a Quarterback, it seems interesting.
+	-> Hesitate
+		<<jump DebraMovie>>
+	-> Positive
+		<<jump DebraCheeky>>
+===
+
+title: DebraHusband1
+---
+You guys live together?
+Debra: Both of our husbands passed away many years ago now, so now we just live together.
+	-> Sympathize
+		<<jump DebraHusband2>>
+	-> Optimistic
+		<<jump Debra1>>
+===
+
+title: Debra1
+---
+It's nice that you guys have each other now.
+Debra: That’s what I like to think.
+Anyways, I don’t wanna talk your ear off. I think we’re gonna get this new one, But I’m a Quarterback, it seems interesting.
+	-> Hesitate
+		<<jump DebraMovie>>
+	-> Positive
+		<<jump DebraCheeky>>
+===
+
+
+title: DebraHusband2
+---
+I’m sorry to hear that, I didn’t even know you were married.
+Debra: Oh that’s okay honey, there’s always a positive now I get to live with my best friend. Debra: Anyways, I don’t wanna talk your ear off. I think we’re gonna get this new one, But I’m a Quarterback, it seems interesting.
+	-> Hesitate
+		<<jump DebraMovie>>
+	-> Positive
+		<<jump DebraCheeky>>
+===
+
+title: DebraMovie
+---
+Um, do you know what that movie is about?
+Debra: I read the back honey, it seems right up our alley.
+===
