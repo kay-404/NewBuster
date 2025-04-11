@@ -1,0 +1,20 @@
+﻿title: Richie
+---
+Richie: Just this.
+	-> Ask About Day
+		<<jump Richie2>>
+	-> Ask About Movie
+		<<jump Richie3>>
+===
+
+title: Richie2
+---
+How’s your day going?
+Richie: Good.
+===
+
+title: Richie3
+---
+Find everything ok?
+Richie: Yup.
+===
