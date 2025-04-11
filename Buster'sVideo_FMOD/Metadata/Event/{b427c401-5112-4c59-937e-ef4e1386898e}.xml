@@ -103,7 +103,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{d97d20a1-0744-4d8a-9d27-2b0dfda5b4cd}">
 		<property name="stereoPan">
-			<value>-6</value>
+			<value>-8</value>
 		</property>
 	</object>
 	<object class="SingleSound" id="{4711c42b-8500-4496-bf56-669f096d9bc4}">

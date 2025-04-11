@@ -690,6 +690,8 @@ GameObject:
   - component: {fileID: 8190156515128363522}
   - component: {fileID: 2034738963619133766}
   - component: {fileID: 3028479957292666593}
+  - component: {fileID: 1890847205193278888}
+  - component: {fileID: 6922485340082928883}
   m_Layer: 5
   m_Name: Back to Desk Button
   m_TagString: Untagged
@@ -834,6 +836,68 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e75c09ab6b4c48cdb4a066b81a1830f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1890847205193278888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806162954088659095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -139375091
+      Data2: 1217550600
+      Data3: -1038164558
+      Data4: -1585907875
+    Path: event:/UI_Back
+  Event: 
+  PlayEvent: 19
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &6922485340082928883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806162954088659095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1272462335
+      Data2: 1280921874
+      Data3: 1324318355
+      Data4: -1903589869
+    Path: event:/UI_MouseOver
+  Event: 
+  PlayEvent: 17
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &976888139568005419
 GameObject:
   m_ObjectHideFlags: 0
@@ -2908,6 +2972,7 @@ GameObject:
   - component: {fileID: 6168822619267620813}
   - component: {fileID: 1840077879168137574}
   - component: {fileID: 5696181235573383612}
+  - component: {fileID: 474800612347938195}
   m_Layer: 5
   m_Name: VHS Button
   m_TagString: Untagged
@@ -3051,6 +3116,37 @@ MonoBehaviour:
     Path: event:/SFX_VHSGrab
   Event: 
   PlayEvent: 19
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &474800612347938195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3127814587027720076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1227121166
+      Data2: 1155321589
+      Data3: -1719511138
+      Data4: -1097765624
+    Path: event:/SFX_VHSMouseOver
+  Event: 
+  PlayEvent: 17
   StopEvent: 0
   AllowFadeout: 1
   TriggerOnce: 0
@@ -4465,6 +4561,7 @@ GameObject:
   - component: {fileID: 7838798920409451234}
   - component: {fileID: 2899015701268980860}
   - component: {fileID: 1483823743634570815}
+  - component: {fileID: 4317718838655066489}
   m_Layer: 5
   m_Name: Cash Register Button
   m_TagString: Untagged
@@ -4609,6 +4706,37 @@ MonoBehaviour:
     Path: event:/SFX_RegisterDrawer
   Event: 
   PlayEvent: 19
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &4317718838655066489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4314775733681692751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 711099254
+      Data2: 1175874055
+      Data3: -271366002
+      Data4: -1867964174
+    Path: event:/SFX_RegisterMouseOver
+  Event: 
+  PlayEvent: 17
   StopEvent: 0
   AllowFadeout: 1
   TriggerOnce: 0
@@ -6817,6 +6945,8 @@ GameObject:
   - component: {fileID: 5019366749714287767}
   - component: {fileID: 7727083038165967332}
   - component: {fileID: 5800811753475597629}
+  - component: {fileID: 6870251398342439491}
+  - component: {fileID: 1773416583934231501}
   m_Layer: 5
   m_Name: Back to Desk Button
   m_TagString: Untagged
@@ -6973,6 +7103,68 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e75c09ab6b4c48cdb4a066b81a1830f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6870251398342439491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6550342666016595711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1272462335
+      Data2: 1280921874
+      Data3: 1324318355
+      Data4: -1903589869
+    Path: event:/UI_MouseOver
+  Event: 
+  PlayEvent: 17
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1773416583934231501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6550342666016595711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -139375091
+      Data2: 1217550600
+      Data3: -1038164558
+      Data4: -1585907875
+    Path: event:/UI_Back
+  Event: 
+  PlayEvent: 19
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &6716903253812683068
 GameObject:
   m_ObjectHideFlags: 0
@@ -7615,6 +7807,7 @@ GameObject:
   - component: {fileID: 8269382345587003050}
   - component: {fileID: 6048955397274392686}
   - component: {fileID: 5169453390850162360}
+  - component: {fileID: 4506088465033088308}
   m_Layer: 5
   m_Name: Desk Menu Button
   m_TagString: Untagged
@@ -7824,6 +8017,37 @@ MonoBehaviour:
     Path: event:/UI_Continue
   Event: 
   PlayEvent: 19
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &4506088465033088308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7546518272583880398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1272462335
+      Data2: 1280921874
+      Data3: 1324318355
+      Data4: -1903589869
+    Path: event:/UI_MouseOver
+  Event: 
+  PlayEvent: 17
   StopEvent: 0
   AllowFadeout: 1
   TriggerOnce: 0
@@ -8120,6 +8344,8 @@ GameObject:
   - component: {fileID: 4999895718222241714}
   - component: {fileID: 4916633888812287538}
   - component: {fileID: 3307696924675443026}
+  - component: {fileID: 2139918581929317943}
+  - component: {fileID: 5270890309853875840}
   m_Layer: 5
   m_Name: Back to Desk Button
   m_TagString: Untagged
@@ -8264,6 +8490,68 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e75c09ab6b4c48cdb4a066b81a1830f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2139918581929317943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8492297794641522849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -139375091
+      Data2: 1217550600
+      Data3: -1038164558
+      Data4: -1585907875
+    Path: event:/UI_Back
+  Event: 
+  PlayEvent: 19
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &5270890309853875840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8492297794641522849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1272462335
+      Data2: 1280921874
+      Data3: 1324318355
+      Data4: -1903589869
+    Path: event:/UI_MouseOver
+  Event: 
+  PlayEvent: 17
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &8639659138760032757
 GameObject:
   m_ObjectHideFlags: 0
@@ -8276,6 +8564,8 @@ GameObject:
   - component: {fileID: 1916676829413719460}
   - component: {fileID: 6700376633398086638}
   - component: {fileID: 1618725594772623661}
+  - component: {fileID: 8271731341864694161}
+  - component: {fileID: 7299922432479529151}
   m_Layer: 5
   m_Name: Handbook Button
   m_TagString: Untagged
@@ -8397,6 +8687,68 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &8271731341864694161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8639659138760032757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1463058876
+      Data2: 1152279621
+      Data3: 1284195250
+      Data4: -288607484
+    Path: event:/SFX_NotebookHandle
+  Event: 
+  PlayEvent: 19
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &7299922432479529151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8639659138760032757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1903008119
+      Data2: 1142596606
+      Data3: -1185693768
+      Data4: 73818323
+    Path: event:/SFX_NotebookMouseOver
+  Event: 
+  PlayEvent: 17
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &8775599893809310889
 GameObject:
   m_ObjectHideFlags: 0
