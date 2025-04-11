@@ -231,7 +231,7 @@ MonoBehaviour:
   Path: Buster'sVideo_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638799523097774152
+  lastModified: 638796428482302045
   FileSizes:
   - Name: Desktop
     Value: 1412
@@ -299,7 +299,7 @@ MonoBehaviour:
   - {fileID: 4800309168559682536}
   StringsBanks:
   - {fileID: -4972410958704356020}
-  cacheTime: 638799523097774152
+  cacheTime: 638796428482302045
   cacheVersion: 131616
 --- !u!114 &1307251734738975535
 MonoBehaviour:
@@ -397,7 +397,7 @@ MonoBehaviour:
   Path: Buster'sVideo_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638799523097774152
+  lastModified: 638796428482278594
   FileSizes:
   - Name: Desktop
     Value: 4314912
