@@ -22,6 +22,7 @@ public class CustomerEvents : MonoBehaviour
     public string entranceDialogText;
     public string exitDialogText;
     public bool hasTextStarted = false;
+    public bool arrived = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -41,21 +42,26 @@ public class CustomerEvents : MonoBehaviour
             {
                 customerEntranceDialog.StartDialogue(entranceDialogText);
                 hasTextStarted = true;
+                arrived = true;
             }
         }
     }
 
     public void Cashback()
     {
-        if(gameMoney.money == cashBackValue)
+        if (arrived == true)
         {
-            customerExitDialog.StartDialogue(exitDialogText);
-            gameMoney.money = 0;
-        }
-        else
-        {
-            errorMessage.SetActive(true);
-            gameMoney.money = 0;
+            if (gameMoney.money == cashBackValue)
+            {
+                customerExitDialog.StartDialogue(exitDialogText);
+                arrived=false;
+                gameMoney.money = 0;
+            }
+            else
+            {
+                errorMessage.SetActive(true);
+                gameMoney.money = 0;
+            }
         }
     }
 }
