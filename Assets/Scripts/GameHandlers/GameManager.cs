@@ -55,6 +55,6 @@ public class GameManager : MonoBehaviour
 
     public void LoadGame()
     {
-        SceneManager.LoadScene(SaveData.Instance.LoadSceneSave().name);
+        SceneManager.LoadSceneAsync(SaveData.Instance.LoadSceneSave().name);
     }
 }
