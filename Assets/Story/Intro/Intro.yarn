@@ -21,7 +21,6 @@ Benjamin: I need you to look through this handbook that Doug made for you guys. 
 title: NegativeLouise
 ---
 She thinks the meetings are stupid so she doesn’t come.
-<<declare $NegativeLouise = true>>
 Benjamin: Hmm. Well that’s good to know, I’ll have to talk to her whenever she decides to show up. 
 Benjamin: Well, I appreciate you being here Val. This is kind of important, the registers have been off so Doug wants you to look through this handbook he made. 
 	-> Don't Complain
