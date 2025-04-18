@@ -11,7 +11,7 @@ title: LousieLate
 ---
 You’re late.
 <<UpdateApproval Louise -10>>
-Louise: Did Benjamin die and make you manager? There’s no reason for you to be up my ass about my tardiness. 
+Louise: Did Benjamin die and make you manager? There’s no reason for you to be on me about my tardiness. 
 	-> Defend Yourself
 		<<jump LouiseMessenger>>
 	-> Explain Yourself

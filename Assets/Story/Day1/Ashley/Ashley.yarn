@@ -20,12 +20,11 @@ Ashley: Just this then.
 title: TonyaPaper
 ---
 No, that’s the movie Tonya was in right?
-Ashley: Yeah, I saw the paper.
-Ashley: I wanted to come since this is one of the last places she was seen.
-	-> I don’t understand.
+Ashley: Yeah, I saw the paper. I wanted to come since this is one of the last places she was seen.
+	-> Confused
 		<<jump AshleyAgent>>
-	-> It’s awful, I hope she’s okay.
-		<<jump AshleyMovie>>
+	-> Empathetic
+		<<jump AshleyMovie2>>
 ===
 
 title: TonyaPaper2
@@ -63,7 +62,7 @@ Ashley: We have the same agent.
 title: AshleyComplain
 ---
 Do you know anything else then? Something the paper didn’t say?
-Ashley: Why would I know anything? She’s got her head so far up her ass she can’t even see straight, much less see that other people want to talk to her.
+Ashley: Why would I know anything? She’s so wrapped up in herself she can’t even think about anyone else, much less see that other people want to talk to her.
 	-> Agree
 		<<jump AshleyAgree>>
 	-> Back Off
@@ -118,7 +117,7 @@ Ashley: I just hope this means she’s not doing that movie anymore.
 title: AshleyMovie4
 ---
 I remember her talking about a movie she was shooting.
-Ashley: She should’ve never even been casted for it. It was supposed to be my role, only Cliff likes her more. Such bullshit.
+Ashley: She should’ve never even been casted for it. It was supposed to be my role, only Cliff likes her more. Such bull.
 	-> Ask About Cliff
 		<<jump Cliff>>
 	-> Ask About Acting
