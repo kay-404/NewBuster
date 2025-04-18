@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
     {
         if (isDay1)
         {
-            CharacterDataStorage.Instance.ResetCharacterApproval();
+            SaveData.Instance.ResetGameData();
         }
     }
 

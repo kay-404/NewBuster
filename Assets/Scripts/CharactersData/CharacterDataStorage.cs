@@ -20,12 +20,4 @@ public class CharacterDataStorage : MonoBehaviour
         }
    }
 
-    public void ResetCharacterApproval()
-    {
-        foreach(CharacterSO character in AllCharacters)
-        {
-            character.ApprovalRating = 50;
-        }
-    }
-
 }

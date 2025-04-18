@@ -1,6 +1,8 @@
 using UnityEngine;
 using System.Threading;
 using UnityEngine.SceneManagement;
+using System.ComponentModel;
+using System.Collections.Generic;
 
 public class SaveData : MonoBehaviour
 {
@@ -58,6 +60,120 @@ public class SaveData : MonoBehaviour
         SaveJson();
     }
 
+    public int GetCharacterApproval(string charactersName)
+    {
+        switch(charactersName)
+        {
+            case "Adam":
+                return playerData.AdamApproval;
+            case "Alyce":
+                return playerData.AlyceApproval;
+            case "Ashley":
+                return playerData.AshleyApproval;
+            case "Benjamin":
+                return playerData.BenjaminApproval;
+            case "Cliff":
+                return playerData.CliffApproval;
+            case "Darlene":
+                return playerData.DarleneApproval;
+            case "Debra":
+                return playerData.DebraApproval;
+            case "Donna":
+                return playerData.DonnaApproval;
+            case "Doug":
+                return playerData.DougApproval;
+            case "Helen":
+                return playerData.HelenApproval;
+            case "James":
+                return playerData.JamesApproval;
+            case "Jay":
+                return playerData.JayApproval;
+            case "Louise":
+                return playerData.LouiseApproval;
+            case "Melvin":
+                return playerData.MelvinApproval;
+            case "Oliver":
+                return playerData.OliverApproval;
+            case "Richie":
+                return playerData.RichieApproval;
+            case "Robert":
+                return playerData.RobertApproval;
+            case "Steven":
+                return playerData.StevenApproval;
+            case "Stuart":
+                return playerData.StuartApproval;
+            default:
+                return 50;
+
+        }
+    }
+
+    public void SetCharacterApproval(string charactersName, int newApprovalCount)
+    {
+             switch(charactersName)
+        {
+            case "Adam":
+                playerData.AdamApproval += newApprovalCount;
+                break;
+            case "Alyce":
+                playerData.AlyceApproval += newApprovalCount;
+                break;
+            case "Ashley":
+                playerData.AshleyApproval += newApprovalCount;
+                break;
+            case "Benjamin":
+                playerData.BenjaminApproval += newApprovalCount;
+                break;
+            case "Cliff":
+                playerData.CliffApproval += newApprovalCount;
+                break;
+            case "Darlene":
+                playerData.DarleneApproval += newApprovalCount;
+                break;
+            case "Debra":
+                playerData.DebraApproval += newApprovalCount;
+                break;
+            case "Donna":
+                playerData.DonnaApproval += newApprovalCount;
+                break;
+            case "Doug":
+                playerData.DougApproval += newApprovalCount;
+                break;
+            case "Helen":
+                playerData.HelenApproval += newApprovalCount;
+                break;
+            case "James":
+                playerData.JamesApproval += newApprovalCount;
+                break;
+            case "Jay":
+                playerData.JayApproval += newApprovalCount;
+                break;
+            case "Louise":
+                playerData.LouiseApproval += newApprovalCount;
+                break;
+            case "Melvin":
+                playerData.MelvinApproval += newApprovalCount;
+                break;
+            case "Oliver":
+                playerData.OliverApproval += newApprovalCount;
+                break;
+            case "Richie":
+                playerData.RichieApproval += newApprovalCount;
+                break;
+            case "Robert":
+                playerData.RobertApproval += newApprovalCount;
+                break;
+            case "Steven":
+                playerData.StevenApproval += newApprovalCount;
+                break;
+            case "Stuart":
+                playerData.StuartApproval += newApprovalCount;
+                break;
+            default:
+                break;
+
+        }
+    }
 
     [SerializeField] private PlayerData playerData = new PlayerData();
     private static Mutex mutex = new Mutex(false);
@@ -117,8 +233,30 @@ public class SaveData : MonoBehaviour
 
     public void ResetGameData()
     {
+        playerData.SavedScene = SceneManager.GetSceneByName("IntroScene");
+
         playerData.CurrentDay = 0;
         playerData.CurrentScore = 0;
+
+        playerData.AdamApproval = 50;
+        playerData.AlyceApproval = 50;
+        playerData.AshleyApproval = 50;
+        playerData.BenjaminApproval = 50;
+        playerData.CliffApproval = 50;
+        playerData.DarleneApproval = 50;
+        playerData.DebraApproval = 50;
+        playerData.DonnaApproval = 50;
+        playerData.DougApproval = 50;
+        playerData.HelenApproval = 50;
+        playerData.JamesApproval = 50;
+        playerData.JayApproval = 50;
+        playerData.LouiseApproval = 50;
+        playerData.MelvinApproval = 50;
+        playerData.OliverApproval = 50;
+        playerData.RichieApproval = 50;
+        playerData.RobertApproval = 50;
+        playerData.StevenApproval = 50;
+        playerData.StuartApproval = 50; 
     }
 }
 
@@ -132,6 +270,8 @@ public class PlayerData
     public int CurrentScore;
     public int Highscore;
 
+
+    public List<int> CharacterApprovals = new List<int>();
 
     //character approval
     public int AdamApproval;
@@ -153,4 +293,30 @@ public class PlayerData
     public int RobertApproval;
     public int StevenApproval;
     public int StuartApproval;
+/*
+    public Dictionary<string, int> ApprovalDict = new Dictionary<string, int>();
+    public void Start()
+    {
+        ApprovalDict.Add("AdamApproval",AdamApproval);
+        ApprovalDict.Add("AlyceApproval", AlyceApproval);
+        ApprovalDict.Add("AshleyApproval", AshleyApproval);
+        ApprovalDict.Add("BenjaminApproval", BenjaminApproval);
+        ApprovalDict.Add("CliffApproval", CliffApproval);
+        ApprovalDict.Add("DarleneApproval", DarleneApproval);
+        ApprovalDict.Add("DebraApproval",DebraApproval);
+        ApprovalDict.Add("DonnaApproval", DonnaApproval);
+        ApprovalDict.Add("DougApproval", DougApproval);
+        ApprovalDict.Add("HelenApproval", HelenApproval);
+        ApprovalDict.Add("JamesApproval", JamesApproval);
+        ApprovalDict.Add("JayApproval", JayApproval);
+        ApprovalDict.Add("LouiseApproval", LouiseApproval);
+        ApprovalDict.Add("MelvinApproval", MelvinApproval);
+        ApprovalDict.Add("OliverApproval", OliverApproval);
+        ApprovalDict.Add("RichieApproval", RichieApproval);
+        ApprovalDict.Add("RobertApproval", RobertApproval);
+        ApprovalDict.Add("StevenApproval", StevenApproval);
+        ApprovalDict.Add("StuartApproval", StuartApproval);
+
+    }*/
+
 }

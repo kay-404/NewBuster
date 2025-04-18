@@ -25,7 +25,7 @@ public class CharacterSO : ScriptableObject
     /// <summary>
     /// Character's current approval w player on 1-100 scale.
     /// </summary>
-    [SerializeField] public int ApprovalRating = 50; //50 is neutral
+    private int ApprovalRating; //50 is neutral
 
     /// <summary>
     /// display text for approval
@@ -34,6 +34,8 @@ public class CharacterSO : ScriptableObject
 
     public string UpdateApprovalText()
     {
+        ApprovalRating = SaveData.Instance.GetCharacterApproval(characterName);
+
         if(ApprovalRating <= 10) //15 below
         {
             currentApproval = ApprovalStatus.Despised;
