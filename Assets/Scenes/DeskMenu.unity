@@ -920,7 +920,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1032790372682872945, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2727216887211546293, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
       propertyPath: m_Enabled
@@ -929,6 +929,102 @@ PrefabInstance:
     - target: {fileID: 4349870998198580778, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119994677663696507, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: PlayEvent
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119994677663696507, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: StopEvent
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119994677663696507, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: EventReference.Path
+      value: event:/AMB_Store
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119994677663696507, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119994677663696507, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119994677663696507, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: 119173509
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119994677663696507, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1208113264
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119994677663696507, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: 729172896
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119994677663696507, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: 893099305
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042363903170322011, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: PlayEvent
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042363903170322011, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: StopEvent
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042363903170322011, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: EventReference.Path
+      value: event:/AMB_Store
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042363903170322011, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042363903170322011, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042363903170322011, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: 119173509
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042363903170322011, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1208113264
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042363903170322011, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: 729172896
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042363903170322011, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: 893099305
+      objectReference: {fileID: 0}
+    - target: {fileID: 7910603920076862257, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8105183285646167800, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8105183285646167800, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: -1560166381
+      objectReference: {fileID: 0}
+    - target: {fileID: 8105183285646167800, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1305656211
+      objectReference: {fileID: 0}
+    - target: {fileID: 8105183285646167800, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: -797372259
+      objectReference: {fileID: 0}
+    - target: {fileID: 8105183285646167800, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: -2033846632
       objectReference: {fileID: 0}
     - target: {fileID: 9202318012722526093, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
       propertyPath: m_LocalPosition.x

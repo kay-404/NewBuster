@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{15a8c407-235d-4e86-840c-016e755843ec}">
 		<property name="name">
-			<value>MUS_MainMenu</value>
+			<value>MUS_MainMenu (old)</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -57,7 +57,11 @@
 			<destination>{8c00c54d-4c29-47de-95d7-c2286059e338}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{6542d299-60c2-48bc-81ca-6a8cc1dc6749}" />
+	<object class="EventAutomatableProperties" id="{6542d299-60c2-48bc-81ca-6a8cc1dc6749}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{906c6493-e9b9-43e5-9685-fb0c16c2d445}" />
 	<object class="GroupTrack" id="{b576f186-67ce-410d-b4d9-8c64fb97dce5}">
 		<relationship name="modules">
