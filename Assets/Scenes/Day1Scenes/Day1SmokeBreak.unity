@@ -697,18 +697,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1617652828878415506, guid: cd7dab661216e431289810e52291bb6d, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1617652828878415506, guid: cd7dab661216e431289810e52291bb6d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1617652828878415506, guid: cd7dab661216e431289810e52291bb6d, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1617652828878415506, guid: cd7dab661216e431289810e52291bb6d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -756,75 +744,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4231754202525857942, guid: cd7dab661216e431289810e52291bb6d, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4231754202525857942, guid: cd7dab661216e431289810e52291bb6d, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -59.357
-      objectReference: {fileID: 0}
     - target: {fileID: 4351737899659487946, guid: cd7dab661216e431289810e52291bb6d, type: 3}
       propertyPath: m_Name
       value: Louise
       objectReference: {fileID: 0}
-    - target: {fileID: 4351737899659487946, guid: cd7dab661216e431289810e52291bb6d, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4552631248798101810, guid: cd7dab661216e431289810e52291bb6d, type: 3}
-      propertyPath: m_SortingOrder
-      value: 994
-      objectReference: {fileID: 0}
-    - target: {fileID: 7471087083118930406, guid: cd7dab661216e431289810e52291bb6d, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 608.8708
-      objectReference: {fileID: 0}
-    - target: {fileID: 7471087083118930406, guid: cd7dab661216e431289810e52291bb6d, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.92929
-      objectReference: {fileID: 0}
-    - target: {fileID: 7471087083118930406, guid: cd7dab661216e431289810e52291bb6d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.92929
-      objectReference: {fileID: 0}
-    - target: {fileID: 7471087083118930406, guid: cd7dab661216e431289810e52291bb6d, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.92929
-      objectReference: {fileID: 0}
-    - target: {fileID: 7471087083118930406, guid: cd7dab661216e431289810e52291bb6d, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -137.37543
-      objectReference: {fileID: 0}
-    - target: {fileID: 7471087083118930406, guid: cd7dab661216e431289810e52291bb6d, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -61.454
-      objectReference: {fileID: 0}
-    - target: {fileID: 8681663704072622253, guid: cd7dab661216e431289810e52291bb6d, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -5991891599483713508, guid: 5c64ecb49b495924a8dab9ab81d5e266, type: 3}
-    - target: {fileID: 8835112782478251303, guid: cd7dab661216e431289810e52291bb6d, type: 3}
-      propertyPath: nameText
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8835112782478251303, guid: cd7dab661216e431289810e52291bb6d, type: 3}
-      propertyPath: approvalBar
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8835112782478251303, guid: cd7dab661216e431289810e52291bb6d, type: 3}
-      propertyPath: approvalText
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8835112782478251303, guid: cd7dab661216e431289810e52291bb6d, type: 3}
-      propertyPath: approvalSlider
-      value: 
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
