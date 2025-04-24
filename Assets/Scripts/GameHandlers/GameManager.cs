@@ -36,9 +36,12 @@ public class GameManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            settingsMenu.SetActive(true);
+            if (settingsMenu != null)
+            {
+                settingsMenu.SetActive(true);
 
-            settingsMenu.transform.parent.gameObject.SetActive(true);
+                settingsMenu.transform.parent.gameObject.SetActive(true);
+            }
         }
     }
     public void EndDay()
@@ -57,4 +60,5 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(SaveData.Instance.LoadSceneSave().name);
     }
+
 }
