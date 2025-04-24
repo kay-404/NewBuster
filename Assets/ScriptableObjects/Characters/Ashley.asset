@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: Ashley
   m_EditorClassIdentifier: 
   characterName: Ashley
-  approvalRating: 50
+  NeutralImage: {fileID: -5723429927480785254, guid: 05735e62ca699854cb220f04f1601a4a, type: 3}
+  UpsetImage: {fileID: 0}
+  HappyImage: {fileID: 0}

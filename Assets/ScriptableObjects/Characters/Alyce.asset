@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: Alyce
   m_EditorClassIdentifier: 
   characterName: Alyce
-  approvalRating: 50
+  NeutralImage: {fileID: 151785906623925508, guid: ee5a6db77ff11774a9b6f7617b535b63, type: 3}
+  UpsetImage: {fileID: 0}
+  HappyImage: {fileID: 0}
