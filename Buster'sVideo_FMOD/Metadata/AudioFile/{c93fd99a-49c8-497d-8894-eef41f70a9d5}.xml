@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{c93fd99a-49c8-497d-8894-eef41f70a9d5}">
+		<property name="assetPath">
+			<value>Buster'sVideo_MainMusic_Intro.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>14.770395833333334</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7f7b26ba-1019-484c-a723-05bb5cec7fd2}</destination>
+		</relationship>
+	</object>
+</objects>

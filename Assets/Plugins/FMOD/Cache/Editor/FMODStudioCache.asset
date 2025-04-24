@@ -14,19 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/MUS_MainMenu
   Guid:
-    Data1: 363381767
-    Data2: 1317413725
-    Data3: 1845562500
-    Data4: -331130763
+    Data1: -1560166381
+    Data2: 1305656211
+    Data3: -797372259
+    Data4: -2033846632
   Banks:
   - {fileID: 4800309168559682536}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
-  Parameters: []
+  Parameters:
+  - {fileID: -8040614464260305670}
   MinDistance: 1
   MaxDistance: 20
-  Length: 162445
+  Length: 147687
 --- !u!114 &-8377371610290791532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81,6 +82,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-8040614464260305670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MUS_MainMenu/Intensity
+  m_EditorClassIdentifier: 
+  Name: Intensity
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4259334902
+    data2: 3826251624
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-7841574575120478888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -312,10 +337,10 @@ MonoBehaviour:
   Path: Buster'sVideo_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638805442889210722
+  lastModified: 638811110974919428
   FileSizes:
   - Name: Desktop
-    Value: 1882
+    Value: 1982
   Exists: 1
 --- !u!114 &-4267862786502171267
 MonoBehaviour:
@@ -439,12 +464,13 @@ MonoBehaviour:
   - {fileID: 3205969765112759947}
   - {fileID: -4267862786502171267}
   - {fileID: 481967596837789772}
+  - {fileID: 1997522261851528772}
   EditorParameters: []
   MasterBanks:
   - {fileID: 4800309168559682536}
   StringsBanks:
   - {fileID: -4972410958704356020}
-  cacheTime: 638805442889210722
+  cacheTime: 638811110974919428
   cacheVersion: 131616
 --- !u!114 &481967596837789772
 MonoBehaviour:
@@ -554,6 +580,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &1997522261851528772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MUS_MainMenu (old)
+  m_EditorClassIdentifier: 
+  Path: event:/MUS_MainMenu (old)
+  Guid:
+    Data1: 363381767
+    Data2: 1317413725
+    Data3: 1845562500
+    Data4: -331130763
+  Banks:
+  - {fileID: 4800309168559682536}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 162445
 --- !u!114 &3205969765112759947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -623,10 +676,10 @@ MonoBehaviour:
   Path: Buster'sVideo_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638805442889200765
+  lastModified: 638811110974858679
   FileSizes:
   - Name: Desktop
-    Value: 4512416
+    Value: 6307200
   Exists: 1
 --- !u!114 &4823877267792228263
 MonoBehaviour:

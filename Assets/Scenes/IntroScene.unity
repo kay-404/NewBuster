@@ -348,6 +348,42 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5119994677663696507, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: PlayEvent
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119994677663696507, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: StopEvent
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119994677663696507, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: EventReference.Path
+      value: event:/AMB_Office
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119994677663696507, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119994677663696507, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119994677663696507, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: 1971645322
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119994677663696507, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1089850729
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119994677663696507, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: -213686598
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119994677663696507, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: -476165418
+      objectReference: {fileID: 0}
     - target: {fileID: 5990683600137319371, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
       propertyPath: EventReference.Path
       value: event:/AMB_Office
@@ -367,6 +403,46 @@ PrefabInstance:
     - target: {fileID: 5990683600137319371, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
       propertyPath: EventReference.Guid.Data4
       value: -476165418
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042363903170322011, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: PlayEvent
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042363903170322011, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: StopEvent
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042363903170322011, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: EventReference.Path
+      value: event:/AMB_Office
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042363903170322011, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042363903170322011, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042363903170322011, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: 1971645322
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042363903170322011, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1089850729
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042363903170322011, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: -213686598
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042363903170322011, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: -476165418
+      objectReference: {fileID: 0}
+    - target: {fileID: 7910603920076862257, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9202318012722526093, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
       propertyPath: m_LocalPosition.x
