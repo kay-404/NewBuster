@@ -1080,6 +1080,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Louise
       objectReference: {fileID: 0}
+    m_RemovedComponents: []
     - target: {fileID: 4351737899659487946, guid: cd7dab661216e431289810e52291bb6d, type: 3}
       propertyPath: m_IsActive
       value: 1
