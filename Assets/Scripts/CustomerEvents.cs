@@ -15,13 +15,22 @@ public class CustomerEvents : MonoBehaviour
     public GameObject errorMessage;
     public Image customerPortrait;
     public TMP_Text playerTimeScore;
+    public TMP_Text customerID;
+    public GameObject customerIdPhoto;
+    public GameObject customer18Check;
 
     //public GameObject vhs;
     public DialogueRunner customerEntranceDialog;
     public DialogueRunner customerExitDialog;
-    
+
+    [Header("Customer Data")]
+    public string customerName;
+    public bool over18;
+
     public int arrivalTime;
     public float cashBackValue;
+
+    [Header("Customer Dialog")]
     public string entranceDialogText;
     public string exitDialogText;
     public bool hasTextStarted = false;
@@ -46,6 +55,7 @@ public class CustomerEvents : MonoBehaviour
                 customerEntranceDialog.StartDialogue(entranceDialogText);
                 hasTextStarted = true;
                 arrived = true;
+                CustomerID();
             }
         }
     }
@@ -62,6 +72,21 @@ public class CustomerEvents : MonoBehaviour
         }
     }
 
+    public void CustomerID()
+    {
+        customerIdPhoto.SetActive(true);
+        customerID.text = customerName;
+
+        if (over18 == true)
+        {
+            customer18Check.SetActive(true);
+        }
+        else
+        {
+            customer18Check.SetActive(false);
+        }
+    }
+
     public void Cashback()
     {
         if (arrived == true)
@@ -70,6 +95,7 @@ public class CustomerEvents : MonoBehaviour
             {
                 Timescore();
                 customerExitDialog.StartDialogue(exitDialogText);
+                customerIdPhoto.SetActive(false);
                 arrived=false;
                 gameMoney.money = 0;
             }
