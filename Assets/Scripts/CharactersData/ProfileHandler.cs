@@ -4,12 +4,10 @@ using Yarn.Unity;
 
 public class ProfileHandler : MonoBehaviour
 {
-    CharacterSO thisCharacter;
+    [SerializeField] public CharacterSO ThisCharacter;
     Image characterImage;
     void Start()
     {
-        thisCharacter = gameObject.GetComponent<Character>().CharacterData;
-
         Transform tempTransform = gameObject.transform.GetChild(0);
         characterImage = tempTransform.gameObject.GetComponent<Image>();
     }
@@ -20,21 +18,21 @@ public class ProfileHandler : MonoBehaviour
         switch(characterEmotion)
         {
             case"Happy":
-            if (thisCharacter.HappyImage != null)
+            if (ThisCharacter.HappyImage != null)
             {
-                characterImage.sprite = thisCharacter.HappyImage;
+                characterImage.sprite = ThisCharacter.HappyImage;
             }
             break;
 
             case"Upset":
-            if (thisCharacter.UpsetImage != null)
+            if (ThisCharacter.UpsetImage != null)
             {
-                characterImage.sprite = thisCharacter.UpsetImage;
+                characterImage.sprite = ThisCharacter.UpsetImage;
             }
             break;
 
             default:
-            characterImage.sprite = thisCharacter.NeutralImage;
+            characterImage.sprite = ThisCharacter.NeutralImage;
             break;
         }
     }
@@ -42,6 +40,6 @@ public class ProfileHandler : MonoBehaviour
     [YarnCommand("ResetImageToNeutral")]
     public void ResetImageToNeutral()
     {
-        characterImage.sprite = thisCharacter.NeutralImage;
+        characterImage.sprite = ThisCharacter.NeutralImage;
     }
 }
