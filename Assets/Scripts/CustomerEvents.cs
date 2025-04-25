@@ -2,6 +2,7 @@
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 using UnityEngine.Rendering;
 using Yarn.Unity;
@@ -13,6 +14,8 @@ public class CustomerEvents : MonoBehaviour
     public GameObject customer;
     public GameObject errorMessage;
     public Image customerPortrait;
+    public TMP_Text playerTimeScore;
+
     //public GameObject vhs;
     public DialogueRunner customerEntranceDialog;
     public DialogueRunner customerExitDialog;
@@ -47,12 +50,25 @@ public class CustomerEvents : MonoBehaviour
         }
     }
 
+    public void Timescore()
+    {
+        if(timeScript.timeHours == arrivalTime)
+        {
+            playerTimeScore.text = "Efficiency: A";
+        }
+        else
+        {
+            playerTimeScore.text = "Efficiency: F";
+        }
+    }
+
     public void Cashback()
     {
         if (arrived == true)
         {
             if (gameMoney.money == cashBackValue)
             {
+                Timescore();
                 customerExitDialog.StartDialogue(exitDialogText);
                 arrived=false;
                 gameMoney.money = 0;
