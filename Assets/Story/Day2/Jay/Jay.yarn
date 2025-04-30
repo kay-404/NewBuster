@@ -1,0 +1,11 @@
+﻿title: JayCheckout
+---
+Jay: Here.
+===
+
+title: RatedRJay
+---
+Yeah, I can’t rent this to you, you gotta be eighteen.
+<<wait 1>>
+Jay: Whatever.
+===

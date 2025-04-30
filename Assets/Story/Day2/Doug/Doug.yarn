@@ -1,0 +1,88 @@
+﻿title: Doug1
+---
+Louise: Benjamin’s been hiding in his office more than usual don’t you think?
+	-> Agree
+		<<jump Agree>>
+	-> Speculate
+		<<jump Speculate>>
+===
+
+title: Agree
+---
+I don’t know why his dad even pays him. He just seems to sit in his cave to avoid working.
+Louise: Could we convince Doug to come back? He’s way better than Benjamin.
+Doug: I’m glad you feel that way Louise.
+Louise: Oh my god, you scared me Doug. What are you doing here?
+Doug: Looking for my son. It seems you ladies are having the same issue. Is he doing his job around here?
+	-> Confirm
+		<<jump Confirm>>
+	-> Stretch the Truth
+		<<jump Truth>>
+===
+
+title: Speculate
+---
+Maybe he sneaks out the back and just goes home.
+Louise: Could we convince Doug to come back? He’s way better than Benjamin.
+Doug: I’m glad you feel that way Louise.
+Louise: Oh my god, you scared me Doug. What are you doing here?
+Doug: Looking for my son. It seems you ladies are having the same issue. Is he doing his job around here?
+	-> Confirm
+		<<jump Confirm>>
+	-> Stretch the Truth
+		<<jump Truth>>
+===
+
+title: Confirm
+---
+I barely see him around anymore. He hasn’t been doing the start of shift meetings either.
+Doug: Hmm. Well that’s good to know, maybe my daughter was right and we should’ve given the business to her. 
+Doug: I’ll let you ladies get back to work. Always a pleasure seeing you Louise.
+	-> Goodbye
+		<<jump Louise>>
+===
+
+title: Truth
+---
+It’s been hard for everyone since Tonya went missing, maybe he’s just taking it a little harder than others. We all handle these things differently. 
+Doug: It’s a shame, I read the paper the other day and was surprised. In all my years here nothing like that has happened.
+Doug: I’ll let you ladies get back to work. Always a pleasure seeing you Louise.
+	-> Goodbye
+		<<jump Louise>>
+===
+
+title: Louise
+---
+Bye Doug! 
+Louise: He’s such a silver fox.
+	-> Disgusted
+		<<jump Disgusted>>
+	-> Agree
+		<<jump Agree1>>
+===
+
+title: Disgusted
+---
+Louise, that's our boss. 
+Louise: Don’t hate me cause you ‘aint me. You’re just jealous because he obviously thinks I’m cute.
+	-> Snarky
+		<<jump Snarky>>
+	-> Dismiss
+		<<jump Dismiss>>
+===
+
+title: Agree1
+---
+He has gotten better with age. He kind of reminds me of someone…ah I can’t put my finger on it.
+We should probably get back to work.
+===
+
+title: Snarky
+---
+Sure Louise.
+===
+
+title: Dismiss
+---
+I’m gonna get back to work.
+===

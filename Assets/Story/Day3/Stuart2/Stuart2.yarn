@@ -1,0 +1,64 @@
+﻿title: Stuart2
+---
+Stuart: Val, nice to see you again. I wish I could be here under better circumstances.
+	-> Ask about Newspaper
+		<<jump Newspaper>>
+	-> Ask for Information
+		<<jump Information>>
+===
+
+title: Newspaper
+---
+Here about the newspaper again?
+Stuart: Yeah we’ve got to retrace our steps, start from the beginning. We’re re-questioning everyone. Did Tonya ever mention going out of town?
+	-> Talk about Josh
+		<<jump Josh>>
+	-> Talk about Hollywood
+		<<jump Hollywood>>
+===
+
+title: Information
+---
+Do you have any more information on the case?
+Stuart: You know I can’t tell you much, Val. But we are retracing our steps so I have to ask you some more questions. Did Tonya ever mention going out of town?
+	-> Talk about Boyfriend
+		<<jump Josh>>
+	-> Talk about Hollywood
+		<<jump Hollywood>>
+===
+
+title: Josh
+---
+I just keep thinking about what she was saying about Josh. She sounded like she was really upset that he wasn’t being supportive. Maybe she was going out of town to get some space.
+Stuart: That’s not a bad theory. 
+Stuart: Has anyone been in here looking suspicious? 
+	-> Ashley
+		<<jump Ashley>>
+	-> Cliff
+		<<jump Cliff>>
+===
+
+title: Hollywood
+---
+I know her dream was to get to Hollywood and it seemed like she was close to achieving that. However, she didn’t say anything about going there when I talked to her.
+Stuart: No one seems to know why she was out by the edge of town.
+Stuart: Has anyone been in here looking suspicious? 
+	-> Ashley
+		<<jump Ashley>>
+	-> Cliff
+		<<jump Cliff>>
+===
+
+title: Ashley
+---
+Ashley came in the other day asking about Tonya, I guess they’re both represented by Cliff and she seems a little jealous of the treatment Tonya received.
+Stuart: That’s good to know.
+Stuart: I’ll let you get back to work, hopefully Ben is actually here today.
+===
+
+title: Cliff
+---
+Her agent Cliff came in the other day asking around about her. Just thought I’d mention it.
+Stuart: That’s good to know.
+Stuart: I’ll let you get back to work, hopefully Ben is actually here today.
+===

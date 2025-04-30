@@ -1,0 +1,144 @@
+﻿title: Stuart6
+---
+Stuart: Val? I’m surprised to see you here.
+	-> Hesitant
+		<<jump Hesitant>>
+	-> Confident
+		<<jump Confident>>
+===
+
+title: Hesitant
+---
+I think I know who killed Tonya.
+Stuart: Ok, let’s hear it.
+	-> Melvin
+		<<jump Melvin>>
+	-> Benjamin
+		<<jump Benjamin>>
+	-> Ashley
+		<<jump Ashley>>
+	-> Cliff
+		<<jump Cliff>>
+===
+
+title: Confident
+---
+I figured out who killed Tonya.
+Stuart: Ok, let’s hear it.
+	-> Melvin
+		<<jump Melvin>>
+	-> Benjamin
+		<<jump Benjamin>>
+	-> Ashley
+		<<jump Ashley>>
+	-> Cliff
+		<<jump Cliff>>
+===
+
+title: Melvin
+---
+It was Melvin.
+Stuart: Why? What’s the motive?
+	-> Creep
+		<<jump Creep>>
+	-> Killer
+		<<jump Killer>>
+===
+
+title: Benjamin
+---
+It was Benjamin.
+Stuart: Why? What’s the motive?
+	-> Rejection
+		<<jump Rejection>>
+	-> Divorce
+		<<jump Divorce>>
+===
+
+title: Ashley
+---
+It was Ashley.
+Stuart: Why? What’s the motive?
+	-> Jealousy
+		<<jump Jealousy>>
+	-> Competition
+		<<jump Competition>>
+===
+
+title: Cliff
+---
+It was Cliff.
+Stuart: Why? What’s the motive?
+	-> Anger
+		<<jump Anger>>
+	-> Money
+		<<jump Money>>
+===
+
+title: Creep
+---
+He’s a total creep. He was probably stalking Tonya.
+Stuart: Uhh…
+Stuart: Well, thanks Val for coming in. We’ll bring him in for questioning.
+===
+
+title: Killer
+---
+He’s definitely a serial killer. He’s a psycho. You should check that more women haven’t gone missing.
+Stuart: Well Val, that’s a big accusation. We’ll have to bring him in for questioning.
+===
+
+title: Rejection
+---
+He wanted her to be in this movie he was trying to make. I know he did something to her.
+Stuart: We found the script, it was a little…tasteless is maybe a good word.
+Stuart: This is a serious accusation Val, I’ll have to bring him in.
+===
+
+title: Divorce
+---
+He’s going through a harsh divorce. I think he lashed out and she just happened to be here that day.
+Stuart: You think a divorce caused him to do this?
+	-> Unsure
+		<<jump Unsure>>
+	-> Confident
+		<<jump Confident1>>
+===
+
+title: Unsure
+---
+I don’t know for sure but a lot of signs point to him. 
+Stuart: Well I’m going to have to bring him in. I know he’s been through a lot, I hope he didn’t do this.
+===
+
+title: Confident1
+---
+I know he did it. And I know it’s because of his divorce.
+Stuart: Well I’m going to have to bring him in. I know he’s been through a lot, I hope he didn’t do this.
+===
+
+title: Jealousy
+---
+Ashley is obviously jealous of her, she got roles she wanted and their agent liked tonya more.
+Stuart: Is that a reason to kill?
+Stuart: I shouldn’t be talking to you about that. Thanks for coming Val, we’ll have her come in for questioning.
+===
+
+title: Competition
+---
+Tonya is her biggest competition and she wanted to take her out. She couldn’t handle having someone better than her around.
+Stuart: Hmm. It just seems so catty doesn’t it? It’s a bit far-fetched for a murder motive but I’ll have to question her, thanks for coming in Val.
+===
+
+title: Anger
+---
+He was angry that Tonya was going to drop him when she made it big so he made sure she couldn’t do that.
+Stuart: You think Cliff is that angry of a guy? I never would’ve guessed. We’ll bring him in Val but I think you’re barking up the wrong tree.
+===
+
+title: Money
+---
+Tonya was that guy’s personal cash cow and she was going to leave him for a different agent when she got to Los Angeles.
+Stuart: Did he know that for sure? Murder is a serious action for something that might’ve not even happened.
+Stuart: I don’t know Val. I don't think he’s our guy. Thanks for coming in, we’ll question him just to make sure.
+===

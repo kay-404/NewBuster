@@ -1,0 +1,106 @@
+﻿title: Stuart
+---
+Hey. It’s Val right? I just have a few questions for you.
+	-> Tonya?
+		<<jump Tonya>>
+	-> Newspaper?
+		<<jump Newspaper>>
+===
+
+title: Tonya
+---
+Is it about Tonya?
+Stuart: Yes. The clock is ticking and I can’t waste time so I wanted to come here first. Do you remember seeing her that day? 
+	-> Clothes
+		<<jump Clothes>>
+	-> Attitude
+		<<jump Attitude>>
+===
+
+title: Newspaper
+---
+Is it about the newspaper?
+Stuart: Don’t even get me started on that damn newspaper. They’re always saying stuff that they’re not supposed to.
+	-> Agree
+		<<jump Agree>>
+	-> Disagree
+		<<jump Disagree>>
+===
+
+title: Agree
+---
+I agree. I just saw it earlier and people are already being weird about it.
+Stuart: I believe it, people around this town are too nosy.
+Stuart: Well anyways, I need to ask a few questions about that day and about Tonya. Do you remember seeing her that day?
+	-> Clothes
+		<<jump Clothes>>
+	-> Attitude
+		<<jump Attitude>>
+===
+
+title: Disagree
+---
+Actually, I think it’s good that the public knows what’s going on.
+Stuart: They released that information to the public not thinking about the repercussions.
+Stuart: Let’s refocus. I need to ask a few questions about that day and about Tonya. Do you remember seeing her that day?
+	-> Clothes
+		<<jump Clothes>>
+	-> Attitude
+		<<jump Attitude>>
+===
+
+title: Clothes
+---
+She was wearing a pink sweater and jeans.
+Stuart: That matches the other eye-witness reports.
+Stuart: Did she ever say anything personal to you? Maybe about her boyfriend or anyone else she was close with?
+	-> Josh
+		<<jump Josh>>
+	-> Cliff
+		<<jump Cliff>>
+===
+
+title: Attitude
+---
+She had a nasty attitude that day. 
+Stuart: That seems to be a common thread from the other eye-witnesses.
+Stuart: Did she ever say anything personal to you? Maybe about her boyfriend or anyone else she was close with?
+	-> Josh
+		<<jump Josh>>
+	-> Cliff
+		<<jump Cliff>>
+===
+
+title: Josh
+---
+It seemed like her and her boyfriend were maybe going through a rough patch. She was going on about him not being supportive of her career.
+Stuart: Hmmm interesting.
+Stuart: Well you’ve been a lot of help Val. I’ll let you get back to work.
+Stuart: Actually do you know if Ben is here?
+	-> Yes
+		<<jump Yes>>
+	-> No
+		<<jump No>>
+===
+
+title: Cliff
+---
+She mentioned her agent, Cliff, and how she was onto bigger and better things than this town.
+Stuart: Hmmm interesting.
+Stuart: Well you’ve been a lot of help Val. I’ll let you get back to work.
+Stuart: Actually do you know if Ben is here?
+	-> Yes
+		<<jump Yes>>
+	-> No
+		<<jump No>>
+===
+
+title: Yes
+---
+He should be in his office.
+===
+
+title: No
+---
+I have no idea.
+===

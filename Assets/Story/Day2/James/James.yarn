@@ -1,0 +1,141 @@
+﻿title: JamesStart
+---
+James: Hey, how’s it going?
+	-> Weird
+		<<jump Weird>>
+	-> Fine
+		<<jump Fine>>
+===
+
+title: Weird
+---
+It’s been weird since the newspaper came out.
+James: Yeah I heard about Tonya the other day, stuff like that doesn’t happen around here. People said that she might be in Las Angeles right now, so that’s what we can hope for.
+	-> Question
+		<<jump Question>>
+	-> Checkout
+		<<jump Checkout>>
+===
+
+title: Fine
+---
+I’m fine, how are you?
+James: Could be better, rough news the other day huh? 
+	-> Question
+		<<jump Question1>>
+	-> Agree
+		<<jump Agree>>
+===
+
+title: Question1
+---
+Do you know anything about it?
+James: I didn’t even read the paper to be honest. But people talk, they think she’s out in Las Angeles. So, that’s all we can hope for.
+	-> Question
+		<<jump Question>>
+	-> Checkout
+		<<jump Checkout>>
+===
+
+title: Agree
+---
+Yeah, I can’t believe they announced the names of where she was last seen so quickly. In a town like this word spreads fast.
+James: I have a buddy who works over at the press, between you and me he says this case isn’t looking good. That’s why they’re trying to get everything out now.
+	-> Surprised
+		<<jump Surprised>>
+	-> Pessimistic
+		<<jump Pessimistic>>
+===
+
+title: Surprised
+---
+Really? Why do they think that?
+James: I shouldn’t have even said that, I can’t really talk about it. I’ll just check out now.
+===
+
+title: Pessimistic
+---
+I don’t really have any hope that they’re going to find her, not alive at least.
+<<UpdateApproval James -10>>
+James: That’s morbid.
+James: I’ll just check out now.
+===
+
+
+
+Else:
+title: JamesStart2
+---
+James: Hey, did you let my son rent a rated R movie?
+	-> Accuse Louise
+		<<jump AccuseLouise>>
+	-> Confused
+		<<jump JamesConfused>>
+===
+
+title: AccuseLouise
+---
+Uhh, I think that was Louise.
+James: I had him point you out before I came in, I know you did it.
+	-> Say Nothing
+		<<jump SayNothing>>
+	-> Guilty
+		<<jump Guilty>>
+===
+
+title: SayNothing
+---
+…
+<<UpdateApproval James -10>>
+James: You know what? I’m never coming back here.
+===
+
+title: Guilty
+---
+Ok fine, I did it. I don’t know what the big deal is.
+<<UpdateApproval James -10>>
+James: They hire idiots anywhere huh? It’s rated R for a reason and he’s not old enough to rent it. 
+James: You know what, I don’t need to deal with this. I’m never coming back here. 
+===
+
+title: JamesConfused
+---
+Who?
+James: Jay, he was in here earlier. You let him rent Thursday the 12th.
+	-> Apologize
+		<<jump Apologize>>
+	-> Still Confused
+		<<jump Confused1>>
+===
+
+title: Apologize
+---
+Oh, yeah I remember him. I’m sorry about that, normally I catch stuff like that. It’s been crazy with the news and everything.
+James: You know what, it’s fine. I appreciate your honesty.
+<<UpdateApproval James +10>>
+James: I heard about Tonya the other day, stuff like that doesn’t happen around here. People said that she might be in Las Angeles right now, so that’s what we can hope for.
+	-> Question
+		<<jump Question>>
+	-> Check Out
+		<<jump Checkout>>
+===
+
+title: Confused1
+---
+Not ringing a bell.
+<<UpdateApproval James -10>>
+James: They hire idiots anywhere huh? You know what, I don’t need to deal with this. I’m never coming back here. 
+===
+
+title: Checkout
+---
+Hopefully…
+===
+
+title: Question
+---
+Who’s saying that?
+James: Ah just some guys at Walleye’s, I was there yesterday and you know how people are, they just talk. Billy was there the last time Tonya was seen there, he said her boyfriend and her had a pretty heated conversation about her going to the city of angels.
+James: Anyways, sorry about jumping on you about the movie again. It’ll stay between us.
+<<UpdateApproval James +10>>
+===
