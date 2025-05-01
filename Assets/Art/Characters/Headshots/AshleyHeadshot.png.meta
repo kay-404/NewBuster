@@ -145,7 +145,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AshleyHeadshot_0: 9143473522814153515
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

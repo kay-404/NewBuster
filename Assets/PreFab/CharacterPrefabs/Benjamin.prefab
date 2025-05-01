@@ -179,7 +179,6 @@ GameObject:
   - component: {fileID: 1982059241583678454}
   - component: {fileID: 1930944344155974360}
   - component: {fileID: 4957322464198475010}
-  - component: {fileID: 6419441399205134240}
   m_Layer: 5
   m_Name: Benjamin
   m_TagString: Untagged
@@ -294,16 +293,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c6005c37831c4287a9e0acd369bb2fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &6419441399205134240
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8827879404225072532}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e3c5a4cb699d4ac58d21b36176e49e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CharacterData: {fileID: 11400000, guid: 4c1705a410e7f4c1e9ad36962c1d52bd, type: 2}
+  ThisCharacter: {fileID: 11400000, guid: 4c1705a410e7f4c1e9ad36962c1d52bd, type: 2}

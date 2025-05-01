@@ -179,7 +179,6 @@ GameObject:
   - component: {fileID: 406539928048758338}
   - component: {fileID: 4984370143971563868}
   - component: {fileID: 8318413645228292337}
-  - component: {fileID: 1711554174707311849}
   m_Layer: 5
   m_Name: Melvin
   m_TagString: Untagged
@@ -294,16 +293,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c6005c37831c4287a9e0acd369bb2fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1711554174707311849
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7109726488454287945}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e3c5a4cb699d4ac58d21b36176e49e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CharacterData: {fileID: 11400000, guid: b5758fb3d6043406baa111d0d225af2d, type: 2}
+  ThisCharacter: {fileID: 11400000, guid: b5758fb3d6043406baa111d0d225af2d, type: 2}

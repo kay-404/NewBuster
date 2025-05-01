@@ -145,7 +145,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RichieHeadshot_0: -3628159672335710023
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

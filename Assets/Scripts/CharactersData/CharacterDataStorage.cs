@@ -18,6 +18,12 @@ public class CharacterDataStorage : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+         CharacterSO[] charactersTemp = Resources.LoadAll<CharacterSO>( "ScriptObjects/Characters/");
+         foreach (CharacterSO character in charactersTemp)
+         {
+            AllCharacters.Add(character);
+         }
    }
 
 }

@@ -179,7 +179,6 @@ GameObject:
   - component: {fileID: 746580379848933331}
   - component: {fileID: 2516520587404522134}
   - component: {fileID: 5446592910013072546}
-  - component: {fileID: 3747555036237056487}
   m_Layer: 5
   m_Name: Donna
   m_TagString: Untagged
@@ -294,16 +293,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c6005c37831c4287a9e0acd369bb2fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &3747555036237056487
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6422269711133483403}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e3c5a4cb699d4ac58d21b36176e49e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CharacterData: {fileID: 11400000, guid: 4b01528a2f63a44a883372d0ba6e2e0d, type: 2}
+  ThisCharacter: {fileID: 11400000, guid: 4b01528a2f63a44a883372d0ba6e2e0d, type: 2}

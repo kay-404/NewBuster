@@ -145,7 +145,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AlyceHeadshot_0: -1802354017176689780
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

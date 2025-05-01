@@ -179,7 +179,6 @@ GameObject:
   - component: {fileID: 4786406055138315124}
   - component: {fileID: 8835112782478251303}
   - component: {fileID: 337037478264922400}
-  - component: {fileID: 6951402936725332257}
   m_Layer: 5
   m_Name: Louise
   m_TagString: Untagged
@@ -294,16 +293,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c6005c37831c4287a9e0acd369bb2fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &6951402936725332257
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4351737899659487946}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e3c5a4cb699d4ac58d21b36176e49e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CharacterData: {fileID: 11400000, guid: 31b26852d2f874d809c8e35550ab138b, type: 2}
+  ThisCharacter: {fileID: 11400000, guid: 31b26852d2f874d809c8e35550ab138b, type: 2}

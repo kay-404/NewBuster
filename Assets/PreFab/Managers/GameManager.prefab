@@ -10,11 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4857802036764854323}
   - component: {fileID: 2233803326071640246}
-  - component: {fileID: 2658712315084748860}
   - component: {fileID: 2183979430440034236}
   - component: {fileID: 6933959612799304717}
   - component: {fileID: 3824540117583442714}
   - component: {fileID: 4569281805676070400}
+  - component: {fileID: 8926327280660582676}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -49,42 +49,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2b1e9d4f1b53492eae26956ba795f58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AllCharacters:
-  - {fileID: 11400000, guid: 31b26852d2f874d809c8e35550ab138b, type: 2}
-  - {fileID: 11400000, guid: c6b5d79fadf3c48499918ac04490b02f, type: 2}
-  - {fileID: 11400000, guid: 4447d19c0d01440a9bcd5a34f17e63a4, type: 2}
-  - {fileID: 11400000, guid: 4c3453ffbf925425bbc6c62894534884, type: 2}
-  - {fileID: 11400000, guid: 4c1705a410e7f4c1e9ad36962c1d52bd, type: 2}
-  - {fileID: 11400000, guid: 1412eafc1a2b04628a3839030a95301f, type: 2}
-  - {fileID: 11400000, guid: b355a27e891584e6882aa7996dcdda7b, type: 2}
-  - {fileID: 11400000, guid: 4b01528a2f63a44a883372d0ba6e2e0d, type: 2}
-  - {fileID: 11400000, guid: f8f213a25f9cd4c7ead281a93d2ef069, type: 2}
-  - {fileID: 11400000, guid: b5758fb3d6043406baa111d0d225af2d, type: 2}
-  - {fileID: 11400000, guid: ee502fa315be14d26a6653cb5ff9b16b, type: 2}
-  - {fileID: 11400000, guid: d042c249ae7624f488f049358714158e, type: 2}
-  - {fileID: 11400000, guid: 97189d689adb74eb2a1b47cb533c1d0e, type: 2}
-  - {fileID: 11400000, guid: 968cb9eb2c99548b085b59c0f96a88f2, type: 2}
-  - {fileID: 11400000, guid: 1258b6b539cc44f40b88fa5182a14465, type: 2}
-  - {fileID: 11400000, guid: e36a10d4ca19c492eb7edc3c1e955d00, type: 2}
-  - {fileID: 11400000, guid: dcf24395da23244639bfb3798a36f1d1, type: 2}
-  - {fileID: 11400000, guid: c69687d2966c14368adb4221314cfe8b, type: 2}
---- !u!114 &2658712315084748860
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8057175090842349218}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34c780234881b4759826ac978d21cc7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CurrentDayCount: 0
-  endShiftDialogue: {fileID: 0}
-  endShiftDialogueText: DayEndText
-  settingsMenu: {fileID: 0}
-  isDay1: 1
+  AllCharacters: []
 --- !u!114 &2183979430440034236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -149,3 +114,40 @@ MonoBehaviour:
     CurrentDay: 0
     CurrentScore: 0
     Highscore: 0
+    CharacterApprovals: 
+    AdamApproval: 0
+    AlyceApproval: 0
+    AshleyApproval: 0
+    BenjaminApproval: 0
+    CliffApproval: 0
+    DarleneApproval: 0
+    DebraApproval: 0
+    DonnaApproval: 0
+    DougApproval: 0
+    HelenApproval: 0
+    JamesApproval: 0
+    JayApproval: 0
+    LouiseApproval: 0
+    MelvinApproval: 0
+    OliverApproval: 0
+    RichieApproval: 0
+    RobertApproval: 0
+    StevenApproval: 0
+    StuartApproval: 0
+--- !u!114 &8926327280660582676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8057175090842349218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34c780234881b4759826ac978d21cc7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentDayCount: 0
+  endShiftDialogue: {fileID: 0}
+  endShiftDialogueText: DayEndText
+  settingsMenu: {fileID: 0}
+  isDay1: 1

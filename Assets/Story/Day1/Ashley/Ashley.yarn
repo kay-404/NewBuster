@@ -119,12 +119,12 @@ title: AshleyMovie4
 I remember her talking about a movie she was shooting.
 Ashley: She should’ve never even been casted for it. It was supposed to be my role, only Cliff likes her more. Such bull.
 	-> Ask About Cliff
-		<<jump Cliff>>
+		<<jump Cliff2>>
 	-> Ask About Acting
 		<<jump AshleyCheckou3>>
 ===
 
-title: Cliff
+title: Cliff2
 ---
 Cliff is your agent? How’s he handling the news?
 Ashley: I’m assuming he’s not doing great, she told him last week that if this movie took off she would drop him for a big Hollywood hotshot agent.

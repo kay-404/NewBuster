@@ -852,7 +852,7 @@ PrefabInstance:
       objectReference: {fileID: 1058064090}
     - target: {fileID: 2233803326071640246, guid: 62fc2bad52c884e2db21f70bcb72e25c, type: 3}
       propertyPath: AllCharacters.Array.size
-      value: 14
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2233803326071640246, guid: 62fc2bad52c884e2db21f70bcb72e25c, type: 3}
       propertyPath: 'AllCharacters.Array.data[6]'

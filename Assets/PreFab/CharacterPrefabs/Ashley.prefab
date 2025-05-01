@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 3363351759015217736}
   - component: {fileID: 668674104633940662}
   - component: {fileID: 7740016898076531891}
-  - component: {fileID: 8138326125078519871}
   m_Layer: 5
   m_Name: Ashley
   m_TagString: Untagged
@@ -129,19 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c6005c37831c4287a9e0acd369bb2fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &8138326125078519871
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2336174140189203456}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e3c5a4cb699d4ac58d21b36176e49e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CharacterData: {fileID: 11400000, guid: 4c3453ffbf925425bbc6c62894534884, type: 2}
+  ThisCharacter: {fileID: 11400000, guid: 4c3453ffbf925425bbc6c62894534884, type: 2}
 --- !u!1 &3149140550621060512
 GameObject:
   m_ObjectHideFlags: 0

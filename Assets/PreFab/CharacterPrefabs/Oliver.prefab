@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 3675756968981757545}
   - component: {fileID: 7347288652116536897}
   - component: {fileID: 6865589510465512831}
-  - component: {fileID: 2005388675934224253}
   m_Layer: 5
   m_Name: Oliver
   m_TagString: Untagged
@@ -129,19 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c6005c37831c4287a9e0acd369bb2fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2005388675934224253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1463467003934129565}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e3c5a4cb699d4ac58d21b36176e49e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CharacterData: {fileID: 11400000, guid: d042c249ae7624f488f049358714158e, type: 2}
+  ThisCharacter: {fileID: 11400000, guid: d042c249ae7624f488f049358714158e, type: 2}
 --- !u!1 &2074302105401140471
 GameObject:
   m_ObjectHideFlags: 0

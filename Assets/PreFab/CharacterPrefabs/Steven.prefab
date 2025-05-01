@@ -104,7 +104,6 @@ GameObject:
   - component: {fileID: 7039568740596209093}
   - component: {fileID: 3545237634464943820}
   - component: {fileID: 4282488054351372007}
-  - component: {fileID: 746165457883709806}
   m_Layer: 5
   m_Name: Steven
   m_TagString: Untagged
@@ -219,19 +218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c6005c37831c4287a9e0acd369bb2fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &746165457883709806
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2524308353536089051}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e3c5a4cb699d4ac58d21b36176e49e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CharacterData: {fileID: 11400000, guid: e36a10d4ca19c492eb7edc3c1e955d00, type: 2}
+  ThisCharacter: {fileID: 11400000, guid: e36a10d4ca19c492eb7edc3c1e955d00, type: 2}
 --- !u!1 &4418518548616020241
 GameObject:
   m_ObjectHideFlags: 0
