@@ -1,0 +1,180 @@
+﻿title: LouiseNewspaper
+---
+	-> Buster’s
+		<<jump Busters>>
+	-> Speculate What Happened
+		<<jump SpeculateWho>>
+===
+
+title: Busters
+---
+She was here last Monday? Why would they call that out?
+Louise: I bet Stuart will come here then.
+	-> Question
+		<<jump QuestionWho>>
+	-> Snarky
+		<<jump Snarky1>>
+===
+
+title: Snarky1
+---
+You need to get past this boy crazy phase.
+Louise: I wouldn’t say it’s a phase.
+<<wait .5>>
+Benjamin: What's with the gabfest over here? Why are both of you out here?
+Louise: Have you read this yet?
+Benjamin: I don't read the news. And I don't pay you to read the news so do it on your own time.
+Louise: You don't pay us at all, your dad does.
+Benjamin: You're lucky my dad likes you otherwise you'd be done here. Get back to work. 
+Louise: Did you hear that?
+	-> Benjamin’s Mood
+		<<jump BenjaminsMood>>
+	-> Back to Work
+		<<jump BacktoWork>>
+===
+
+title: QuestionWho
+---
+Who?
+Louise: Stuart. He’s the sheriff. He’s pretty cute too.
+	-> Snarky
+		<<jump Snarky>>
+	-> Gross
+		<<jump Gross1>>
+===
+
+title: Snarky
+---
+Wait, isn’t that your sister’s ex-husband?
+Louise: Yeah.
+<<wait .5>>
+Benjamin: What's with the gabfest over here? Why are both of you out here?
+Louise: Have you read this yet?
+Benjamin: I don't read the news. And I don't pay you to read the news so do it on your own time.
+Louise: You don't pay us at all, your dad does.
+Benjamin: You're lucky my dad likes you otherwise you'd be done here. Get back to work. 
+Louise: Did you hear that?
+	-> Benjamin’s Mood
+		<<jump BenjaminsMood>>
+	-> Back to Work
+		<<jump BacktoWork>>
+===
+
+title: Gross1
+---
+Why do you have a crush on everyone in this town?
+Louise: We just have some nice eye-candy here, don’t judge.
+<<wait .5>>
+Benjamin: What's with the gabfest over here? Why are both of you out here?
+Louise: Have you read this yet?
+Benjamin: I don't read the news. And I don't pay you to read the news so do it on your own time.
+Louise: You don't pay us at all, your dad does.
+Benjamin: You're lucky my dad likes you otherwise you'd be done here. Get back to work. 
+Louise: Did you hear that?
+	-> Benjamin’s Mood
+		<<jump BenjaminsMood>>
+	-> Back to Work
+		<<jump BacktoWork>>
+===
+
+title: SpeculateWho
+---
+What do you think happened?
+Louise: I bet her boyfriend had something to do with it.
+	-> Question
+		<<jump Question>>
+	-> Agree
+		<<jump Agree>>
+===
+
+title: Agree
+---
+Yeah he’s always been kind of sketchy.
+<<wait .5>>
+Benjamin: What's with the gabfest over here? Why are both of you out here?
+Louise: Have you read this yet?
+Benjamin: I don't read the news. And I don't pay you to read the news so do it on your own time.
+Louise: You don't pay us at all, your dad does.
+Benjamin: You're lucky my dad likes you otherwise you'd be done here. Get back to work. 
+Louise: Did you hear that?
+	-> Benjamin’s Mood
+		<<jump BenjaminsMood>>
+	-> Back to Work
+		<<jump BacktoWork>>
+===
+
+title: Question
+---
+Why do you think that?
+Louise: It’s always the boyfriend, duh.
+	-> Confused
+		<<jump Confused>>
+	-> Disagree
+		<<jump Disagree>>
+===
+
+title: Disagree
+---
+I don’t know if I believe that.
+Louise: Ugh, whatever. I think her boyfriend is a total creep. Have you seen that mop on his head?
+<<wait .5>>
+Benjamin: What's with the gabfest over here? Why are both of you out here?
+Louise: Have you read this yet?
+Benjamin: I don't read the news. And I don't pay you to read the news so do it on your own time.
+Louise: You don't pay us at all, your dad does.
+Benjamin: You're lucky my dad likes you otherwise you'd be done here. Get back to work. 
+Louise: Did you hear that?
+	-> Benjamin’s Mood
+		<<jump BenjaminsMood>>
+	-> Back to Work
+		<<jump BacktoWork>>
+===
+
+title: Confused
+---
+Why would he report her missing if he did something to her?
+Louise: To cover his tracks. He would be suspect number one if he didn’t report her missing.
+<<wait .5>>
+Benjamin: What's with the gabfest over here? Why are both of you out here?
+Louise: Have you read this yet?
+Benjamin: I don't read the news. And I don't pay you to read the news so do it on your own time.
+Louise: You don't pay us at all, your dad does.
+Benjamin: You're lucky my dad likes you otherwise you'd be done here. Get back to work. 
+Louise: Did you hear that?
+	-> Benjamin’s Mood
+		<<jump BenjaminsMood>>
+	-> Back to Work
+		<<jump BacktoWork>>
+===
+
+title: BacktoWork
+---
+Yeah, he wants us to go back in.
+Louise: Louise: He said his dad likes me. Maybe I can score his number.
+	-> Gross
+		<<jump Gross>>
+	-> Remind About Lisa
+		<<jump Lisa>>
+===
+
+title: BenjaminsMood
+---
+Yeah, he was pissed about the newspaper.
+Louise: He said his dad likes me. Maybe I can score his number.
+	-> Gross
+		<<jump Gross>>
+	-> Remind About Lisa
+		<<jump Lisa>>
+===
+
+title: Gross
+---
+Ew. He’s like sixty Louise. 
+Louise: He still has at least fifteen more good years.
+===
+
+title: Lisa
+---
+He’s still married
+Louise: I know it’s not a happy marriage. Look how Benjamin turned out, people like that don’t have happy families.
+===
