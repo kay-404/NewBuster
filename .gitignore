@@ -72,3 +72,7 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 fmod_editor.log
 fmod_editor.log
+Assets/Art/Characters/Adam.png.meta
+Assets/Art/Characters/Cliff.png.meta
+Assets/Art/Placeholders/PlaceholderCheckmark.png.meta
+Assets/Art/RecieptNew.png.meta
