@@ -1,8 +1,0 @@
-﻿title: LouiseConversation2
----
-Louise: What’s that?
-	-> Hey! I was reading that!
-		<<jump Newspaper1>>
-	-> The newspaper, duh.
-		<<jump Newspaper1>>
-===
