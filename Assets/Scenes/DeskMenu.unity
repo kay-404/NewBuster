@@ -1096,8 +1096,14 @@ MonoBehaviour:
   customer: {fileID: 1587734892}
   errorMessage: {fileID: 399745682}
   customerPortrait: {fileID: 1587734894}
+  playerTimeScore: {fileID: 0}
+  customerID: {fileID: 0}
+  customerIdPhoto: {fileID: 0}
+  customer18Check: {fileID: 0}
   customerEntranceDialog: {fileID: 117863432}
   customerExitDialog: {fileID: 1908726691}
+  customerName: 
+  over18: 0
   arrivalTime: 2
   cashBackValue: 8
   entranceDialogText: TestCustomerDialog
@@ -3411,17 +3417,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8067904733610170691, guid: 890a924e9850b424b84ee728870529db, type: 3}
   m_PrefabInstance: {fileID: 1683414453}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1889030968 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2658712315084748860, guid: 62fc2bad52c884e2db21f70bcb72e25c, type: 3}
-  m_PrefabInstance: {fileID: 928073880}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34c780234881b4759826ac978d21cc7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1897146847 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9202318012722526093, guid: 7a0fca08664ef4704a9eb319b2db9744, type: 3}
@@ -3802,7 +3797,7 @@ PrefabInstance:
     - target: {fileID: 5063245013752556645, guid: f0f847e57edd747f89c5045a62ba762c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1889030968}
+      objectReference: {fileID: 0}
     - target: {fileID: 6328344580857194195, guid: f0f847e57edd747f89c5045a62ba762c, type: 3}
       propertyPath: m_Name
       value: Settings
@@ -3810,7 +3805,7 @@ PrefabInstance:
     - target: {fileID: 7128462428032035671, guid: f0f847e57edd747f89c5045a62ba762c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1889030968}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4048,7 +4043,7 @@ PrefabInstance:
     - target: {fileID: 1715000561797943213, guid: 1fa7625ddaa848b40b13e1a7ec8b858a, type: 3}
       propertyPath: onDialogueComplete.m_PersistentCalls.m_Calls.Array.data[5].m_Target
       value: 
-      objectReference: {fileID: 1889030968}
+      objectReference: {fileID: 0}
     - target: {fileID: 1715000561797943213, guid: 1fa7625ddaa848b40b13e1a7ec8b858a, type: 3}
       propertyPath: onDialogueComplete.m_PersistentCalls.m_Calls.Array.data[6].m_Target
       value: 
