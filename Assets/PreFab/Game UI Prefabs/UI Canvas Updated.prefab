@@ -7599,7 +7599,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &132493998407989466
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8937,8 +8937,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ratingValue: 0
+  correctRating: 0
   isReviewed: 0
   descriptionDialogue: TestMovieDescription
+  reviewScoreText: {fileID: 0}
   vhsDescription: {fileID: 0}
   vhsRating: {fileID: 0}
 --- !u!1 &8010206911456265414
