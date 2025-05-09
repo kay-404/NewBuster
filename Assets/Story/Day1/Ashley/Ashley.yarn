@@ -1,6 +1,6 @@
 ﻿title: Ashley
 ---
-Tonya: Do you have Fools Rush Out? 
+Ashley: Do you have Fools Rush Out? 
 	-> No
 		<<jump AshleyMovie>>
 	-> No but Elaborate
@@ -12,7 +12,7 @@ title: AshleyMovie
 Tonya’s movie? No, I don’t think we stock that one.
 Ashley: Just this then.
 	-> Ask About Newspaper
-		<<jump TonyaPape2r>>
+		<<jump TonyaPaper2>>
 	-> Ask About Relationship
 		<<jump AshleyAgent>>
 ===

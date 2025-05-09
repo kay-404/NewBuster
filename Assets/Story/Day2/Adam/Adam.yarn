@@ -14,37 +14,40 @@ Adam: What would you recommend?
 Helen: For you or for your sister?
 Adam: My sister.
 Helen: Give me one sec.
-	-> She's right, When Larry met Callie is pretty awful.
+	-> Agree with Helen
 		<<jump AgreeHelen>>
-	->Personally, I think When Larry met Callie is a great rom-com.
+	-> Disagree with Helen
 		<<jump DisagreeHelen>>
 ===
 
 title: AgreeHelen
 ---
+She's right, When Larry met Callie is pretty awful.
 <<set $UglyInRed = true>>
 <<set $AdamHelen = true>>
 Helen: I think this is a much better choice...for your sister. It might be cliche but Meli Roundwald puts on a great performance especially since it was her breakout role into rom-coms. But I'm sure your sister already knows all about her.
 Adam: Um, thanks.
-	-> She’s cute don’t you think?
+	-> Play Matchmaker
 		<<jump HelenCute>>
-	-> Just Ugly in Red today?
+	-> Checkout
 		<<jump CheckOutAdam>>
 ===
 
 title: DisagreeHelen
 ---
+Personally, I think When Larry met Callie is a great rom-com.
 Helen: I think this is a much better choice...for your sister. It might be cliche but Meli Roundwald puts on a great performance especially since it was her breakout role into rom-coms. But I'm sure your sister already knows all about her.
 Adam: Um, thanks. 
-	-> She’s cute don’t you think?
+	-> Play Matchmaker
 		<<jump HelenCute>>
-	-> Just When Larry met Callie today?
+	-> Checkout
 		<<jump CheckOutAdam>>
 ===
 
 
 title: HelenCute
 ---
+She’s cute don’t you think?
 <<if $AdamHelen == true>>
 Adam: Um, I don't know. She was nice.
 <<elseif $AdamHelen == false>>
@@ -54,6 +57,7 @@ Adam: Um, I don't know. She was nice.
 
 title: CheckOutAdam
 ---
+Just this?
 Adam: Yeah just that.
 ===
 

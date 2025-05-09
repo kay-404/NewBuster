@@ -145,7 +145,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cliff_0: 6689793761368241967
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
