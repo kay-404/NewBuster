@@ -3107,8 +3107,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: How to check out customers
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 07280368a91ba4cc19b8d38f012144b7, type: 2}
-  m_sharedMaterial: {fileID: -8719791757908586177, guid: 07280368a91ba4cc19b8d38f012144b7, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0a88e17efe3634a528ad45c731b0822e, type: 2}
+  m_sharedMaterial: {fileID: 161579525705281167, guid: 0a88e17efe3634a528ad45c731b0822e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3694,8 +3694,8 @@ MonoBehaviour:
   m_text: 3. Deposit the customer's cash in the register. Then, be sure to give them
     the correct amount of change!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0a88e17efe3634a528ad45c731b0822e, type: 2}
-  m_sharedMaterial: {fileID: 161579525705281167, guid: 0a88e17efe3634a528ad45c731b0822e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d82c450213c274f94abd7f249ef709d9, type: 2}
+  m_sharedMaterial: {fileID: -228195657128036684, guid: d82c450213c274f94abd7f249ef709d9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3840,7 +3840,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2925605804069614813
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5676,8 +5676,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '2. Examine the front cover of the VHS for a price tag. '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0a88e17efe3634a528ad45c731b0822e, type: 2}
-  m_sharedMaterial: {fileID: 161579525705281167, guid: 0a88e17efe3634a528ad45c731b0822e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d82c450213c274f94abd7f249ef709d9, type: 2}
+  m_sharedMaterial: {fileID: -228195657128036684, guid: d82c450213c274f94abd7f249ef709d9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9439,8 +9439,8 @@ MonoBehaviour:
   m_text: '1. A Customer will approach the counter with the VHS they would like to
     rent. Give them a nice greeting! '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0a88e17efe3634a528ad45c731b0822e, type: 2}
-  m_sharedMaterial: {fileID: 161579525705281167, guid: 0a88e17efe3634a528ad45c731b0822e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d82c450213c274f94abd7f249ef709d9, type: 2}
+  m_sharedMaterial: {fileID: -228195657128036684, guid: d82c450213c274f94abd7f249ef709d9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
