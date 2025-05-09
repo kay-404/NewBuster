@@ -4,6 +4,8 @@ public class FollowMouse : MonoBehaviour
 {
     private Camera mainCamera;
 
+    public bool centerCamera = false;
+
     public float maxSpeed = 10f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -14,9 +16,20 @@ public class FollowMouse : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        FollowMousePosition();
+        if (centerCamera == false)
+        {
+            FollowMousePosition();
+        }
+        else
+        {
+            transform.position = Vector3.zero;
+        }
     }
 
+    public void CenterCamera(bool zero)
+    {
+        centerCamera = zero;
+    }
     private void FollowMousePosition()
     {
         transform.position = GetWorldPositionFromMouse();
