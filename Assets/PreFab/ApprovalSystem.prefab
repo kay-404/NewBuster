@@ -41,6 +41,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1437623477747990859}
     m_Modifications:
+    - target: {fileID: 1176003722305408827, guid: 20ecaed7ef3f3476a9f91d2a3b9d3b65, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ddfdbc0c85c6347119e417fbd53e97a3, type: 3}
     - target: {fileID: 1901085648014598871, guid: 20ecaed7ef3f3476a9f91d2a3b9d3b65, type: 3}
       propertyPath: m_text
       value: 'Approval Up+

@@ -10,22 +10,27 @@ public class CashSystem : MonoBehaviour
     void Start()
     {
         money = 0;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        moneyText.SetText("Cash: $" + money);
+        UpdateMoneyText();
     }
 
     public void addMoney(float moneyToAdd)
     {
         money += moneyToAdd;
         money = Mathf.Round(money * 100.0f) * 0.01f;
+        UpdateMoneyText();
     }
 
     public void resetMoney()
     {
         money = 0;
+        UpdateMoneyText();
+    }
+
+    private void UpdateMoneyText()
+    {
+        string tempString;
+
+        tempString = string.Format("{0:C}", money);
+        moneyText.SetText("Cashback Total: " + tempString);
     }
 }
