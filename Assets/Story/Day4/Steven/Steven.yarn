@@ -1,70 +1,78 @@
 ﻿title: Pudgy1
 ---
 Pudgy: What’s up with big Ben? I went in the alley to smoke, he was sitting out there and then as soon as I lit my cig he went right inside. 
-	-> I think he’s trying to quit.
+	-> Lie
 		<<jump QuitSmoke>>
-	-> He’s not pleased with anyone right now, I wouldn’t take it personally.
+	-> Be Truthful
 		<<jump BenjaminMad>>
 ===
 
 title: QuitSmoke
 ---
+I think he’s trying to quit.
 Pudgy: Ah, fighting the good fight. I’ll try not to go out there to smoke as much. 
-	-> He’d probably appreciate that, we all smoke and I think he’s getting fed up.
+	-> Keep up the Act
 		<<jump CheckoutPudgy2>>
-	-> I wouldn’t change just for Benjamin.
-		<<jump CheckoutPudgy2>>
+	-> Diss Benjamin
+		<<jump CheckoutPudgy3>>
 ===
 
 title: BenjaminMad
 ---
+He’s not pleased with anyone right now, I wouldn’t take it personally.
 <<UpdateApproval Steven +10>>
 Pudgy: Good to know. How has everything been… you know since the news?
-	-> It’s so weird, Stuart just stopped by and he said he’d be back. I never thought Buster’s would be the hot spot for solving a murder. 
+	-> Weird
 		<<jump PudgyReply1>>
-	-> At least it’s exciting around here now.
+	-> Exciting
 		<<jump PudgyAwkward>>
 ===
 
 title: PudgyReply1
 ---
+It’s so weird, Stuart just stopped by and he said he’d be back. I never thought Buster’s would be the hot spot for solving a murder. 
 Pudgy: Yeah I do not envy you guys. Stuart stopped by yesterday, the department needed more film, almost emptied me out.
-	-> Did you ask him anything?
+	-> Press for Information
 		<<jump PudgyConfused>>
-	-> Why do they need that much film?
+	-> Ask Reason
 		<<jump PudgyFilm>>
 ===
 
 title: PudgyConfused
 ---
+Did you ask him anything?
 Pudgy: Yeah, his kids are doing well but apparently the school fees are skyrocketing-
-	-> I meant about Tonya.
+	-> Tonya?
 		<<jump PudgyConfused1>>
-	-> Umm well that’s nice to hear.
+	-> Polite
 		<<jump CheckoutPudgy>>
 ===
 
 title: PudgyConfused1
 ---
+I meant about Tonya.
 Pudgy: Oh no. I didn’t really think to ask. Next time I see him I will. But I gotta get going, I’m still technically on my smoke break.
 ===
 
 title: PudgyFilm
 ---
+Why do they need that much film?
 Pudgy: I heard that they’re going back to the lake and taking more pictures of everything, they still have her car at the station too, they’re basically starting from the beginning.
-	-> Why?
+	-> Question
 		<<jump AskPudgy>>
-	-> That’s probably for the best, it seems like they’re not getting anywhere with it.
+	-> Snarky
 		<<jump PudgyResponse>>
 ===
 
 title: AskPudgy
 ---
+Why?
 Pudgy: I’m not sure I just sell the film. Anyhow I should probably get going, I’m still technically on my smoke break.
 ===
 
 title: PudgyResponse
 ---
+That’s probably for the best, it seems like they’re not getting anywhere with it.
 Pudgy: Think about it, there hasn’t been a murder here since my parents were young. This department doesn’t really know how to handle this type of thing. The press is also on their ass almost everyday waiting for new information to drop, it’s a whole shit show over there.
 <<UpdateApproval Steven +10>>
 <<wait 1>>
@@ -74,17 +82,26 @@ Pudgy: Since I’ve already put my foot in my mouth I should probably get going,
 
 title: PudgyAwkward
 ---
+At least it’s exciting around here now.
 <<UpdateApproval Steven -10>>
-Pudgy: Oh, I mean that’s a positive outlook.
+Pudgy: Oh, I mean that’s a…positive outlook.
 Pudgy: I should probably get going, I’m still technically on my smoke break.
 ===
 
 title: CheckoutPudgy
 ---
+Umm well that’s nice to hear.
 Pudgy: I should probably get going, I’m still technically on my smoke break.
 ===
 
 title: CheckoutPudgy2
 ---
+He’d probably appreciate that, we all smoke and I think he’s getting fed up.
 Pudgy: Well, I guess I’ll get out of your hair. Can you check me out?
+===
+
+title: CheckoutPudgy3
+---
+I wouldn’t change just for Benjamin.
+Pudgy: Fair point, well I gotta get going can you check me out?
 ===

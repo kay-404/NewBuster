@@ -1,6 +1,6 @@
 ﻿title: Ashley
 ---
-Tonya: Do you have Fools Rush Out? 
+Ashley: Do you have Fools Rush Out? 
 	-> No
 		<<jump AshleyMovie>>
 	-> No but Elaborate

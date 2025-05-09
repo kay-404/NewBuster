@@ -1,75 +1,104 @@
 ﻿title: Helen
 ---
 Helen: Adam is so funny. Such a softie.
-	-> I’m assuming you guys are friends?
+-> Ask About Adam
 		<<jump HelenAdmirer>>
-	-> I thought he was getting it for his sister?
+-> Confused
 		<<jump HelenOblivious>>
 ===
 
 title: HelenAdmirer
 ---
+I’m assuming you guys are friends?
 Helen: Oh my gosh no, he would never be caught dead hanging out with me. 
-	-> Isn’t this like the plot of that other Meli Roundwald movie?
+	-> Talk about Movie Trope
 		<<jump MeliRoundwald>>
-	-> I’m sure that’s not true. 
+	-> Disagree
 		<<jump Helen2>>
 ===
 
-title: HelenOblivious
+title: HelenOblivious 
 ---
+I thought he was getting it for his sister?
 Helen: Huh? No there’s no way, you obviously just don’t understand him. He’s the quarterback there’s no way he would openly be seen getting a rom-com.
-	-> I don’t get the big deal, it’s just a movie.
+	-> Dramatic
 		<<jump HelenSocial>>
-	-> Ahh high school, I don’t miss those days.
+	-> High School
 		<<jump HelenHighSchool>>
 ===
 
 title: HelenSocial
 ---
+I don’t get the big deal, it’s just a movie.
 Helen: I don’t think you understand the social hierarchy there is. His teammates would never let him live it down.
-	-> High school is just a blip of your life, nothing is that serious at your age.
+	-> Downplay
 		<<jump HelenAnnoyed>>
-	-> That seems dramatic.
-		<<jump HelenAnnoyed>>
+	-> Dramatic
+		<<jump HelenAnnoyed1>>
 ===
 
 title: HelenHighSchool
 ---
+Ahh high school, I don’t miss those days.
 Helen: When was that? 20 years ago?
-	-> Ok, that’s a little dramatic.
-		<<jump HelenCheckout2>>
-	-> Do I really look that old?
+	-> Dramatic
+		<<jump HelenCheckout3>>
+	-> Question
 		<<jump HelenCheckout2>>
 ===
 
 title: MeliRoundwald
 ---
+Isn’t this like the plot of that other Meli Roundwald movie? The nerdy girl gets the popular guy at the end.
 Helen: Seventeen Candles? 
 Helen: Yeah I guess this could be a similar situation…but those kinds of things only happen in the movies.
-	-> I think you should go for it!
+	-> Encourage
 		<<jump EncourageHelen>>
-	-> Yeah maybe you’re right.
+	-> Discourage
 		<<jump DiscourageHelen>>
 ===
 
 title: Helen2
 ---
+I’m sure that’s not true. 
 Helen: High school is like the animal kingdom, there’s a hierarchy and I’m at the bottom and he’s at the top. 
-	-> I don’t think it’s that serious.
-		<<jump HelenAnnoyed>>
-	-> I think you should just ask him out if you like him.
-		<<jump HelenAnnoyed>>
+	-> Dramatic
+		<<jump HelenAnnoyed2>>
+	-> Encourage
+		<<jump HelenAnnoyed3>>
 ===
 
 title: HelenAnnoyed
 ---
+High school is just a blip of your life, nothing is that serious at your age.
+Helen: You don’t get it.
+Helen: Anyways I need to get going, I’ll just take this.
+===
+
+title: HelenAnnoyed1
+---
+That seems dramatic.
+Helen: You don’t get it.
+Helen: Anyways I need to get going, I’ll just take this.
+===
+
+title: HelenAnnoyed2
+---
+I don’t think it’s that serious.
+Helen: You don’t get it.
+Helen: Anyways I need to get going, I’ll just take this.
+===
+
+title: HelenAnnoyed3
+---
+I think you should just ask him out if you like him.
 Helen: You don’t get it.
 Helen: Anyways I need to get going, I’ll just take this.
 ===
 
 title: EncourageHelen
 ---
+I think you should go for it!
 <<UpdateApproval Helen +10>>
 Helen: Maybe..I don’t know. I wish I lived in a Meli Roundwald movie, it seems so much simpler.
 Helen: Anyways I gotta get going, I’ll just take this.
@@ -77,6 +106,7 @@ Helen: Anyways I gotta get going, I’ll just take this.
 
 title: DiscourageHelen
 ---
+Yeah maybe you’re right.
 Helen: I’ll never get to live out my Meli Roundwald fantasy, so I guess I’ll just have to watch her movies instead. I’ll just take this.
 ===
 
@@ -87,7 +117,17 @@ Helen: Anyways I gotta get going, I’ll just take this.
 
 title: HelenCheckout2
 ---
+Do I really look that old?
 Helen: Yikes…
-Anyways I gotta get going, I’ll just take this.
+Helen: Anyways I gotta get going, I’ll just take this.
 ===
+
+title: HelenCheckout3
+---
+Ok, that’s a little dramatic.
+Helen: Ehhh…
+Helen: Anyways I gotta get going, I’ll just take this.
+===
+
+
 

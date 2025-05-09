@@ -1,0 +1,20 @@
+﻿title: LouiseOffice
+---
+Louise: Hey, looks like Benjamin already left. Can you look for his keys in his office?
+-> Question
+<<jump Question>>
+-> Agree
+		<<jump Agree>>
+===
+
+title: Question
+---
+Why can’t you do it?
+Louise: I don’t want to. I’ll have a smoke outside while you do that.
+===
+
+title: Agree
+---
+Sure.
+Louise: Thanks! I’ll wait outside.
+===
