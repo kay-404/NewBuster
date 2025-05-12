@@ -109,7 +109,7 @@ title: AshleyMovie3
 Everyone was basically drooling over her, it was a little much.
 Ashley: I just hope this means she’s not doing that movie anymore.
 	-> Recall Details
-		<<jump AshleyMovie2>>
+		<<jump AshleyMovie4>>
 	-> Ask About Movie
 		<<jump AshleyCheckout>>
 ===
