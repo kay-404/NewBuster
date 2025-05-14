@@ -337,10 +337,10 @@ MonoBehaviour:
   Path: Buster'sVideo_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638811413505790956
+  lastModified: 638828187281859255
   FileSizes:
   - Name: Desktop
-    Value: 1982
+    Value: 1934
   Exists: 1
 --- !u!114 &-4267862786502171267
 MonoBehaviour:
@@ -464,13 +464,12 @@ MonoBehaviour:
   - {fileID: 3205969765112759947}
   - {fileID: -4267862786502171267}
   - {fileID: 481967596837789772}
-  - {fileID: 1997522261851528772}
   EditorParameters: []
   MasterBanks:
   - {fileID: 4800309168559682536}
   StringsBanks:
   - {fileID: -4972410958704356020}
-  cacheTime: 638811413505790956
+  cacheTime: 638828187281859255
   cacheVersion: 131616
 --- !u!114 &481967596837789772
 MonoBehaviour:
@@ -580,33 +579,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &1997522261851528772
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/MUS_MainMenu (old)
-  m_EditorClassIdentifier: 
-  Path: event:/MUS_MainMenu (old)
-  Guid:
-    Data1: 363381767
-    Data2: 1317413725
-    Data3: 1845562500
-    Data4: -331130763
-  Banks:
-  - {fileID: 4800309168559682536}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 162445
 --- !u!114 &3205969765112759947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -676,10 +648,10 @@ MonoBehaviour:
   Path: Buster'sVideo_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638811413505790956
+  lastModified: 638828187281799653
   FileSizes:
   - Name: Desktop
-    Value: 6307200
+    Value: 4247872
   Exists: 1
 --- !u!114 &4823877267792228263
 MonoBehaviour:
