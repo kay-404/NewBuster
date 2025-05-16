@@ -29,6 +29,8 @@ MonoBehaviour:
   - m_enabled: 1
     m_path: Assets/Scenes/Day1Scenes/Day1SmokeBreak.unity
   - m_enabled: 1
+    m_path: Assets/Scenes/Day1Scenes/Alley.unity
+  - m_enabled: 1
     m_path: Assets/Scenes/Day1Scenes/Day1ShiftContinued.unity
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:

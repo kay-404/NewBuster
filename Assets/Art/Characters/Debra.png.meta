@@ -145,7 +145,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Debra_0: 2352612083108188139
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

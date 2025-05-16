@@ -145,7 +145,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Darlene_0: 5672954379904445989
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
