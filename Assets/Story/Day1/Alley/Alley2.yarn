@@ -1,0 +1,58 @@
+﻿title: LouiseConversation2
+--- 
+Louise: What’s that?
+ -> Sarcastic 
+ 	 <<jump Newspaper1>> 
+ -> Frustrated
+  	<<jump Newspaper2>> 
+=== 
+
+title: Newspaper1
+---
+It looks like it’s the newspaper. 
+Louise: Oh my god. 
+Louise: Tonya’s missing. 
+ -> Question 
+ 	<<jump QuestionTonya>> 
+ -> Disbelief 
+ 	<<jump Tonya1>> 
+=== 
+
+title: Newspaper2
+---
+Hey! I was reading that! 
+Louise: Oh my god. 
+Louise: Tonya’s missing.
+ -> Question 
+	<<jump QuestionTonya>>
+ -> Disbelief
+    <<jump Tonya1>> 
+===
+
+title: QuestionTonya
+--- 
+Tonya?
+Louise: Tonya Sterling. She’s in here a bunch. She’s that actress that always asks us to rent her movies. 
+ -> Ask About Paper
+	<<jump Tonya2>>
+ -> Ask For Details 
+ 	<<jump Tonya3>>
+===
+
+title: Tonya1
+---
+Wait what?
+Louise: Take a look for yourself. 
+===
+
+title: Tonya2
+---
+She's missing?
+Louise: Take a look for yourself.
+===
+
+title: Tonya3
+---
+When did she go missing?
+Louise: Take a look for yourself.
+===

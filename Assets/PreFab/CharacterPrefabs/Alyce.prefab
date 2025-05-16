@@ -191,6 +191,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9adbd6e6f6a0a41ac9446b0e31e09972, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  boxColliderEnter: 0
 --- !u!114 &9209360573634239928
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -271,7 +272,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 8029351004527951999, guid: 5f62a38d8656f9a48becf176ce61a016, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

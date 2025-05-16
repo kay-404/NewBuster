@@ -1,5 +1,6 @@
-﻿title: LouiseNewspaper
+﻿title: AskLouiseNewspaper
 ---
+This is a lot to take in all of a sudden!
 	-> Buster’s
 		<<jump Busters>>
 	-> Speculate What Happened
@@ -21,11 +22,13 @@ title: Snarky1
 You need to get past this boy crazy phase.
 Louise: I wouldn’t say it’s a phase.
 <<wait .5>>
+
 Benjamin: What's with the gabfest over here? Why are both of you out here?
 Louise: Have you read this yet?
 Benjamin: I don't read the news. And I don't pay you to read the news so do it on your own time.
 Louise: You don't pay us at all, your dad does.
 Benjamin: You're lucky my dad likes you otherwise you'd be done here. Get back to work. 
+<<SetActive Benjamin false>>
 Louise: Did you hear that?
 	-> Benjamin’s Mood
 		<<jump BenjaminsMood>>
@@ -48,11 +51,13 @@ title: Snarky
 Wait, isn’t that your sister’s ex-husband?
 Louise: Yeah.
 <<wait .5>>
+<<SetActive Benjamin true>>
 Benjamin: What's with the gabfest over here? Why are both of you out here?
 Louise: Have you read this yet?
 Benjamin: I don't read the news. And I don't pay you to read the news so do it on your own time.
 Louise: You don't pay us at all, your dad does.
 Benjamin: You're lucky my dad likes you otherwise you'd be done here. Get back to work. 
+<<SetActive Benjamin false>>
 Louise: Did you hear that?
 	-> Benjamin’s Mood
 		<<jump BenjaminsMood>>
@@ -65,11 +70,13 @@ title: Gross1
 Why do you have a crush on everyone in this town?
 Louise: We just have some nice eye-candy here, don’t judge.
 <<wait .5>>
+<<SetActive Benjamin true>>
 Benjamin: What's with the gabfest over here? Why are both of you out here?
 Louise: Have you read this yet?
 Benjamin: I don't read the news. And I don't pay you to read the news so do it on your own time.
 Louise: You don't pay us at all, your dad does.
 Benjamin: You're lucky my dad likes you otherwise you'd be done here. Get back to work. 
+<<SetActive Benjamin false>>
 Louise: Did you hear that?
 	-> Benjamin’s Mood
 		<<jump BenjaminsMood>>
@@ -91,11 +98,13 @@ title: Agree
 ---
 Yeah he’s always been kind of sketchy.
 <<wait .5>>
+<<SetActive Benjamin true>>
 Benjamin: What's with the gabfest over here? Why are both of you out here?
 Louise: Have you read this yet?
 Benjamin: I don't read the news. And I don't pay you to read the news so do it on your own time.
 Louise: You don't pay us at all, your dad does.
 Benjamin: You're lucky my dad likes you otherwise you'd be done here. Get back to work. 
+<<SetActive Benjamin false>>
 Louise: Did you hear that?
 	-> Benjamin’s Mood
 		<<jump BenjaminsMood>>
@@ -118,11 +127,13 @@ title: Disagree
 I don’t know if I believe that.
 Louise: Ugh, whatever. I think her boyfriend is a total creep. Have you seen that mop on his head?
 <<wait .5>>
+<<SetActive Benjamin true>>
 Benjamin: What's with the gabfest over here? Why are both of you out here?
 Louise: Have you read this yet?
 Benjamin: I don't read the news. And I don't pay you to read the news so do it on your own time.
 Louise: You don't pay us at all, your dad does.
 Benjamin: You're lucky my dad likes you otherwise you'd be done here. Get back to work. 
+<<SetActive Benjamin false>>
 Louise: Did you hear that?
 	-> Benjamin’s Mood
 		<<jump BenjaminsMood>>
@@ -135,11 +146,13 @@ title: Confused
 Why would he report her missing if he did something to her?
 Louise: To cover his tracks. He would be suspect number one if he didn’t report her missing.
 <<wait .5>>
+<<SetActive Benjamin true>>
 Benjamin: What's with the gabfest over here? Why are both of you out here?
 Louise: Have you read this yet?
 Benjamin: I don't read the news. And I don't pay you to read the news so do it on your own time.
 Louise: You don't pay us at all, your dad does.
 Benjamin: You're lucky my dad likes you otherwise you'd be done here. Get back to work. 
+<<SetActive Benjamin false>>
 Louise: Did you hear that?
 	-> Benjamin’s Mood
 		<<jump BenjaminsMood>>

@@ -29,7 +29,7 @@ MonoBehaviour:
   - m_enabled: 1
     m_path: Assets/Scenes/Day1Scenes/Day1SmokeBreak.unity
   - m_enabled: 1
-    m_path: Assets/Scenes/Day1Scenes/Alley.unity
+    m_path: Assets/Scenes/Day1Scenes/Day1ShiftContinued.unity
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
     m_Settings:
@@ -112,7 +112,7 @@ MonoBehaviour:
     - line: '|   androidAutoRotationBehavior: 1'
     - line: '|   androidApplicationEntry: 2'
     - line: '|   androidPredictiveBackSupport: 0'
-    - line: '|   defaultIsNativeResolution: 0'
+    - line: '|   defaultIsNativeResolution: 1'
     - line: '|   macRetinaSupport: 1'
     - line: '|   runInBackground: 0'
     - line: '|   captureSingleScreen: 0'
@@ -139,7 +139,7 @@ MonoBehaviour:
     - line: '|   xboxEnableFitness: 0'
     - line: '|   visibleInBackground: 1'
     - line: '|   allowFullscreenSwitch: 1'
-    - line: '|   fullscreenMode: 3'
+    - line: '|   fullscreenMode: 1'
     - line: '|   xboxSpeechDB: 0'
     - line: '|   xboxEnableHeadOrientation: 0'
     - line: '|   xboxEnableGuest: 0'

@@ -9,10 +9,13 @@ public class ApprovalBar : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 {
     private CharacterSO thisCharacter;
 
+
     void Start()
     {
         thisCharacter = gameObject.GetComponent<ProfileHandler>().ThisCharacter;
     }
+
+
 
     public void OnPointerEnter(PointerEventData eventData)
     {

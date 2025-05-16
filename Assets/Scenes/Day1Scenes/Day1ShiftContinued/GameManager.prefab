@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8057175090842349218
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4857802036764854323}
+  - component: {fileID: 2233803326071640246}
+  - component: {fileID: 2183979430440034236}
+  - component: {fileID: 6933959612799304717}
+  - component: {fileID: 3824540117583442714}
+  - component: {fileID: 4569281805676070400}
+  - component: {fileID: 8926327280660582676}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4857802036764854323
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8057175090842349218}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 999.6647, y: 582.15967, z: -14.37025}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2233803326071640246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8057175090842349218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2b1e9d4f1b53492eae26956ba795f58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AllCharacters: []
+--- !u!114 &2183979430440034236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8057175090842349218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c1f1ce408cb944eda9ba9457c61e324, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ApprovalSlider: {fileID: 0}
+  ApprovalText: {fileID: 0}
+  NameText: {fileID: 0}
+  ApprovalBar: {fileID: 0}
+  PositiveDisplay: {fileID: 0}
+  NegativeDisplay: {fileID: 0}
+--- !u!114 &6933959612799304717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8057175090842349218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a983059dfcf7423399df0a80919ce23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tempDailyScore: 0
+--- !u!114 &3824540117583442714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8057175090842349218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ea4ee58a972144839aabab4d60369bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customerScorePanel: {fileID: 0}
+  scoreTotalText: {fileID: 0}
+  scoreUpdateText: {fileID: 0}
+--- !u!114 &4569281805676070400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8057175090842349218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6006a4dc7e51f4e488acf3ea63f6fdf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerData:
+    SavedScene:
+      m_Handle: 0
+    CurrentDay: 0
+    CurrentScore: 0
+    Highscore: 0
+    CharacterApprovals: 
+    AdamApproval: 0
+    AlyceApproval: 0
+    AshleyApproval: 0
+    BenjaminApproval: 0
+    CliffApproval: 0
+    DarleneApproval: 0
+    DebraApproval: 0
+    DonnaApproval: 0
+    DougApproval: 0
+    HelenApproval: 0
+    JamesApproval: 0
+    JayApproval: 0
+    LouiseApproval: 0
+    MelvinApproval: 0
+    OliverApproval: 0
+    RichieApproval: 0
+    RobertApproval: 0
+    StevenApproval: 0
+    StuartApproval: 0
+--- !u!114 &8926327280660582676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8057175090842349218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34c780234881b4759826ac978d21cc7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentDayCount: 0
+  endShiftDialogue: {fileID: 0}
+  endShiftDialogueText: DayEndText
+  settingsMenu: {fileID: 0}
+  isDay1: 1

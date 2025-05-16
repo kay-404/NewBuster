@@ -18,23 +18,34 @@ public class CustomerEvents : MonoBehaviour
     public TMP_Text customerID;
     public GameObject customerIdPhoto;
     public GameObject customer18Check;
+    public SceneLoader sceneLoader;
+
+    private bool isComplete = false;
 
     //public GameObject vhs;
+
+    [Header("Dialogue GameObjects")]
     public DialogueRunner customerEntranceDialog;
+    public DialogueRunner customerAngryDialog;
     public DialogueRunner customerExitDialog;
 
     [Header("Customer Data")]
     public string customerName;
     public bool over18;
+    public bool isLastCustomer;
 
     public int arrivalTime;
+    public int exitTime;
     public float cashBackValue;
 
-    [Header("Customer Dialog")]
+    [Header("Customer Dialogue Start Nodes")]
     public string entranceDialogText;
+    public string angryDialogText;
     public string exitDialogText;
     public bool hasTextStarted = false;
+    public bool overBoxCollider = false;
     public bool arrived = false;
+    public bool angry = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -58,6 +69,27 @@ public class CustomerEvents : MonoBehaviour
                 CustomerID();
             }
         }
+
+        if (timeScript.timeHours == exitTime)
+        {
+            if (isComplete == false)
+            {
+                if (angry == false)
+                {
+                    customerAngryDialog.StartDialogue(angryDialogText);
+                    angry = true;
+                    if (isLastCustomer == true)
+                    {
+                        sceneLoader.LoadScene();
+                    }
+                }
+            }
+        }
+    }
+
+    public void OnMouseOver()
+    {
+        overBoxCollider = true;
     }
 
     public void Timescore()
@@ -68,7 +100,7 @@ public class CustomerEvents : MonoBehaviour
         }
         else
         {
-            playerTimeScore.text = "Efficiency: F";
+            playerTimeScore.text = "Efficiency: C";
         }
     }
 
@@ -93,6 +125,7 @@ public class CustomerEvents : MonoBehaviour
         {
             if (gameMoney.money == cashBackValue)
             {
+                isComplete = true;
                 Timescore();
                 customerExitDialog.StartDialogue(exitDialogText);
                 customerIdPhoto.SetActive(false);

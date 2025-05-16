@@ -68,6 +68,7 @@ Seems too optimistic for me.
 <<UpdateApproval Debra -10>>
 Debra: Sometimes that’s all we have. Anyways honey, I don’t want to talk about it anymore. Here, let me get Darlene over here.
 Debra: Darlene! Honey! Get over here!
+<<SetActive Darlene true>>
 Debra: Val, this is Darlene. I don't think I’ve ever brought her here before. Can you believe it, she’s been living with me for how long now?
 Darlene: It’s been eleven years.
 Debra: Oh my goodness, how time flies.
@@ -82,6 +83,7 @@ title: DebraHopeful
 I hope that’s what happened.
 Debra: Me too. Anyways honey, I don’t want to talk about it anymore. Here, let me get Darlene over here.
 Debra: Darlene! Honey! Get over here!
+<<SetActive Darlene true>>
 Debra: Val, this is Darlene. I don't think I’ve ever brought her here before. Can you believe it, she’s been living with me for how long now?
 Darlene: It’s been eleven years.
 Debra: Oh my goodness, how time flies.
@@ -97,6 +99,7 @@ Do you know her personally?
 Debra: I know her mother, she runs bingo over at town hall on Sundays. She’s just in hysterics, I couldn’t even imagine. 
 Debra: Anyways honey, I don’t want to talk about it anymore. Here, let me get Darlene over here.
 Debra: Darlene! Honey! Get over here!
+<<SetActive Darlene true>>
 Debra: Val, this is Darlene. I don't think I’ve ever brought her here before. Can you believe it, she’s been living with me for how long now?
 Darlene: It’s been eleven years.
 Debra: Oh my goodness, how time flies.
@@ -112,6 +115,7 @@ Yeah, I did. Stuff like that doesn’t happen here.
 Debra: I know her mother, she runs bingo over at town hall on Sundays. She’s just in hysterics, I couldn’t even imagine. 
 Debra: Anyways honey, I don’t want to talk about it anymore. Here, let me get Darlene over here.
 Debra: Darlene! Honey! Get over here!
+<<SetActive Darlene true>>
 Debra: Val, this is Darlene. I don't think I’ve ever brought her here before. Can you believe it, she’s been living with me for how long now?
 Darlene: It’s been eleven years.
 Debra: Oh my goodness, how time flies.
@@ -128,8 +132,6 @@ That’s sweet. I hope I can live with my…best friend when I’m your age.
 Debra: I’m sure all those pesky homeowner laws will be more flexible when you’re my age. Now I don’t wanna be a pest so I think we’re gonna check out. We’re gonna get this new movie, But I’m a Quarterback, it seems interesting.
 	-> Hesitate
 		<<jump DebraMovie>>
-	-> Positive
-		<<jump DebraCheeky>>
 ===
 
 title: DebraHusband1
@@ -149,8 +151,7 @@ Debra: That’s what I like to think.
 Anyways, I don’t wanna talk your ear off. I think we’re gonna get this new one, But I’m a Quarterback, it seems interesting.
 	-> Hesitate
 		<<jump DebraMovie>>
-	-> Positive
-		<<jump DebraCheeky>>
+
 ===
 
 
@@ -160,11 +161,16 @@ I’m sorry to hear that, I didn’t even know you were married.
 Debra: Oh that’s okay honey, there’s always a positive now I get to live with my best friend. Debra: Anyways, I don’t wanna talk your ear off. I think we’re gonna get this new one, But I’m a Quarterback, it seems interesting.
 	-> Hesitate
 		<<jump DebraMovie>>
-	-> Positive
-		<<jump DebraCheeky>>
+
 ===
 
 title: DebraMovie
+---
+Um, do you know what that movie is about?
+Debra: I read the back honey, it seems right up our alley.
+===
+
+title: DebraCheeky
 ---
 Um, do you know what that movie is about?
 Debra: I read the back honey, it seems right up our alley.

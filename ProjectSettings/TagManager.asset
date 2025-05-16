@@ -44,6 +44,9 @@ TagManager:
   - name: Customers
     uniqueID: 3124163229
     locked: 0
+  - name: Foreground
+    uniqueID: 433004795
+    locked: 0
   - name: UI
     uniqueID: 1930504647
     locked: 0
