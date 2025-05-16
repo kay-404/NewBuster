@@ -132,7 +132,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AuntMinnie_0: 1693687350891057454
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

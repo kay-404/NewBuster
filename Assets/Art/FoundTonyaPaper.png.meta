@@ -132,7 +132,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FoundTonyaPaper_0: -5439530455837369591
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -34,6 +34,11 @@ public class FMODParameterChange : MonoBehaviour
         }
     }
 
+    private void OnDisable()
+    {
+        emitter.SetParameter(intensity, 0);
+    }
+
     /*
     void ChangeParameterValue()
     {

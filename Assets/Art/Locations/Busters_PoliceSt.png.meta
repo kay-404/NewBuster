@@ -132,7 +132,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Busters_PoliceSt_0: -8607864136507854162
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

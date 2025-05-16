@@ -132,7 +132,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      LoadingBarBackground1x_0: 5732841455245632169
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
